@@ -1,0 +1,301 @@
+import os
+import re
+import json
+import time
+import random
+import requests
+from typing import Optional, List
+
+BASE_URL = "https://www.sanasafinaz.com"
+OUTPUT_NAME = "sana_safinaz_products.json"
+
+FABRIC_KEYWORDS = [
+    "Lawn", "Cotton", "Chiffon", "Karandi", "Khaddar", "Cambric", "Linen",
+    "Organza", "Silk", "Net", "Velvet", "Dobby", "Slub", "Swiss", "Voile",
+    "Jacquard", "Tissue", "Georgette", "Sateen", "Viscose", "Sheesha Silk",
+    "Thai Silk", "Pure Organza", "Khaddi", "Raw Silk",
+]
+
+
+def normalize_tags(tags) -> List[str]:
+    if not tags:
+        return []
+    if isinstance(tags, str):
+        return [t.strip() for t in tags.split(",") if t.strip()]
+    return [str(t).strip() for t in tags if str(t).strip()]
+
+
+def option_value(product: dict, option_name: str) -> Optional[str]:
+    name = option_name.strip().lower()
+    for option in product.get("options") or []:
+        if (option.get("name") or "").strip().lower() == name:
+            values = option.get("values") or []
+            if values and values[0] not in {"Default Title", "Default", "Select"}:
+                return values[0]
+    return None
+
+
+def body_field(body: str, label: str) -> Optional[str]:
+    if not body:
+        return None
+    patterns = [
+        rf"{label}\s*:\s*</strong>\s*([^<\n]+)",
+        rf"<strong>\s*{label}\s*:\s*</strong>\s*([^<\n]+)",
+        rf"{label}\s*:\s*([^<\n]+)",
+    ]
+    for pattern in patterns:
+        m = re.search(pattern, body, re.I)
+        if m:
+            value = re.sub(r"&nbsp;?", " ", m.group(1)).strip()
+            value = re.sub(r"\s+", " ", value).strip(" .")
+            if value and value.lower() not in {"n/a", "-", "none"}:
+                return value
+    return None
+
+
+def extract_fabric(product: dict) -> Optional[str]:
+    value = option_value(product, "Fabric")
+    if value:
+        return value
+
+    body = product.get("body_html") or ""
+    for label in ("Shirt Fabric", "Fabric", "Trouser Fabric", "Dupatta Fabric"):
+        value = body_field(body, label)
+        if value:
+            return value
+
+    for tag in normalize_tags(product.get("tags")):
+        m = re.match(r"fabric\s*=\s*(.+)$", tag, re.I)
+        if m:
+            return m.group(1).strip()
+
+    blob = " ".join(
+        [
+            product.get("title") or "",
+            product.get("product_type") or "",
+            " ".join(normalize_tags(product.get("tags"))),
+            body,
+        ]
+    )
+    for fabric in FABRIC_KEYWORDS:
+        if re.search(rf"\b{re.escape(fabric)}\b", blob, re.I):
+            return fabric.upper()
+    return None
+
+
+def extract_color(product: dict) -> Optional[str]:
+    value = option_value(product, "Color") or option_value(product, "Colour")
+    if value:
+        return value
+    return body_field(product.get("body_html") or "", "Colou?r")
+
+
+def detect_category(title: str, tags: List[str], product_type: str) -> Optional[str]:
+    blob = " ".join([title or "", " ".join(tags), product_type or ""]).lower()
+    ptype = (product_type or "").lower()
+
+    if (
+        "unstitched" in blob
+        or re.search(r"\brts\b", blob)
+        or "ready to stitch" in blob
+        or "unstitched fabric" in blob
+    ):
+        return "Unstitched"
+    if (
+        "ready to wear" in blob
+        or re.search(r"\brtw\b", blob)
+        or re.search(r"\bpret\b", blob)
+        or "couture" in blob
+        or "stitched" in blob
+        or ptype == "ready to wear"
+    ):
+        return "Stitched"
+    return None
+
+
+def detect_department(tags: List[str], product_type: str, title: str) -> Optional[str]:
+    tags_lower = {t.lower() for t in tags}
+    tags_blob = " ".join(tags_lower)
+    ptype = (product_type or "").lower()
+    title_l = (title or "").lower()
+    blob = f"{tags_blob} {ptype} {title_l}"
+
+    if "fragrance" in blob or "perfume" in blob:
+        return "Fragrances"
+    if "home" in tags_lower or "home-" in tags_blob or "tablewear" in blob:
+        return "Home"
+    if any("kid" in t for t in tags_lower) or "kids" in blob:
+        return "Kids"
+    if (
+        "accessories" in tags_blob
+        or "dupatta" in blob
+        or "shoes" in blob
+        or "footwear" in blob
+    ) and not any(
+        x in blob for x in ["rtw", "ready to wear", "unstitched", "rts", "pret", "couture"]
+    ):
+        return "Accessories"
+    if any(t in {"men", "man"} or t.startswith("men/") or t.startswith("mens") for t in tags_lower):
+        return "Men"
+    if any(
+        x in blob
+        for x in [
+            "rtw",
+            "ready to wear",
+            "unstitched",
+            "rts",
+            "pret",
+            "couture",
+            "lawn",
+            "muzlin",
+            "mahay",
+            "women",
+        ]
+    ):
+        return "Women"
+    if "accessories" in tags_blob or "shoes" in blob or "dupatta" in blob:
+        return "Accessories"
+    return "Women"
+
+
+def detect_subcategory(tags: List[str], product_type: str, title: str) -> Optional[str]:
+    ptype = (product_type or "").strip()
+    if ptype and ptype.lower() not in {"", "default", "true"}:
+        return ptype
+
+    blob = " ".join([title or "", " ".join(tags)]).lower()
+    rules = [
+        ("Fragrances", [r"\bfragrance"]),
+        ("Shoes", [r"\bshoes?\b", r"\bfootwear\b"]),
+        ("Dupatta", [r"\bdupatta\b"]),
+        ("Home", [r"\bhome\b", r"\btablewear\b"]),
+        ("Kids", [r"\bkids?\b"]),
+        ("Couture", [r"\bcouture\b"]),
+        ("Luxury Pret", [r"\bluxury[- ]?pret\b", r"\bpret\b"]),
+        ("Ready to Wear", [r"\brtw\b", r"\bready to wear\b"]),
+        ("Unstitched Fabric", [r"\bunstitched\b", r"\brts\b"]),
+        ("Accessories", [r"\baccessories\b"]),
+    ]
+    for label, patterns in rules:
+        if any(re.search(p, blob, re.I) for p in patterns):
+            return label
+    return None
+
+
+def detect_pieces(title: str, tags: List[str], body: str) -> Optional[str]:
+    blob = " ".join([title or "", " ".join(tags), body or ""])
+    m = re.search(r"\b([1234])\s*[- ]?\s*piece\b", blob, re.I)
+    if m:
+        return f"{m.group(1)} Piece"
+    m = re.search(r"\b([1234])\s*pc\b", blob, re.I)
+    if m:
+        return f"{m.group(1)} Piece"
+    return None
+
+
+def scrape_sana_safinaz(base_url: str = BASE_URL) -> dict:
+    headers = {
+        "User-Agent": (
+            "Mozilla/5.0 (Windows NT 10.0; Win64; x64) "
+            "AppleWebKit/537.36 (KHTML, like Gecko) "
+            "Chrome/120.0.0.0 Safari/537.36"
+        )
+    }
+
+    page = 1
+    scraped_data = []
+
+    while True:
+        url = f"{base_url.rstrip('/')}/products.json?limit=250&page={page}"
+        print(f"Fetching URL: {url}", flush=True)
+
+        try:
+            response = requests.get(url, headers=headers, timeout=40)
+        except Exception as e:
+            print(f"Request error: {e}", flush=True)
+            break
+
+        if response.status_code != 200:
+            print(f"Blocked or failed with status code {response.status_code}", flush=True)
+            break
+
+        try:
+            payload = response.json()
+        except Exception as e:
+            print(f"Failed to parse JSON response: {e}", flush=True)
+            break
+
+        products = payload.get("products") or []
+        if not products:
+            print("No more products found.", flush=True)
+            break
+
+        print(f"Page {page}: Scraped {len(products)} products", flush=True)
+
+        for product in products:
+            title = product.get("title")
+            tags = normalize_tags(product.get("tags"))
+            body = product.get("body_html") or ""
+            raw_type = (product.get("product_type") or "").strip()
+            product_type = raw_type if raw_type and raw_type.lower() not in {"default", "true"} else None
+            variant = (product.get("variants") or [{}])[0]
+            images = product.get("images") or []
+            handle = product.get("handle")
+            compare = variant.get("compare_at_price")
+            if compare in {"0.00", "0", 0}:
+                compare = None
+
+            scraped_data.append(
+                {
+                    "title": title,
+                    "color": extract_color(product),
+                    "fabric": extract_fabric(product),
+                    "price": variant.get("price"),
+                    "compare_at_price": compare,
+                    "image": images[0].get("src") if images else None,
+                    "product_url": f"{base_url.rstrip('/')}/products/{handle}" if handle else None,
+                    "department": detect_department(tags, product_type or "", title or ""),
+                    "subcategory": detect_subcategory(tags, product_type or "", title or ""),
+                    "category": detect_category(title or "", tags, product_type or ""),
+                    "product_type": product_type,
+                    "pieces": detect_pieces(title or "", tags, body),
+                    "size": option_value(product, "Size")
+                    or option_value(product, "SIZE")
+                    or option_value(product, "SIze"),
+                    "sku": variant.get("sku"),
+                    "available": variant.get("available"),
+                }
+            )
+
+        page += 1
+        time.sleep(random.uniform(1.0, 2.0))
+
+    return {"data": scraped_data}
+
+
+def save_json(payload: dict) -> Optional[str]:
+    script_dir = os.path.dirname(os.path.abspath(__file__))
+    brand_dir = os.path.join(os.path.dirname(script_dir), "sana_safinaz")
+    candidates = [
+        os.path.join(brand_dir, OUTPUT_NAME),
+        os.path.join(script_dir, OUTPUT_NAME),
+        os.path.join(os.path.expanduser("~"), OUTPUT_NAME),
+        os.path.join(os.environ.get("TEMP", "."), OUTPUT_NAME),
+    ]
+    for path in candidates:
+        try:
+            with open(path, "w", encoding="utf-8") as f:
+                json.dump(payload, f, indent=4, ensure_ascii=False)
+            print(f"Data successfully saved to {path}", flush=True)
+            return path
+        except Exception as err:
+            print(f"Could not save to {path}: {err}", flush=True)
+    return None
+
+
+if __name__ == "__main__":
+    print("Starting Sana Safinaz FULL catalog scrape ...", flush=True)
+    print(f"Source: {BASE_URL}/products.json", flush=True)
+    result = scrape_sana_safinaz()
+    print(f"Successfully scraped {len(result['data'])} products.", flush=True)
+    save_json(result)
