@@ -7,7 +7,7 @@ if ROOT not in sys.path:
 
 from shopify_common import scrape_shopify_catalog, save_json
 
-BASE_URL = "https://www.ethnic.pk"
+BASE_URL = "https://pk.ethnc.com"
 OUTPUT_NAME = "ethnic_products.json"
 BRAND = "Ethnic"
 
