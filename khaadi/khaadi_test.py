@@ -163,9 +163,22 @@ def parse_tile(tile):
     if compare_at_price and price and compare_at_price == price:
         compare_at_price = None
 
-    img = tile.select_one("div.image-container img, img.tile-image, img")
+    imgs = tile.select("div.image-container img, img.tile-image, img")
+    img = imgs[0] if imgs else None
     image = img.get("src") if img else None
     alt = (img.get("alt") if img else "") or ""
+
+    images_list = []
+    for im in imgs:
+        src = im.get("src") or im.get("data-src") or im.get("data-lazyloadsrc")
+        if not src:
+            continue
+        if src.startswith("//"):
+            src = "https:" + src
+        elif src.startswith("/"):
+            src = BASE_URL + src
+        if src not in images_list:
+            images_list.append(src)
 
     if image and image.startswith("//"):
         image = "https:" + image
@@ -185,14 +198,14 @@ def parse_tile(tile):
         "fabric": extract_fabric_from_alt(alt),
         "price": price,
         "compare_at_price": compare_at_price,
-        "image": image,
+        "images_list": images_list,
         "product_url": product_url,
         "department": detect_department(title or "", alt, category_id),
         "subcategory": detect_subcategory(title or "", alt),
         "category": detect_category(title or "", alt, category_id),
         "product_type": detect_product_type(title or "", alt),
         "pieces": detect_pieces(title or "", alt),
-        "size": None,
+        "size_details": [],
         "sku": pid,
         "available": available,
         "_pid": pid,

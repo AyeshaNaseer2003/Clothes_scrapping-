@@ -35,6 +35,66 @@ def option_value(product: dict, option_name: str) -> Optional[str]:
     return None
 
 
+INVALID_SIZE_VALUES = {"", "default title", "default", "select", "one size", "onesize"}
+
+
+def extract_size_details(product: dict) -> List[Dict[str, Any]]:
+    """Build per-size availability from the variants array.
+
+    Each entry is {"size": <name>, "available": bool}. Sizes declared in the
+    Size option but missing from the variants (or with available=False) are
+    included as unavailable so out-of-stock sizes are still visible.
+    """
+    variants = product.get("variants") or []
+    options = product.get("options") or []
+
+    size_idx = -1
+    declared_sizes: List[str] = []
+    for idx, opt in enumerate(options):
+        opt_name = (opt.get("name") or "").strip().lower()
+        if opt_name and "size" in opt_name:
+            size_idx = idx
+            declared_sizes = [
+                str(v).strip()
+                for v in (opt.get("values") or [])
+                if str(v).strip().lower() not in INVALID_SIZE_VALUES
+            ]
+            break
+
+    availability: Dict[str, bool] = {}
+    if size_idx >= 0:
+        for v in variants:
+            opt_fields = [v.get("option1"), v.get("option2"), v.get("option3")]
+            if size_idx < len(opt_fields) and opt_fields[size_idx]:
+                size_name = str(opt_fields[size_idx]).strip()
+                if size_name and size_name.lower() not in INVALID_SIZE_VALUES:
+                    if size_name not in availability:
+                        availability[size_name] = False
+                    if v.get("available"):
+                        availability[size_name] = True
+        for size_name in declared_sizes:
+            availability.setdefault(size_name, False)
+        return [
+            {"size": size_name, "available": status}
+            for size_name, status in availability.items()
+        ]
+
+    # No explicit size option: fall back to per-variant titles.
+    titles: Dict[str, bool] = {}
+    for v in variants:
+        t = str((v.get("title") or "")).strip()
+        if not t or t.lower() in INVALID_SIZE_VALUES:
+            t = "One Size"
+        titles.setdefault(t, False)
+        if v.get("available"):
+            titles[t] = True
+    return [{"size": t, "available": status} for t, status in titles.items()]
+
+
+def any_variant_available(product: dict) -> bool:
+    return any(bool(v.get("available")) for v in (product.get("variants") or []))
+
+
 def body_field(body: str, label: str) -> Optional[str]:
     if not body:
         return None
@@ -54,11 +114,11 @@ def body_field(body: str, label: str) -> Optional[str]:
 
 
 def extract_fabric(product: dict) -> Optional[str]:
-    value = option_value(product, "Fabric")
+    value = option_value(product, "Fabric") or option_value(product, "Material")
     if value:
         return value
     body = product.get("body_html") or ""
-    for label in ("Shirt Fabric", "Fabric", "Trouser Fabric", "Dupatta Fabric"):
+    for label in ("Shirt Fabric", "Fabric", "Material", "Trouser Fabric", "Dupatta Fabric"):
         value = body_field(body, label)
         if value:
             return value
@@ -81,9 +141,14 @@ def extract_fabric(product: dict) -> Optional[str]:
 
 
 def extract_color(product: dict) -> Optional[str]:
-    value = option_value(product, "Color") or option_value(product, "Colour")
-    if value:
-        return value
+    for name in ("Color", "Colour", "Colourway", "Colorway", "Shade", "Shades"):
+        value = option_value(product, name)
+        if value:
+            return value
+    for tag in normalize_tags(product.get("tags")):
+        m = re.match(r"colou?r\s*[:=]\s*(.+)$", tag, re.I)
+        if m:
+            return m.group(1).strip().strip(" -")
     return body_field(product.get("body_html") or "", "Colou?r")
 
 
@@ -256,18 +321,16 @@ def scrape_shopify_catalog(base_url: str, brand_name: str = "") -> Dict[str, Any
                     "fabric": extract_fabric(product),
                     "price": price,
                     "compare_at_price": compare,
-                    "image": images[0].get("src") if images else None,
+                    "images_list": [img.get("src") for img in images if img.get("src")],
                     "product_url": f"{base}/products/{handle}" if handle else None,
                     "department": detect_department(tags, product_type or "", title or ""),
                     "subcategory": detect_subcategory(tags, product_type or "", title or ""),
                     "category": detect_category(title or "", tags, product_type or ""),
                     "product_type": product_type,
                     "pieces": detect_pieces(title or "", tags, body),
-                    "size": option_value(product, "Size")
-                    or option_value(product, "SIZE")
-                    or option_value(product, "SIze"),
+                    "size_details": extract_size_details(product),
                     "sku": variant.get("sku"),
-                    "available": variant.get("available"),
+                    "available": any_variant_available(product),
                 }
             )
 

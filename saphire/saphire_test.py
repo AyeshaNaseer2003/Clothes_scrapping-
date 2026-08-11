@@ -171,7 +171,8 @@ def parse_tile(tile):
     ):
         compare_at_price = None
 
-    img = tile.select_one("img.tile-image, div.image-container img, img")
+    imgs = tile.select("img.tile-image, div.image-container img, img")
+    img = imgs[0] if imgs else None
     image = None
     alt = ""
     if img:
@@ -184,6 +185,18 @@ def parse_tile(tile):
     elif image and image.startswith("/"):
         image = BASE_URL + image
 
+    images_list = []
+    for im in imgs:
+        src = im.get("data-src") or im.get("src")
+        if not src or src.startswith("data:"):
+            continue
+        if src.startswith("//"):
+            src = "https:" + src
+        elif src.startswith("/"):
+            src = BASE_URL + src
+        if src not in images_list:
+            images_list.append(src)
+
     labels = " ".join(
         el.get_text(" ", strip=True).lower()
         for el in tile.select(".product-labels, .product-flag, .badge, .newIn")
@@ -192,9 +205,17 @@ def parse_tile(tile):
 
     # sizes from hover panel if present
     size_els = tile.select(".js-size-details button, .size-detail-hover button, .size-value")
-    size = None
-    if size_els:
-        size = size_els[0].get_text(strip=True) or size_els[0].get("data-attr-value")
+    size_details = []
+    for el in size_els:
+        size_name = (el.get_text(strip=True) or el.get("data-attr-value") or "").strip()
+        if not size_name:
+            continue
+        cls = " ".join(el.get("class") or []) + " " + (el.get("aria-label") or "")
+        is_available = not (
+            el.has_attr("disabled")
+            or any(x in cls.lower() for x in ["is-unavailable", "unavailable", "sold-out", "out-of-stock"])
+        )
+        size_details.append({"size": size_name, "available": is_available})
 
     return {
         "title": title,
@@ -202,14 +223,14 @@ def parse_tile(tile):
         "fabric": extract_fabric(title or "", alt, subtitle),
         "price": price,
         "compare_at_price": compare_at_price,
-        "image": image,
+        "images_list": images_list,
         "product_url": product_url,
         "department": detect_department(title or "", alt, subtitle, product_url or ""),
         "subcategory": detect_subcategory(title or "", alt, subtitle),
         "category": detect_category(title or "", alt, subtitle, product_url or ""),
         "product_type": title,
         "pieces": detect_pieces(title or "", alt),
-        "size": size,
+        "size_details": size_details,
         "sku": pid,
         "available": available,
         "_pid": pid,
