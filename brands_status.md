@@ -1,5 +1,5 @@
 # Brand scraping status
-# Updated: 2026-08-09
+# Updated: 2026-08-13
 # Status values: done | left | partial
 
 | Brand | Folder | Status | Products | Output file | Scraper / notes |
@@ -17,7 +17,7 @@
 | Generation | generation | done | 7121 | generation_products.json | generation_test.py |
 | Ethnic | ethnic | done | 4799 | ethnic_products.json | ethnic_test.py (`pk.ethnc.com`) |
 | Outfitters | outfitters | done | 4363 | outfitters_products.json | outfitters_test.py |
-| Bareeze | bareeze | partial | 466 | bareeze_man_products.json | Bareeze Man Shopify only; bareeze.com (women) still left |
+| Bareeze | bareeze | done | 1362 | bareeze_women_products.json (896) + bareeze_man_products.json (466) | bareeze_women_test.py (RSC payload) + Shopify Man |
 | Zellbury | zellbury | done | 13999 | zellbury_products.json | zellbury_test.py |
 | Beechtree | beechtree | done | 1308 | beechtree_products.json | beechtree_test.py |
 | Cross Stitch | crossstitch | done | 2063 | shopify_products.json | crossstitch_test.py |
@@ -42,24 +42,40 @@
 | Zaha | zaha | done | 626 | zaha_products.json | zaha_test.py / scrape_new_shopify.py |
 | Afrozeh | afrozeh | done | 442 | afrozeh_products.json | afrozeh_test.py / scrape_new_shopify.py |
 | Sania Maskatiya | sania_maskatiya | done | 1342 | sania_maskatiya_products.json | sania_maskatiya_test.py |
-| Mohsin Naveed Ranjha | — | left | — | — | No public Shopify products.json |
-| HSY | — | left | — | — | No public Shopify products.json |
-| Nomi Ansari | — | left | — | — | No public Shopify products.json |
-| Faraz Manan | — | left | — | — | No public Shopify products.json |
-| Ali Xeeshan | — | left | — | — | No public Shopify products.json |
+| Mohsin Naveed Ranjha | mohsin_naveed_ranjha | done | 768 | mnr_products.json | mohsin_naveed_ranjha_test.py (nopCommerce HTML) |
+| HSY | hsy | done | 274 | hsy_products.json | hsy_test.py (Shopify, theworldofhsy.com) |
+| Nomi Ansari | — | left | — | — | Domain `nomiansari.com` parked / for sale (Spaceship), not scrapable |
+| Faraz Manan | faraz_manan | done | 544 | faraz_manan_products.json | faraz_manan_test.py (Magento lookbook HTML) |
+| Ali Xeeshan | ali_xeeshan | done | 881 | ali_xeeshan_products.json | ali_xeeshan_test.py (Shopify, alixeeshanempire.com) |
 | Amir Adnan | amir_adnan | done | 419 | amir_adnan_products.json | amir_adnan_test.py |
 | Edenrobe | edenrobe | done | 18151 | edenrobe_products.json | edenrobe_test.py / scrape_new_shopify.py |
-| Cambridge | — | left | — | — | No public Shopify products.json |
+| Cambridge | cambridge | done | 8056 | cambridge_products.json | cambridge_test.py (Shopify, thecambridgeshop.com) |
 | Diners | diners | done | 7384 | diners_products.json | diners_test.py / scrape_new_shopify.py |
 | Royal Tag | royal_tag | done | 1159 | royal_tag_products.json | royal_tag_test.py |
 | Breakout | breakout | done | 1393 | breakout_products.json | breakout_test.py |
 | So Kamal | so_kamal | done | 6232 | so_kamal_products.json | so_kamal_test.py |
 
 ## Summary
-- Done: 44
-- Partial: 1 (Bareeze — Man catalog only)
-- Left: 7 (Bareeze women + MNR, HSY, Nomi Ansari, Faraz Manan, Ali Xeeshan, Cambridge)
+- Done: 51
+- Partial: 0
+- Left: 1 (Nomi Ansari — domain parked, not scrapable)
 - Total brands listed: 52
+
+## Latest scrape notes (2026-08-13) — remaining brands batch
+| Brand | Count | Source / method |
+|-------|------:|-----------------|
+| HSY | 274 | `https://theworldofhsy.com/products.json` (Shopify) |
+| Ali Xeeshan | 881 | `https://alixeeshanempire.com/products.json` (Shopify) |
+| Cambridge | 8056 | `https://thecambridgeshop.com/products.json` (Shopify) |
+| Bareeze women | 896 | `https://www.bareeze.com` Next.js RSC payload (Ginkgo Retail) |
+| Mohsin Naveed Ranjha | 768 | `https://www.mohsinnaveedranjha.com` (nopCommerce HTML) |
+| Faraz Manan | 544 | `https://www.farazmanan.com` (Magento lookbook HTML) |
+
+## Still left
+1. **Nomi Ansari** — `nomiansari.com` is parked/for sale on Spaceship; no live site to scrape.
+
+## Still left
+1. **Nomi Ansari** — `nomiansari.com` is parked/for sale on Spaceship; no live site to scrape.
 
 ## Latest scrape notes (2026-08-09) — new Shopify batch
 | Brand | Count | Source |
@@ -77,15 +93,6 @@
 | Royal Tag | 1159 | `https://www.royaltag.com.pk/products.json` |
 | Breakout | 1393 | `https://www.breakout.com.pk/products.json` |
 | So Kamal | 6232 | `https://www.sokamal.com/products.json` |
-
-## Still left (need custom scrapers)
-1. **Bareeze women** (`bareeze.com`) — custom JS/CDN, no products.json
-2. **Mohsin Naveed Ranjha** — no Shopify API found
-3. **HSY** — no Shopify API found
-4. **Nomi Ansari** — no Shopify API found
-5. **Faraz Manan** — no Shopify API found
-6. **Ali Xeeshan** — no Shopify API found
-7. **Cambridge** — no Shopify API found
 
 ## Shared tooling
 - `shopify_common.py`

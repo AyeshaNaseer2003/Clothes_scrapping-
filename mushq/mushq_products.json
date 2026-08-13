@@ -1,19 +1,91 @@
 {
     "data": [
         {
+            "title": "Emerald Glimmer",
+            "color": "Maroon",
+            "fabric": "Karandi",
+            "price": "12450.00",
+            "compare_at_price": null,
+            "images_list": [
+                "https://cdn.shopify.com/s/files/1/0539/7318/8776/files/EmeraldGlimmer_3.jpg?v=1762206484",
+                "https://cdn.shopify.com/s/files/1/0539/7318/8776/files/EmeraldGlimmer_2.jpg?v=1762206484",
+                "https://cdn.shopify.com/s/files/1/0539/7318/8776/files/EmeraldGlimmer_7.jpg?v=1762240386",
+                "https://cdn.shopify.com/s/files/1/0539/7318/8776/files/EmeraldGlimmer_4.jpg?v=1762240386",
+                "https://cdn.shopify.com/s/files/1/0539/7318/8776/files/EmeraldGlimmer_9.jpg?v=1763453168"
+            ],
+            "product_url": "https://mushq.com/products/emerald-glimmer",
+            "department": "Women",
+            "subcategory": "Hemline Karandi",
+            "category": "Unstitched",
+            "product_type": "Hemline Karandi",
+            "pieces": null,
+            "size_details": [
+                {
+                    "size": "Unstitched",
+                    "available": false
+                },
+                {
+                    "size": "XS",
+                    "available": false
+                },
+                {
+                    "size": "S",
+                    "available": false
+                },
+                {
+                    "size": "M",
+                    "available": false
+                },
+                {
+                    "size": "L",
+                    "available": false
+                },
+                {
+                    "size": "XL",
+                    "available": false
+                }
+            ],
+            "sku": "HUNWI250203U",
+            "available": false
+        },
+        {
             "title": "Secret Petals",
             "color": "Pink",
             "fabric": "Lawn",
             "price": "7650.00",
             "compare_at_price": "12750.00",
-            "image": "https://cdn.shopify.com/s/files/1/0539/7318/8776/files/SecretPetals_1.jpg?v=1777374791",
+            "images_list": [
+                "https://cdn.shopify.com/s/files/1/0539/7318/8776/files/SecretPetals_1.jpg?v=1777374791",
+                "https://cdn.shopify.com/s/files/1/0539/7318/8776/files/SecretPetals_4.jpg?v=1777374791",
+                "https://cdn.shopify.com/s/files/1/0539/7318/8776/files/SecretPetals_6.jpg?v=1777374791",
+                "https://cdn.shopify.com/s/files/1/0539/7318/8776/files/SecretPetals_5.jpg?v=1777374791",
+                "https://cdn.shopify.com/s/files/1/0539/7318/8776/files/SecretPetals_3.jpg?v=1777374791",
+                "https://cdn.shopify.com/s/files/1/0539/7318/8776/files/SecretPetals_2.jpg?v=1777374791"
+            ],
             "product_url": "https://mushq.com/products/secret-petals",
             "department": "Women",
             "subcategory": "Unstitched | Secret Garden V2",
             "category": "Unstitched",
             "product_type": "Unstitched | Secret Garden V2",
             "pieces": null,
-            "size": "Unstitched",
+            "size_details": [
+                {
+                    "size": "Unstitched",
+                    "available": false
+                },
+                {
+                    "size": "S",
+                    "available": false
+                },
+                {
+                    "size": "M",
+                    "available": false
+                },
+                {
+                    "size": "L",
+                    "available": false
+                }
+            ],
             "sku": "HUNSS260210U",
             "available": false
         },
@@ -23,14 +95,41 @@
             "fabric": "Self Jacquard",
             "price": "5670.00",
             "compare_at_price": "9450.00",
-            "image": "https://cdn.shopify.com/s/files/1/0539/7318/8776/files/Breakthepattern_1.jpg?v=1771418071",
+            "images_list": [
+                "https://cdn.shopify.com/s/files/1/0539/7318/8776/files/Breakthepattern_1.jpg?v=1771418071",
+                "https://cdn.shopify.com/s/files/1/0539/7318/8776/files/Breakthepattern_3.jpg?v=1772100827",
+                "https://cdn.shopify.com/s/files/1/0539/7318/8776/files/Breakthepattern_4.jpg?v=1772100827",
+                "https://cdn.shopify.com/s/files/1/0539/7318/8776/files/Breakthepattern_5.jpg?v=1772100827",
+                "https://cdn.shopify.com/s/files/1/0539/7318/8776/files/Breakthepattern_2.jpg?v=1772100827"
+            ],
             "product_url": "https://mushq.com/products/break-the-pattern",
             "department": "Women",
             "subcategory": "Basic Pret | No-Rules",
             "category": "Stitched",
             "product_type": "Basic Pret | No-Rules",
             "pieces": null,
-            "size": "XS",
+            "size_details": [
+                {
+                    "size": "XS",
+                    "available": false
+                },
+                {
+                    "size": "S",
+                    "available": false
+                },
+                {
+                    "size": "M",
+                    "available": false
+                },
+                {
+                    "size": "L",
+                    "available": false
+                },
+                {
+                    "size": "XL",
+                    "available": false
+                }
+            ],
             "sku": "MPBSS260302XS",
             "available": false
         },
@@ -40,14 +139,41 @@
             "fabric": "Self Jacquard",
             "price": "4470.00",
             "compare_at_price": "7450.00",
-            "image": "https://cdn.shopify.com/s/files/1/0539/7318/8776/files/UnmaskedDrama_1.jpg?v=1771418243",
+            "images_list": [
+                "https://cdn.shopify.com/s/files/1/0539/7318/8776/files/UnmaskedDrama_1.jpg?v=1771418243",
+                "https://cdn.shopify.com/s/files/1/0539/7318/8776/files/UnmaskedDrama_3.jpg?v=1772101054",
+                "https://cdn.shopify.com/s/files/1/0539/7318/8776/files/UnmaskedDrama_4.jpg?v=1772101054",
+                "https://cdn.shopify.com/s/files/1/0539/7318/8776/files/UnmaskedDrama_2.jpg?v=1772101054",
+                "https://cdn.shopify.com/s/files/1/0539/7318/8776/files/UnmaskedDrama_5.jpg?v=1771418243"
+            ],
             "product_url": "https://mushq.com/products/unmasked-drama",
             "department": "Women",
             "subcategory": "Basic Pret | No-Rules",
             "category": "Stitched",
             "product_type": "Basic Pret | No-Rules",
             "pieces": null,
-            "size": "XS",
+            "size_details": [
+                {
+                    "size": "XS",
+                    "available": false
+                },
+                {
+                    "size": "S",
+                    "available": false
+                },
+                {
+                    "size": "M",
+                    "available": false
+                },
+                {
+                    "size": "L",
+                    "available": false
+                },
+                {
+                    "size": "XL",
+                    "available": false
+                }
+            ],
             "sku": "MPBSS260307XS",
             "available": false
         },
@@ -57,14 +183,42 @@
             "fabric": "Sheesha Silk",
             "price": "34500.00",
             "compare_at_price": null,
-            "image": "https://cdn.shopify.com/s/files/1/0539/7318/8776/files/1.webp?v=1763797544",
+            "images_list": [
+                "https://cdn.shopify.com/s/files/1/0539/7318/8776/files/1.webp?v=1763797544",
+                "https://cdn.shopify.com/s/files/1/0539/7318/8776/files/5.webp?v=1763797544",
+                "https://cdn.shopify.com/s/files/1/0539/7318/8776/files/6.webp?v=1763797544",
+                "https://cdn.shopify.com/s/files/1/0539/7318/8776/files/4.webp?v=1763797544",
+                "https://cdn.shopify.com/s/files/1/0539/7318/8776/files/8.webp?v=1763797544",
+                "https://cdn.shopify.com/s/files/1/0539/7318/8776/files/3.webp?v=1763797544"
+            ],
             "product_url": "https://mushq.com/products/lumiere",
             "department": "Women",
             "subcategory": "Zarminay Luxury Pret | Women",
             "category": "Stitched",
             "product_type": "Zarminay Luxury Pret | Women",
             "pieces": null,
-            "size": "XS",
+            "size_details": [
+                {
+                    "size": "XS",
+                    "available": true
+                },
+                {
+                    "size": "S",
+                    "available": false
+                },
+                {
+                    "size": "M",
+                    "available": false
+                },
+                {
+                    "size": "L",
+                    "available": false
+                },
+                {
+                    "size": "XL",
+                    "available": false
+                }
+            ],
             "sku": "MPLTE250201XS",
             "available": true
         },
@@ -74,14 +228,42 @@
             "fabric": "Sheesha Silk",
             "price": "34500.00",
             "compare_at_price": null,
-            "image": "https://cdn.shopify.com/s/files/1/0539/7318/8776/files/3_4c9091a2-2134-4880-be36-20cbf6c38c2a.webp?v=1763802287",
+            "images_list": [
+                "https://cdn.shopify.com/s/files/1/0539/7318/8776/files/3_4c9091a2-2134-4880-be36-20cbf6c38c2a.webp?v=1763802287",
+                "https://cdn.shopify.com/s/files/1/0539/7318/8776/files/7_cf722b3a-8dd9-4084-8aef-cc59be8a0dce.webp?v=1763802287",
+                "https://cdn.shopify.com/s/files/1/0539/7318/8776/files/9_ea1d0c6e-7202-4487-ab1d-692c8494727f.webp?v=1763802287",
+                "https://cdn.shopify.com/s/files/1/0539/7318/8776/files/MPLTE250205-5_1000x_37a63b57-6c34-4208-9980-1575f0d75e6b.webp?v=1763802287",
+                "https://cdn.shopify.com/s/files/1/0539/7318/8776/files/MPLTE250205-6_1000x_b8e497da-113d-4957-8500-ed04364db090.webp?v=1763802287",
+                "https://cdn.shopify.com/s/files/1/0539/7318/8776/files/8_d7fd95fd-d5f3-48de-959b-c841929ea92b.webp?v=1763802486"
+            ],
             "product_url": "https://mushq.com/products/aurea",
             "department": "Women",
             "subcategory": "Zarminay Luxury Pret | Women",
             "category": "Stitched",
             "product_type": "Zarminay Luxury Pret | Women",
             "pieces": null,
-            "size": "XS",
+            "size_details": [
+                {
+                    "size": "XS",
+                    "available": true
+                },
+                {
+                    "size": "S",
+                    "available": true
+                },
+                {
+                    "size": "M",
+                    "available": true
+                },
+                {
+                    "size": "L",
+                    "available": true
+                },
+                {
+                    "size": "XL",
+                    "available": true
+                }
+            ],
             "sku": "MPLTE250205XS",
             "available": true
         },
@@ -91,14 +273,44 @@
             "fabric": "PURE ORGANZA",
             "price": "89500.00",
             "compare_at_price": null,
-            "image": "https://cdn.shopify.com/s/files/1/0539/7318/8776/files/1_a8b69009-7d9b-4180-9773-7b08ddd7958f.webp?v=1763808257",
+            "images_list": [
+                "https://cdn.shopify.com/s/files/1/0539/7318/8776/files/1_a8b69009-7d9b-4180-9773-7b08ddd7958f.webp?v=1763808257",
+                "https://cdn.shopify.com/s/files/1/0539/7318/8776/files/3_1c22930f-83f1-4fb6-b205-fa15d929dbbb.webp?v=1763808257",
+                "https://cdn.shopify.com/s/files/1/0539/7318/8776/files/6_40520764-61f5-493f-95fb-a65b9079eb85.webp?v=1763808257",
+                "https://cdn.shopify.com/s/files/1/0539/7318/8776/files/5_6de559ac-79a9-4427-85a4-038a7f665cde.webp?v=1763808257",
+                "https://cdn.shopify.com/s/files/1/0539/7318/8776/files/4_50e1121b-72d7-4e9f-9106-fcd3541273b8.webp?v=1763808257",
+                "https://cdn.shopify.com/s/files/1/0539/7318/8776/files/2_6cce7016-bd36-4349-877f-3adb82924cd0.webp?v=1763808257",
+                "https://cdn.shopify.com/s/files/1/0539/7318/8776/files/7_28beb046-892c-4890-a4b2-8e35ecbc2a7e.webp?v=1763808257",
+                "https://cdn.shopify.com/s/files/1/0539/7318/8776/files/8_69a5306b-48b5-43a2-8fdd-38c5f4368dfb.webp?v=1763808257"
+            ],
             "product_url": "https://mushq.com/products/adela-1",
             "department": "Women",
             "subcategory": "Luxury Formals | Woman",
             "category": "Stitched",
             "product_type": "Luxury Formals | Woman",
             "pieces": "3 Piece",
-            "size": "XS",
+            "size_details": [
+                {
+                    "size": "XS",
+                    "available": true
+                },
+                {
+                    "size": "S",
+                    "available": true
+                },
+                {
+                    "size": "M",
+                    "available": true
+                },
+                {
+                    "size": "L",
+                    "available": false
+                },
+                {
+                    "size": "XL",
+                    "available": true
+                }
+            ],
             "sku": "MPFTU210101XS",
             "available": true
         },
@@ -108,16 +320,46 @@
             "fabric": "Loom Cotton Net",
             "price": "32500.00",
             "compare_at_price": null,
-            "image": "https://cdn.shopify.com/s/files/1/0539/7318/8776/files/1_63d6a75a-736c-4bb5-b68b-37fcefb7cc7b.webp?v=1763815444",
+            "images_list": [
+                "https://cdn.shopify.com/s/files/1/0539/7318/8776/files/1_63d6a75a-736c-4bb5-b68b-37fcefb7cc7b.webp?v=1763815444",
+                "https://cdn.shopify.com/s/files/1/0539/7318/8776/files/7_ee2638be-fd91-4eff-84a6-d4d0a2b09353.webp?v=1763815444",
+                "https://cdn.shopify.com/s/files/1/0539/7318/8776/files/9_9abab528-39b6-40e9-8ce1-4ba81af11a13.webp?v=1763815444",
+                "https://cdn.shopify.com/s/files/1/0539/7318/8776/files/8_aadcdc91-e7f2-448e-81d2-4405bf477c5f.webp?v=1763815444",
+                "https://cdn.shopify.com/s/files/1/0539/7318/8776/files/4_37ddf8d3-2c8b-4cea-9bfe-a7992b104a5e.webp?v=1763815444",
+                "https://cdn.shopify.com/s/files/1/0539/7318/8776/files/2_13cd0a03-b587-4dc0-825d-5e60d2a522c8.webp?v=1763815444",
+                "https://cdn.shopify.com/s/files/1/0539/7318/8776/files/3_b84dc11d-fa47-4e65-acf6-fa8514a703d8.webp?v=1763815444",
+                "https://cdn.shopify.com/s/files/1/0539/7318/8776/files/5_c171b0d5-8aee-4b12-ad06-013164488cd8.webp?v=1763815444"
+            ],
             "product_url": "https://mushq.com/products/verve",
             "department": "Women",
             "subcategory": "Zarminay Luxury Pret | Women",
             "category": "Stitched",
             "product_type": "Zarminay Luxury Pret | Women",
             "pieces": null,
-            "size": "XS",
+            "size_details": [
+                {
+                    "size": "XS",
+                    "available": false
+                },
+                {
+                    "size": "S",
+                    "available": true
+                },
+                {
+                    "size": "M",
+                    "available": true
+                },
+                {
+                    "size": "L",
+                    "available": true
+                },
+                {
+                    "size": "XL",
+                    "available": true
+                }
+            ],
             "sku": "MPLTE250207XS",
-            "available": false
+            "available": true
         },
         {
             "title": "Pretty in Pink",
@@ -125,16 +367,47 @@
             "fabric": "ORGANZA",
             "price": "11970.00",
             "compare_at_price": "19950.00",
-            "image": "https://cdn.shopify.com/s/files/1/0539/7318/8776/files/035A9589.jpg?v=1785321682",
+            "images_list": [
+                "https://cdn.shopify.com/s/files/1/0539/7318/8776/files/035A9589.jpg?v=1785321682",
+                "https://cdn.shopify.com/s/files/1/0539/7318/8776/files/035A9657_142d3592-34fb-4958-856d-6db1cd58bcf0.jpg?v=1785321625",
+                "https://cdn.shopify.com/s/files/1/0539/7318/8776/files/035A9627_d2fbb54c-15e9-4b6d-b5b3-a6eda5cfc0d2.jpg?v=1785321625",
+                "https://cdn.shopify.com/s/files/1/0539/7318/8776/files/035A9691.jpg?v=1785321625",
+                "https://cdn.shopify.com/s/files/1/0539/7318/8776/files/035A9593_d2213c0c-a082-46ae-b157-68e26e86034d.jpg?v=1785321625"
+            ],
             "product_url": "https://mushq.com/products/pretty-in-pink",
             "department": "Women",
             "subcategory": "Inception Hemline Wedding 25",
             "category": null,
             "product_type": "Inception Hemline Wedding 25",
             "pieces": null,
-            "size": "Unstitched",
+            "size_details": [
+                {
+                    "size": "Unstitched",
+                    "available": false
+                },
+                {
+                    "size": "XS",
+                    "available": false
+                },
+                {
+                    "size": "S",
+                    "available": false
+                },
+                {
+                    "size": "M",
+                    "available": false
+                },
+                {
+                    "size": "L",
+                    "available": false
+                },
+                {
+                    "size": "XL",
+                    "available": false
+                }
+            ],
             "sku": "HUNWD250105U",
-            "available": true
+            "available": false
         },
         {
             "title": "Alyana",
@@ -142,14 +415,45 @@
             "fabric": "Chiffon",
             "price": "22950.00",
             "compare_at_price": null,
-            "image": "https://cdn.shopify.com/s/files/1/0539/7318/8776/files/alyana_3.jpg?v=1761914031",
+            "images_list": [
+                "https://cdn.shopify.com/s/files/1/0539/7318/8776/files/alyana_3.jpg?v=1761914031",
+                "https://cdn.shopify.com/s/files/1/0539/7318/8776/files/alyana_5.jpg?v=1761914031",
+                "https://cdn.shopify.com/s/files/1/0539/7318/8776/files/alyana_2.jpg?v=1761914031",
+                "https://cdn.shopify.com/s/files/1/0539/7318/8776/files/alyana_4.jpg?v=1761914031",
+                "https://cdn.shopify.com/s/files/1/0539/7318/8776/files/alyana_1.jpg?v=1761914031"
+            ],
             "product_url": "https://mushq.com/products/alyana-slit-shirt",
             "department": "Women",
             "subcategory": "Best Of Mushq | Woman",
             "category": "Unstitched",
             "product_type": "Best Of Mushq | Woman",
             "pieces": null,
-            "size": "Unstitched",
+            "size_details": [
+                {
+                    "size": "Unstitched",
+                    "available": false
+                },
+                {
+                    "size": "XS",
+                    "available": false
+                },
+                {
+                    "size": "S",
+                    "available": false
+                },
+                {
+                    "size": "M",
+                    "available": false
+                },
+                {
+                    "size": "L",
+                    "available": false
+                },
+                {
+                    "size": "XL",
+                    "available": false
+                }
+            ],
             "sku": "MUNCH240101U",
             "available": false
         },
@@ -159,14 +463,41 @@
             "fabric": "Sheesha Silk",
             "price": "34500.00",
             "compare_at_price": null,
-            "image": "https://cdn.shopify.com/s/files/1/0539/7318/8776/files/Aysel_1.jpg?v=1783965053",
+            "images_list": [
+                "https://cdn.shopify.com/s/files/1/0539/7318/8776/files/Aysel_1.jpg?v=1783965053",
+                "https://cdn.shopify.com/s/files/1/0539/7318/8776/files/Aysel_2.jpg?v=1783965053",
+                "https://cdn.shopify.com/s/files/1/0539/7318/8776/files/Aysel_4.jpg?v=1783965053",
+                "https://cdn.shopify.com/s/files/1/0539/7318/8776/files/Aysel_3.jpg?v=1783965054",
+                "https://cdn.shopify.com/s/files/1/0539/7318/8776/files/Aysel_5.jpg?v=1783965054"
+            ],
             "product_url": "https://mushq.com/products/aysel",
             "department": "Women",
             "subcategory": "Zarminay | Pret",
             "category": "Stitched",
             "product_type": "Zarminay | Pret",
             "pieces": null,
-            "size": "XS",
+            "size_details": [
+                {
+                    "size": "XS",
+                    "available": true
+                },
+                {
+                    "size": "S",
+                    "available": true
+                },
+                {
+                    "size": "M",
+                    "available": true
+                },
+                {
+                    "size": "L",
+                    "available": true
+                },
+                {
+                    "size": "XL",
+                    "available": false
+                }
+            ],
             "sku": "MPLTE260109XS",
             "available": true
         },
@@ -176,14 +507,41 @@
             "fabric": "Sheesha Silk",
             "price": "34500.00",
             "compare_at_price": null,
-            "image": "https://cdn.shopify.com/s/files/1/0539/7318/8776/files/Ezel_1.jpg?v=1783964953",
+            "images_list": [
+                "https://cdn.shopify.com/s/files/1/0539/7318/8776/files/Ezel_1.jpg?v=1783964953",
+                "https://cdn.shopify.com/s/files/1/0539/7318/8776/files/Ezel_3.jpg?v=1783964954",
+                "https://cdn.shopify.com/s/files/1/0539/7318/8776/files/Ezel_4.jpg?v=1783964954",
+                "https://cdn.shopify.com/s/files/1/0539/7318/8776/files/7I0A1144.jpg?v=1784009556",
+                "https://cdn.shopify.com/s/files/1/0539/7318/8776/files/Ezel_2.jpg?v=1783964954"
+            ],
             "product_url": "https://mushq.com/products/ezel",
             "department": "Women",
             "subcategory": "Zarminay | Pret",
             "category": "Stitched",
             "product_type": "Zarminay | Pret",
             "pieces": null,
-            "size": "XS",
+            "size_details": [
+                {
+                    "size": "XS",
+                    "available": true
+                },
+                {
+                    "size": "S",
+                    "available": true
+                },
+                {
+                    "size": "M",
+                    "available": true
+                },
+                {
+                    "size": "L",
+                    "available": true
+                },
+                {
+                    "size": "XL",
+                    "available": false
+                }
+            ],
             "sku": "MPLTE260102XS",
             "available": true
         },
@@ -193,14 +551,41 @@
             "fabric": "Sheesha Silk",
             "price": "34500.00",
             "compare_at_price": null,
-            "image": "https://cdn.shopify.com/s/files/1/0539/7318/8776/files/Rowa_1.jpg?v=1783965317",
+            "images_list": [
+                "https://cdn.shopify.com/s/files/1/0539/7318/8776/files/Rowa_1.jpg?v=1783965317",
+                "https://cdn.shopify.com/s/files/1/0539/7318/8776/files/Rowa_3.jpg?v=1783965316",
+                "https://cdn.shopify.com/s/files/1/0539/7318/8776/files/Rowa_4.jpg?v=1783965316",
+                "https://cdn.shopify.com/s/files/1/0539/7318/8776/files/Rowa_2.jpg?v=1783965316",
+                "https://cdn.shopify.com/s/files/1/0539/7318/8776/files/Rowa_5.jpg?v=1783965316"
+            ],
             "product_url": "https://mushq.com/products/rowa",
             "department": "Women",
             "subcategory": "Zarminay | Pret",
             "category": "Stitched",
             "product_type": "Zarminay | Pret",
             "pieces": null,
-            "size": "XS",
+            "size_details": [
+                {
+                    "size": "XS",
+                    "available": true
+                },
+                {
+                    "size": "S",
+                    "available": true
+                },
+                {
+                    "size": "M",
+                    "available": true
+                },
+                {
+                    "size": "L",
+                    "available": true
+                },
+                {
+                    "size": "XL",
+                    "available": true
+                }
+            ],
             "sku": "MPLTE260108XS",
             "available": true
         },
@@ -210,14 +595,41 @@
             "fabric": "Sheesha Silk",
             "price": "34500.00",
             "compare_at_price": null,
-            "image": "https://cdn.shopify.com/s/files/1/0539/7318/8776/files/Meysa_2.jpg?v=1784008593",
+            "images_list": [
+                "https://cdn.shopify.com/s/files/1/0539/7318/8776/files/Meysa_2.jpg?v=1784008593",
+                "https://cdn.shopify.com/s/files/1/0539/7318/8776/files/Meysa_3.jpg?v=1784008592",
+                "https://cdn.shopify.com/s/files/1/0539/7318/8776/files/Meysa_1.jpg?v=1784008592",
+                "https://cdn.shopify.com/s/files/1/0539/7318/8776/files/Meysa_5.jpg?v=1784008592",
+                "https://cdn.shopify.com/s/files/1/0539/7318/8776/files/Meysa_4.jpg?v=1784008593"
+            ],
             "product_url": "https://mushq.com/products/meysa",
             "department": "Women",
             "subcategory": "Zarminay | Pret",
             "category": "Stitched",
             "product_type": "Zarminay | Pret",
             "pieces": null,
-            "size": "XS",
+            "size_details": [
+                {
+                    "size": "XS",
+                    "available": true
+                },
+                {
+                    "size": "S",
+                    "available": false
+                },
+                {
+                    "size": "M",
+                    "available": true
+                },
+                {
+                    "size": "L",
+                    "available": false
+                },
+                {
+                    "size": "XL",
+                    "available": false
+                }
+            ],
             "sku": "MPLTE260105XS",
             "available": true
         },
@@ -227,14 +639,42 @@
             "fabric": "Sheesha Silk",
             "price": "34500.00",
             "compare_at_price": null,
-            "image": "https://cdn.shopify.com/s/files/1/0539/7318/8776/files/Cyra_2.jpg?v=1783965422",
+            "images_list": [
+                "https://cdn.shopify.com/s/files/1/0539/7318/8776/files/Cyra_2.jpg?v=1783965422",
+                "https://cdn.shopify.com/s/files/1/0539/7318/8776/files/Cyra_4.jpg?v=1783965422",
+                "https://cdn.shopify.com/s/files/1/0539/7318/8776/files/Cyra_6.jpg?v=1783965422",
+                "https://cdn.shopify.com/s/files/1/0539/7318/8776/files/Cyra_1.jpg?v=1783965422",
+                "https://cdn.shopify.com/s/files/1/0539/7318/8776/files/Cyra_5.jpg?v=1783965422",
+                "https://cdn.shopify.com/s/files/1/0539/7318/8776/files/Cyra_3.jpg?v=1783965422"
+            ],
             "product_url": "https://mushq.com/products/cyra",
             "department": "Women",
             "subcategory": "Zarminay | Pret",
             "category": "Stitched",
             "product_type": "Zarminay | Pret",
             "pieces": null,
-            "size": "XS",
+            "size_details": [
+                {
+                    "size": "XS",
+                    "available": true
+                },
+                {
+                    "size": "S",
+                    "available": true
+                },
+                {
+                    "size": "M",
+                    "available": true
+                },
+                {
+                    "size": "L",
+                    "available": true
+                },
+                {
+                    "size": "XL",
+                    "available": true
+                }
+            ],
             "sku": "MPLTE260110XS",
             "available": true
         },
@@ -244,14 +684,41 @@
             "fabric": "Sheesha Silk",
             "price": "34500.00",
             "compare_at_price": null,
-            "image": "https://cdn.shopify.com/s/files/1/0539/7318/8776/files/7I0A0002_JPG.jpg?v=1784008809",
+            "images_list": [
+                "https://cdn.shopify.com/s/files/1/0539/7318/8776/files/7I0A0002_JPG.jpg?v=1784008809",
+                "https://cdn.shopify.com/s/files/1/0539/7318/8776/files/Neyla_4.jpg?v=1783965204",
+                "https://cdn.shopify.com/s/files/1/0539/7318/8776/files/Neyla_2.jpg?v=1783965204",
+                "https://cdn.shopify.com/s/files/1/0539/7318/8776/files/Neyla_6.jpg?v=1783965204",
+                "https://cdn.shopify.com/s/files/1/0539/7318/8776/files/Neyla_5.jpg?v=1783965204"
+            ],
             "product_url": "https://mushq.com/products/neyla",
             "department": "Women",
             "subcategory": "Zarminay | Pret",
             "category": "Stitched",
             "product_type": "Zarminay | Pret",
             "pieces": null,
-            "size": "XS",
+            "size_details": [
+                {
+                    "size": "XS",
+                    "available": true
+                },
+                {
+                    "size": "S",
+                    "available": true
+                },
+                {
+                    "size": "M",
+                    "available": true
+                },
+                {
+                    "size": "L",
+                    "available": true
+                },
+                {
+                    "size": "XL",
+                    "available": true
+                }
+            ],
             "sku": "MPLTE260101XS",
             "available": true
         },
@@ -261,14 +728,40 @@
             "fabric": "Sheesha Silk",
             "price": "34500.00",
             "compare_at_price": null,
-            "image": "https://cdn.shopify.com/s/files/1/0539/7318/8776/files/Ruhan_1.jpg?v=1783966204",
+            "images_list": [
+                "https://cdn.shopify.com/s/files/1/0539/7318/8776/files/Ruhan_1.jpg?v=1783966204",
+                "https://cdn.shopify.com/s/files/1/0539/7318/8776/files/Ruhan_2.jpg?v=1783966205",
+                "https://cdn.shopify.com/s/files/1/0539/7318/8776/files/7I0A0805.jpg?v=1784008701",
+                "https://cdn.shopify.com/s/files/1/0539/7318/8776/files/Ruhan_3.jpg?v=1783966205"
+            ],
             "product_url": "https://mushq.com/products/ruhan",
             "department": "Women",
             "subcategory": "Zarminay | Pret",
             "category": "Stitched",
             "product_type": "Zarminay | Pret",
             "pieces": null,
-            "size": "XS",
+            "size_details": [
+                {
+                    "size": "XS",
+                    "available": false
+                },
+                {
+                    "size": "S",
+                    "available": false
+                },
+                {
+                    "size": "M",
+                    "available": false
+                },
+                {
+                    "size": "L",
+                    "available": true
+                },
+                {
+                    "size": "XL",
+                    "available": true
+                }
+            ],
             "sku": "MPLTE260104XS",
             "available": true
         },
@@ -278,14 +771,42 @@
             "fabric": "Sheesha Silk",
             "price": "34500.00",
             "compare_at_price": null,
-            "image": "https://cdn.shopify.com/s/files/1/0539/7318/8776/files/Auren_1.jpg?v=1783966130",
+            "images_list": [
+                "https://cdn.shopify.com/s/files/1/0539/7318/8776/files/Auren_1.jpg?v=1783966130",
+                "https://cdn.shopify.com/s/files/1/0539/7318/8776/files/Auren_5.jpg?v=1783966130",
+                "https://cdn.shopify.com/s/files/1/0539/7318/8776/files/Auren_3.jpg?v=1783966130",
+                "https://cdn.shopify.com/s/files/1/0539/7318/8776/files/Auren_2.jpg?v=1783966130",
+                "https://cdn.shopify.com/s/files/1/0539/7318/8776/files/Auren_4.jpg?v=1783966130",
+                "https://cdn.shopify.com/s/files/1/0539/7318/8776/files/7I0A9831.jpg?v=1784009044"
+            ],
             "product_url": "https://mushq.com/products/auren",
             "department": "Women",
             "subcategory": "Zarminay | Pret",
             "category": "Stitched",
             "product_type": "Zarminay | Pret",
             "pieces": null,
-            "size": "XS",
+            "size_details": [
+                {
+                    "size": "XS",
+                    "available": true
+                },
+                {
+                    "size": "S",
+                    "available": true
+                },
+                {
+                    "size": "M",
+                    "available": true
+                },
+                {
+                    "size": "L",
+                    "available": true
+                },
+                {
+                    "size": "XL",
+                    "available": false
+                }
+            ],
             "sku": "MPLTE260107XS",
             "available": true
         },
@@ -295,14 +816,41 @@
             "fabric": "Sheesha Silk",
             "price": "34500.00",
             "compare_at_price": null,
-            "image": "https://cdn.shopify.com/s/files/1/0539/7318/8776/files/Sereen_1.jpg?v=1783965814",
+            "images_list": [
+                "https://cdn.shopify.com/s/files/1/0539/7318/8776/files/Sereen_1.jpg?v=1783965814",
+                "https://cdn.shopify.com/s/files/1/0539/7318/8776/files/Sereen_4.jpg?v=1783965814",
+                "https://cdn.shopify.com/s/files/1/0539/7318/8776/files/7I0A1248.jpg?v=1784009263",
+                "https://cdn.shopify.com/s/files/1/0539/7318/8776/files/Sereen_5.jpg?v=1783965814",
+                "https://cdn.shopify.com/s/files/1/0539/7318/8776/files/Sereen_2.jpg?v=1783965814"
+            ],
             "product_url": "https://mushq.com/products/sereen",
             "department": "Women",
             "subcategory": "Zarminay | Pret",
             "category": "Stitched",
             "product_type": "Zarminay | Pret",
             "pieces": null,
-            "size": "XS",
+            "size_details": [
+                {
+                    "size": "XS",
+                    "available": true
+                },
+                {
+                    "size": "S",
+                    "available": true
+                },
+                {
+                    "size": "M",
+                    "available": true
+                },
+                {
+                    "size": "L",
+                    "available": true
+                },
+                {
+                    "size": "XL",
+                    "available": true
+                }
+            ],
             "sku": "MPLTE260103XS",
             "available": true
         },
@@ -312,14 +860,42 @@
             "fabric": "Sheesha Silk",
             "price": "34500.00",
             "compare_at_price": null,
-            "image": "https://cdn.shopify.com/s/files/1/0539/7318/8776/files/Veha_1.jpg?v=1783966068",
+            "images_list": [
+                "https://cdn.shopify.com/s/files/1/0539/7318/8776/files/Veha_1.jpg?v=1783966068",
+                "https://cdn.shopify.com/s/files/1/0539/7318/8776/files/Veha_4.jpg?v=1783966068",
+                "https://cdn.shopify.com/s/files/1/0539/7318/8776/files/7I0A0542.jpg?v=1784009199",
+                "https://cdn.shopify.com/s/files/1/0539/7318/8776/files/Veha_2.jpg?v=1783966068",
+                "https://cdn.shopify.com/s/files/1/0539/7318/8776/files/Veha_3.jpg?v=1783966068",
+                "https://cdn.shopify.com/s/files/1/0539/7318/8776/files/Veha_6.jpg?v=1783966068"
+            ],
             "product_url": "https://mushq.com/products/veha",
             "department": "Women",
             "subcategory": "Zarminay | Pret",
             "category": "Stitched",
             "product_type": "Zarminay | Pret",
             "pieces": null,
-            "size": "XS",
+            "size_details": [
+                {
+                    "size": "XS",
+                    "available": true
+                },
+                {
+                    "size": "S",
+                    "available": true
+                },
+                {
+                    "size": "M",
+                    "available": true
+                },
+                {
+                    "size": "L",
+                    "available": true
+                },
+                {
+                    "size": "XL",
+                    "available": true
+                }
+            ],
             "sku": "MPLTE260106XS",
             "available": true
         },
@@ -329,16 +905,39 @@
             "fabric": "Lawn",
             "price": "11950.00",
             "compare_at_price": null,
-            "image": "https://cdn.shopify.com/s/files/1/0539/7318/8776/files/VelvetIvy_1.jpg?v=1783160157",
+            "images_list": [
+                "https://cdn.shopify.com/s/files/1/0539/7318/8776/files/VelvetIvy_1.jpg?v=1783160157",
+                "https://cdn.shopify.com/s/files/1/0539/7318/8776/files/VelvetIvy_5.jpg?v=1783160157",
+                "https://cdn.shopify.com/s/files/1/0539/7318/8776/files/VelvetIvy_3.jpg?v=1783160157",
+                "https://cdn.shopify.com/s/files/1/0539/7318/8776/files/VelvetIvy_2.jpg?v=1783160157",
+                "https://cdn.shopify.com/s/files/1/0539/7318/8776/files/VelvetIvy_6.jpg?v=1783160157"
+            ],
             "product_url": "https://mushq.com/products/velvet-ivy",
             "department": "Women",
             "subcategory": "Unstitched | Secret Garden V3",
             "category": "Unstitched",
             "product_type": "Unstitched | Secret Garden V3",
             "pieces": null,
-            "size": "Unstitched",
+            "size_details": [
+                {
+                    "size": "Unstitched",
+                    "available": false
+                },
+                {
+                    "size": "S",
+                    "available": true
+                },
+                {
+                    "size": "M",
+                    "available": true
+                },
+                {
+                    "size": "L",
+                    "available": true
+                }
+            ],
             "sku": "HUNSS260401U",
-            "available": false
+            "available": true
         },
         {
             "title": "Whispering Ivy",
@@ -346,16 +945,39 @@
             "fabric": "Lawn",
             "price": "11950.00",
             "compare_at_price": null,
-            "image": "https://cdn.shopify.com/s/files/1/0539/7318/8776/files/WhisperingIvy_1.jpg?v=1783160196",
+            "images_list": [
+                "https://cdn.shopify.com/s/files/1/0539/7318/8776/files/WhisperingIvy_1.jpg?v=1783160196",
+                "https://cdn.shopify.com/s/files/1/0539/7318/8776/files/WhisperingIvy_4.jpg?v=1783160196",
+                "https://cdn.shopify.com/s/files/1/0539/7318/8776/files/WhisperingIvy_2.jpg?v=1783160196",
+                "https://cdn.shopify.com/s/files/1/0539/7318/8776/files/WhisperingIvy_3.jpg?v=1783160196",
+                "https://cdn.shopify.com/s/files/1/0539/7318/8776/files/WhisperingIvy_5.jpg?v=1783160196"
+            ],
             "product_url": "https://mushq.com/products/whispering-ivy",
             "department": "Women",
             "subcategory": "Unstitched | Secret Garden V3",
             "category": "Unstitched",
             "product_type": "Unstitched | Secret Garden V3",
             "pieces": null,
-            "size": "Unstitched",
+            "size_details": [
+                {
+                    "size": "Unstitched",
+                    "available": false
+                },
+                {
+                    "size": "S",
+                    "available": true
+                },
+                {
+                    "size": "M",
+                    "available": true
+                },
+                {
+                    "size": "L",
+                    "available": true
+                }
+            ],
             "sku": "HUNSS260404U",
-            "available": false
+            "available": true
         },
         {
             "title": "Garden Royale",
@@ -363,14 +985,37 @@
             "fabric": "Lawn",
             "price": "11950.00",
             "compare_at_price": null,
-            "image": "https://cdn.shopify.com/s/files/1/0539/7318/8776/files/GardenRoyale_1.jpg?v=1783159582",
+            "images_list": [
+                "https://cdn.shopify.com/s/files/1/0539/7318/8776/files/GardenRoyale_1.jpg?v=1783159582",
+                "https://cdn.shopify.com/s/files/1/0539/7318/8776/files/GardenRoyale_3.jpg?v=1783159582",
+                "https://cdn.shopify.com/s/files/1/0539/7318/8776/files/GardenRoyale_4.jpg?v=1783159582",
+                "https://cdn.shopify.com/s/files/1/0539/7318/8776/files/GardenRoyale_2.jpg?v=1783159582",
+                "https://cdn.shopify.com/s/files/1/0539/7318/8776/files/GardenRoyale_5.jpg?v=1783159582"
+            ],
             "product_url": "https://mushq.com/products/garden-royale",
             "department": "Women",
             "subcategory": "Unstitched | Secret Garden V3",
             "category": "Unstitched",
             "product_type": "Unstitched | Secret Garden V3",
             "pieces": null,
-            "size": "Unstitched",
+            "size_details": [
+                {
+                    "size": "Unstitched",
+                    "available": true
+                },
+                {
+                    "size": "S",
+                    "available": true
+                },
+                {
+                    "size": "M",
+                    "available": true
+                },
+                {
+                    "size": "L",
+                    "available": true
+                }
+            ],
             "sku": "HUNSS260403U",
             "available": true
         },
@@ -380,16 +1025,39 @@
             "fabric": "Lawn",
             "price": "11950.00",
             "compare_at_price": null,
-            "image": "https://cdn.shopify.com/s/files/1/0539/7318/8776/files/LumaBloom_2.jpg?v=1783159657",
+            "images_list": [
+                "https://cdn.shopify.com/s/files/1/0539/7318/8776/files/LumaBloom_2.jpg?v=1783159657",
+                "https://cdn.shopify.com/s/files/1/0539/7318/8776/files/LumaBloom_5.jpg?v=1783159657",
+                "https://cdn.shopify.com/s/files/1/0539/7318/8776/files/LumaBloom_1.jpg?v=1783159657",
+                "https://cdn.shopify.com/s/files/1/0539/7318/8776/files/LumaBloom_4.jpg?v=1783159657",
+                "https://cdn.shopify.com/s/files/1/0539/7318/8776/files/LumaBloom_6.jpg?v=1783159657"
+            ],
             "product_url": "https://mushq.com/products/luma-bloom",
             "department": "Women",
             "subcategory": "Unstitched | Secret Garden V3",
             "category": "Unstitched",
             "product_type": "Unstitched | Secret Garden V3",
             "pieces": null,
-            "size": "Unstitched",
+            "size_details": [
+                {
+                    "size": "Unstitched",
+                    "available": false
+                },
+                {
+                    "size": "S",
+                    "available": true
+                },
+                {
+                    "size": "M",
+                    "available": true
+                },
+                {
+                    "size": "L",
+                    "available": true
+                }
+            ],
             "sku": "HUNSS260402U",
-            "available": false
+            "available": true
         },
         {
             "title": "Nocturne Flora",
@@ -397,16 +1065,39 @@
             "fabric": "Lawn",
             "price": "11950.00",
             "compare_at_price": null,
-            "image": "https://cdn.shopify.com/s/files/1/0539/7318/8776/files/NocturneFlora_1.jpg?v=1783159717",
+            "images_list": [
+                "https://cdn.shopify.com/s/files/1/0539/7318/8776/files/NocturneFlora_1.jpg?v=1783159717",
+                "https://cdn.shopify.com/s/files/1/0539/7318/8776/files/NocturneFlora_4.jpg?v=1783159717",
+                "https://cdn.shopify.com/s/files/1/0539/7318/8776/files/NocturneFlora_5.jpg?v=1783159717",
+                "https://cdn.shopify.com/s/files/1/0539/7318/8776/files/NocturneFlora_3.jpg?v=1783159717",
+                "https://cdn.shopify.com/s/files/1/0539/7318/8776/files/NocturneFlora_2.jpg?v=1783159717"
+            ],
             "product_url": "https://mushq.com/products/nocturne-flora",
             "department": "Women",
             "subcategory": "Unstitched | Secret Garden V3",
             "category": "Unstitched",
             "product_type": "Unstitched | Secret Garden V3",
             "pieces": null,
-            "size": "Unstitched",
+            "size_details": [
+                {
+                    "size": "Unstitched",
+                    "available": false
+                },
+                {
+                    "size": "S",
+                    "available": true
+                },
+                {
+                    "size": "M",
+                    "available": true
+                },
+                {
+                    "size": "L",
+                    "available": true
+                }
+            ],
             "sku": "HUNSS260406U",
-            "available": false
+            "available": true
         },
         {
             "title": "Wild Bloom",
@@ -414,14 +1105,37 @@
             "fabric": "Lawn",
             "price": "11950.00",
             "compare_at_price": null,
-            "image": "https://cdn.shopify.com/s/files/1/0539/7318/8776/files/WildBloom_1.jpg?v=1783160231",
+            "images_list": [
+                "https://cdn.shopify.com/s/files/1/0539/7318/8776/files/WildBloom_1.jpg?v=1783160231",
+                "https://cdn.shopify.com/s/files/1/0539/7318/8776/files/WildBloom_3.jpg?v=1783160230",
+                "https://cdn.shopify.com/s/files/1/0539/7318/8776/files/WildBloom_4.jpg?v=1783160231",
+                "https://cdn.shopify.com/s/files/1/0539/7318/8776/files/WildBloom_5.jpg?v=1783160231",
+                "https://cdn.shopify.com/s/files/1/0539/7318/8776/files/WildBloom_2.jpg?v=1783160231"
+            ],
             "product_url": "https://mushq.com/products/wild-bloom",
             "department": "Women",
             "subcategory": "Unstitched | Secret Garden V3",
             "category": "Unstitched",
             "product_type": "Unstitched | Secret Garden V3",
             "pieces": null,
-            "size": "Unstitched",
+            "size_details": [
+                {
+                    "size": "Unstitched",
+                    "available": true
+                },
+                {
+                    "size": "S",
+                    "available": true
+                },
+                {
+                    "size": "M",
+                    "available": true
+                },
+                {
+                    "size": "L",
+                    "available": true
+                }
+            ],
             "sku": "HUNSS260408U",
             "available": true
         },
@@ -431,14 +1145,38 @@
             "fabric": "Lawn",
             "price": "11950.00",
             "compare_at_price": null,
-            "image": "https://cdn.shopify.com/s/files/1/0539/7318/8776/files/Bloomveil_1.jpg?v=1783159445",
+            "images_list": [
+                "https://cdn.shopify.com/s/files/1/0539/7318/8776/files/Bloomveil_1.jpg?v=1783159445",
+                "https://cdn.shopify.com/s/files/1/0539/7318/8776/files/Bloomveil_6.jpg?v=1783159445",
+                "https://cdn.shopify.com/s/files/1/0539/7318/8776/files/Bloomveil_2.jpg?v=1783159445",
+                "https://cdn.shopify.com/s/files/1/0539/7318/8776/files/Bloomveil_4.jpg?v=1783159445",
+                "https://cdn.shopify.com/s/files/1/0539/7318/8776/files/Bloomveil_5.jpg?v=1783159445",
+                "https://cdn.shopify.com/s/files/1/0539/7318/8776/files/Bloomveil_3.jpg?v=1783159446"
+            ],
             "product_url": "https://mushq.com/products/bloomveil",
             "department": "Women",
             "subcategory": "Unstitched | Secret Garden V3",
             "category": "Unstitched",
             "product_type": "Unstitched | Secret Garden V3",
             "pieces": null,
-            "size": "Unstitched",
+            "size_details": [
+                {
+                    "size": "Unstitched",
+                    "available": true
+                },
+                {
+                    "size": "S",
+                    "available": false
+                },
+                {
+                    "size": "M",
+                    "available": false
+                },
+                {
+                    "size": "L",
+                    "available": false
+                }
+            ],
             "sku": "HUNSS260407U",
             "available": true
         },
@@ -448,14 +1186,37 @@
             "fabric": "Lawn",
             "price": "11950.00",
             "compare_at_price": null,
-            "image": "https://cdn.shopify.com/s/files/1/0539/7318/8776/files/EtherealEden_2.jpg?v=1783159530",
+            "images_list": [
+                "https://cdn.shopify.com/s/files/1/0539/7318/8776/files/EtherealEden_2.jpg?v=1783159530",
+                "https://cdn.shopify.com/s/files/1/0539/7318/8776/files/EtherealEden_4.jpg?v=1783159530",
+                "https://cdn.shopify.com/s/files/1/0539/7318/8776/files/EtherealEden_3.jpg?v=1783159530",
+                "https://cdn.shopify.com/s/files/1/0539/7318/8776/files/EtherealEden_1.jpg?v=1783159530",
+                "https://cdn.shopify.com/s/files/1/0539/7318/8776/files/EtherealEden_5.jpg?v=1783159530"
+            ],
             "product_url": "https://mushq.com/products/ethereal-eden",
             "department": "Women",
             "subcategory": "Unstitched | Secret Garden V3",
             "category": "Unstitched",
             "product_type": "Unstitched | Secret Garden V3",
             "pieces": null,
-            "size": "Unstitched",
+            "size_details": [
+                {
+                    "size": "Unstitched",
+                    "available": true
+                },
+                {
+                    "size": "S",
+                    "available": true
+                },
+                {
+                    "size": "M",
+                    "available": true
+                },
+                {
+                    "size": "L",
+                    "available": true
+                }
+            ],
             "sku": "HUNSS260405U",
             "available": true
         },
@@ -465,14 +1226,37 @@
             "fabric": "Lawn",
             "price": "11950.00",
             "compare_at_price": null,
-            "image": "https://cdn.shopify.com/s/files/1/0539/7318/8776/files/EnchantedVine_1.jpg?v=1783159511",
+            "images_list": [
+                "https://cdn.shopify.com/s/files/1/0539/7318/8776/files/EnchantedVine_1.jpg?v=1783159511",
+                "https://cdn.shopify.com/s/files/1/0539/7318/8776/files/EnchantedVine_5.jpg?v=1783159511",
+                "https://cdn.shopify.com/s/files/1/0539/7318/8776/files/EnchantedVine_3.jpg?v=1783159511",
+                "https://cdn.shopify.com/s/files/1/0539/7318/8776/files/EnchantedVine_4.jpg?v=1783159511",
+                "https://cdn.shopify.com/s/files/1/0539/7318/8776/files/EnchantedVine_2.jpg?v=1783159511"
+            ],
             "product_url": "https://mushq.com/products/enchanted-vine",
             "department": "Women",
             "subcategory": "Unstitched | Secret Garden V3",
             "category": "Unstitched",
             "product_type": "Unstitched | Secret Garden V3",
             "pieces": null,
-            "size": "Unstitched",
+            "size_details": [
+                {
+                    "size": "Unstitched",
+                    "available": true
+                },
+                {
+                    "size": "S",
+                    "available": true
+                },
+                {
+                    "size": "M",
+                    "available": true
+                },
+                {
+                    "size": "L",
+                    "available": true
+                }
+            ],
             "sku": "HUNSS260412U",
             "available": true
         },
@@ -482,16 +1266,39 @@
             "fabric": "Lawn",
             "price": "11950.00",
             "compare_at_price": null,
-            "image": "https://cdn.shopify.com/s/files/1/0539/7318/8776/files/RosearieDream_1.jpg?v=1783159765",
+            "images_list": [
+                "https://cdn.shopify.com/s/files/1/0539/7318/8776/files/RosearieDream_1.jpg?v=1783159765",
+                "https://cdn.shopify.com/s/files/1/0539/7318/8776/files/RosearieDream_2.jpg?v=1783159764",
+                "https://cdn.shopify.com/s/files/1/0539/7318/8776/files/RosearieDream_4.jpg?v=1783159765",
+                "https://cdn.shopify.com/s/files/1/0539/7318/8776/files/RosearieDream_3.jpg?v=1783159765",
+                "https://cdn.shopify.com/s/files/1/0539/7318/8776/files/RosearieDream_5.jpg?v=1783159765"
+            ],
             "product_url": "https://mushq.com/products/rosearie-dream",
             "department": "Women",
             "subcategory": "Unstitched | Secret Garden V3",
             "category": "Unstitched",
             "product_type": "Unstitched | Secret Garden V3",
             "pieces": null,
-            "size": "Unstitched",
+            "size_details": [
+                {
+                    "size": "Unstitched",
+                    "available": false
+                },
+                {
+                    "size": "S",
+                    "available": true
+                },
+                {
+                    "size": "M",
+                    "available": true
+                },
+                {
+                    "size": "L",
+                    "available": true
+                }
+            ],
             "sku": "HUNSS260409U",
-            "available": false
+            "available": true
         },
         {
             "title": "Ivory Botanica",
@@ -499,16 +1306,40 @@
             "fabric": "Lawn",
             "price": "11950.00",
             "compare_at_price": null,
-            "image": "https://cdn.shopify.com/s/files/1/0539/7318/8776/files/IvoryBotanica_1.jpg?v=1783159626",
+            "images_list": [
+                "https://cdn.shopify.com/s/files/1/0539/7318/8776/files/IvoryBotanica_1.jpg?v=1783159626",
+                "https://cdn.shopify.com/s/files/1/0539/7318/8776/files/IvoryBotanica_5.jpg?v=1783159626",
+                "https://cdn.shopify.com/s/files/1/0539/7318/8776/files/IvoryBotanica_4.jpg?v=1783159626",
+                "https://cdn.shopify.com/s/files/1/0539/7318/8776/files/IvoryBotanica_2.jpg?v=1783159626",
+                "https://cdn.shopify.com/s/files/1/0539/7318/8776/files/IvoryBotanica_6.jpg?v=1783159626",
+                "https://cdn.shopify.com/s/files/1/0539/7318/8776/files/IvoryBotanica_3.jpg?v=1783159626"
+            ],
             "product_url": "https://mushq.com/products/ivory-botanica",
             "department": "Women",
             "subcategory": "Unstitched | Secret Garden V3",
             "category": "Unstitched",
             "product_type": "Unstitched | Secret Garden V3",
             "pieces": null,
-            "size": "Unstitched",
+            "size_details": [
+                {
+                    "size": "Unstitched",
+                    "available": false
+                },
+                {
+                    "size": "S",
+                    "available": true
+                },
+                {
+                    "size": "M",
+                    "available": true
+                },
+                {
+                    "size": "L",
+                    "available": true
+                }
+            ],
             "sku": "HUNSS260411U",
-            "available": false
+            "available": true
         },
         {
             "title": "Rosewood Secret",
@@ -516,14 +1347,38 @@
             "fabric": "Lawn",
             "price": "11950.00",
             "compare_at_price": null,
-            "image": "https://cdn.shopify.com/s/files/1/0539/7318/8776/files/RosewoodSecret_1.jpg?v=1783159803",
+            "images_list": [
+                "https://cdn.shopify.com/s/files/1/0539/7318/8776/files/RosewoodSecret_1.jpg?v=1783159803",
+                "https://cdn.shopify.com/s/files/1/0539/7318/8776/files/RosewoodSecret_4.jpg?v=1783159803",
+                "https://cdn.shopify.com/s/files/1/0539/7318/8776/files/RosewoodSecret_6.jpg?v=1783159803",
+                "https://cdn.shopify.com/s/files/1/0539/7318/8776/files/RosewoodSecret_2.jpg?v=1783159803",
+                "https://cdn.shopify.com/s/files/1/0539/7318/8776/files/RosewoodSecret_3.jpg?v=1783159803",
+                "https://cdn.shopify.com/s/files/1/0539/7318/8776/files/RosewoodSecret_5.jpg?v=1783159803"
+            ],
             "product_url": "https://mushq.com/products/rosewood-secret",
             "department": "Women",
             "subcategory": "Unstitched | Secret Garden V3",
             "category": "Unstitched",
             "product_type": "Unstitched | Secret Garden V3",
             "pieces": null,
-            "size": "Unstitched",
+            "size_details": [
+                {
+                    "size": "Unstitched",
+                    "available": true
+                },
+                {
+                    "size": "S",
+                    "available": true
+                },
+                {
+                    "size": "M",
+                    "available": true
+                },
+                {
+                    "size": "L",
+                    "available": true
+                }
+            ],
             "sku": "HUNSS260410U",
             "available": true
         },
@@ -533,16 +1388,43 @@
             "fabric": "khaddi Net",
             "price": "20970.00",
             "compare_at_price": "34950.00",
-            "image": "https://cdn.shopify.com/s/files/1/0539/7318/8776/files/7I0A8090_jpg.jpg?v=1778498773",
+            "images_list": [
+                "https://cdn.shopify.com/s/files/1/0539/7318/8776/files/7I0A8090_jpg.jpg?v=1778498773",
+                "https://cdn.shopify.com/s/files/1/0539/7318/8776/files/Mahjabeen_1.jpg?v=1778326994",
+                "https://cdn.shopify.com/s/files/1/0539/7318/8776/files/Mahjabeen_4.jpg?v=1778326994",
+                "https://cdn.shopify.com/s/files/1/0539/7318/8776/files/Mahjabeen_3.jpg?v=1778326993",
+                "https://cdn.shopify.com/s/files/1/0539/7318/8776/files/Mahjabeen_5.jpg?v=1778326994"
+            ],
             "product_url": "https://mushq.com/products/mahjabeen",
             "department": "Women",
             "subcategory": "Pret | Saugaat",
             "category": "Stitched",
             "product_type": "Pret | Saugaat",
             "pieces": null,
-            "size": "XS",
+            "size_details": [
+                {
+                    "size": "XS",
+                    "available": false
+                },
+                {
+                    "size": "S",
+                    "available": false
+                },
+                {
+                    "size": "M",
+                    "available": true
+                },
+                {
+                    "size": "L",
+                    "available": false
+                },
+                {
+                    "size": "XL",
+                    "available": false
+                }
+            ],
             "sku": "MPLCK260106XS",
-            "available": false
+            "available": true
         },
         {
             "title": "Nargis",
@@ -550,16 +1432,43 @@
             "fabric": "georgette",
             "price": "20970.00",
             "compare_at_price": "34950.00",
-            "image": "https://cdn.shopify.com/s/files/1/0539/7318/8776/files/Nargis_3.jpg?v=1778327192",
+            "images_list": [
+                "https://cdn.shopify.com/s/files/1/0539/7318/8776/files/Nargis_3.jpg?v=1778327192",
+                "https://cdn.shopify.com/s/files/1/0539/7318/8776/files/Nargis_4.jpg?v=1778327192",
+                "https://cdn.shopify.com/s/files/1/0539/7318/8776/files/Nargis_1_8baeba9c-51a3-4602-a7d3-571101ea1a21.jpg?v=1778327192",
+                "https://cdn.shopify.com/s/files/1/0539/7318/8776/files/Nargis_2.jpg?v=1778327193",
+                "https://cdn.shopify.com/s/files/1/0539/7318/8776/files/Nargis_5.jpg?v=1778327192"
+            ],
             "product_url": "https://mushq.com/products/nargis",
             "department": "Women",
             "subcategory": "Pret | Saugaat",
             "category": "Stitched",
             "product_type": "Pret | Saugaat",
             "pieces": null,
-            "size": "XS",
+            "size_details": [
+                {
+                    "size": "XS",
+                    "available": false
+                },
+                {
+                    "size": "S",
+                    "available": true
+                },
+                {
+                    "size": "M",
+                    "available": false
+                },
+                {
+                    "size": "L",
+                    "available": false
+                },
+                {
+                    "size": "XL",
+                    "available": false
+                }
+            ],
             "sku": "MPLCK260108XS",
-            "available": false
+            "available": true
         },
         {
             "title": "Sapphire Gleam",
@@ -567,16 +1476,43 @@
             "fabric": "Jacquard",
             "price": "20100.00",
             "compare_at_price": "33500.00",
-            "image": "https://cdn.shopify.com/s/files/1/0539/7318/8776/files/Sapphire_Gleam_1.jpg?v=1776416063",
+            "images_list": [
+                "https://cdn.shopify.com/s/files/1/0539/7318/8776/files/Sapphire_Gleam_1.jpg?v=1776416063",
+                "https://cdn.shopify.com/s/files/1/0539/7318/8776/files/Sapphire_Gleam_2.jpg?v=1776416063",
+                "https://cdn.shopify.com/s/files/1/0539/7318/8776/files/Sapphire_Gleam_3.jpg?v=1776416063",
+                "https://cdn.shopify.com/s/files/1/0539/7318/8776/files/Sapphire_Gleam_4.jpg?v=1776416063",
+                "https://cdn.shopify.com/s/files/1/0539/7318/8776/files/Sapphire_Gleam_5.jpg?v=1776416063"
+            ],
             "product_url": "https://mushq.com/products/sapphire-gleam",
             "department": "Women",
             "subcategory": "Pret | Euphoria '26",
             "category": "Stitched",
             "product_type": "Pret | Euphoria '26",
             "pieces": null,
-            "size": "XS",
+            "size_details": [
+                {
+                    "size": "XS",
+                    "available": false
+                },
+                {
+                    "size": "S",
+                    "available": true
+                },
+                {
+                    "size": "M",
+                    "available": true
+                },
+                {
+                    "size": "L",
+                    "available": false
+                },
+                {
+                    "size": "XL",
+                    "available": false
+                }
+            ],
             "sku": "MPLEU260104XS",
-            "available": false
+            "available": true
         },
         {
             "title": "Mystic Desire",
@@ -584,14 +1520,41 @@
             "fabric": "Jacquard",
             "price": "20100.00",
             "compare_at_price": "33500.00",
-            "image": "https://cdn.shopify.com/s/files/1/0539/7318/8776/files/Mystic_Desire_1.jpg?v=1776416125",
+            "images_list": [
+                "https://cdn.shopify.com/s/files/1/0539/7318/8776/files/Mystic_Desire_1.jpg?v=1776416125",
+                "https://cdn.shopify.com/s/files/1/0539/7318/8776/files/Mystic_Desire_2.jpg?v=1776416125",
+                "https://cdn.shopify.com/s/files/1/0539/7318/8776/files/Mystic_Desire_3.jpg?v=1776416125",
+                "https://cdn.shopify.com/s/files/1/0539/7318/8776/files/Mystic_Desire_4.jpg?v=1776416125",
+                "https://cdn.shopify.com/s/files/1/0539/7318/8776/files/Mystic_Desire_5.jpg?v=1776416125"
+            ],
             "product_url": "https://mushq.com/products/mystic-desire",
             "department": "Women",
             "subcategory": "Pret | Euphoria '26",
             "category": "Stitched",
             "product_type": "Pret | Euphoria '26",
             "pieces": null,
-            "size": "XS",
+            "size_details": [
+                {
+                    "size": "XS",
+                    "available": true
+                },
+                {
+                    "size": "S",
+                    "available": false
+                },
+                {
+                    "size": "M",
+                    "available": false
+                },
+                {
+                    "size": "L",
+                    "available": false
+                },
+                {
+                    "size": "XL",
+                    "available": false
+                }
+            ],
             "sku": "MPLEU260108XS",
             "available": true
         },
@@ -601,16 +1564,42 @@
             "fabric": "Jacquard",
             "price": "20100.00",
             "compare_at_price": "33500.00",
-            "image": "https://cdn.shopify.com/s/files/1/0539/7318/8776/files/Plum_Mirage_1.jpg?v=1776416536",
+            "images_list": [
+                "https://cdn.shopify.com/s/files/1/0539/7318/8776/files/Plum_Mirage_1.jpg?v=1776416536",
+                "https://cdn.shopify.com/s/files/1/0539/7318/8776/files/Plum_Mirage_2.jpg?v=1776416536",
+                "https://cdn.shopify.com/s/files/1/0539/7318/8776/files/Plum_Mirage_3.jpg?v=1776416536",
+                "https://cdn.shopify.com/s/files/1/0539/7318/8776/files/Plum_Mirage_4.jpg?v=1776416536"
+            ],
             "product_url": "https://mushq.com/products/plum-mirage",
             "department": "Women",
             "subcategory": "Pret | Euphoria '26",
             "category": "Stitched",
             "product_type": "Pret | Euphoria '26",
             "pieces": null,
-            "size": "XS",
+            "size_details": [
+                {
+                    "size": "XS",
+                    "available": false
+                },
+                {
+                    "size": "S",
+                    "available": true
+                },
+                {
+                    "size": "M",
+                    "available": false
+                },
+                {
+                    "size": "L",
+                    "available": false
+                },
+                {
+                    "size": "XL",
+                    "available": false
+                }
+            ],
             "sku": "MPLEU260106XS",
-            "available": false
+            "available": true
         },
         {
             "title": "Amalfi Breeze",
@@ -618,14 +1607,40 @@
             "fabric": "Jacquard",
             "price": "13470.00",
             "compare_at_price": "22450.00",
-            "image": "https://cdn.shopify.com/s/files/1/0539/7318/8776/files/AmalfiBreeze_6.jpg?v=1773137510",
+            "images_list": [
+                "https://cdn.shopify.com/s/files/1/0539/7318/8776/files/AmalfiBreeze_6.jpg?v=1773137510",
+                "https://cdn.shopify.com/s/files/1/0539/7318/8776/files/AmalfiBreeze_2.jpg?v=1774865497",
+                "https://cdn.shopify.com/s/files/1/0539/7318/8776/files/AmalfiBreeze_1.jpg?v=1774865497",
+                "https://cdn.shopify.com/s/files/1/0539/7318/8776/files/AmalfiBreeze_4.jpg?v=1773137510"
+            ],
             "product_url": "https://mushq.com/products/amalfi-breeze",
             "department": "Women",
             "subcategory": "La Toscana | Casual Pret’26",
             "category": "Stitched",
             "product_type": "La Toscana | Casual Pret’26",
             "pieces": null,
-            "size": "XS",
+            "size_details": [
+                {
+                    "size": "XS",
+                    "available": true
+                },
+                {
+                    "size": "S",
+                    "available": true
+                },
+                {
+                    "size": "M",
+                    "available": true
+                },
+                {
+                    "size": "L",
+                    "available": false
+                },
+                {
+                    "size": "XL",
+                    "available": false
+                }
+            ],
             "sku": "MPCSS260107XS",
             "available": true
         },
@@ -635,14 +1650,41 @@
             "fabric": "Jacquard",
             "price": "13470.00",
             "compare_at_price": "22450.00",
-            "image": "https://cdn.shopify.com/s/files/1/0539/7318/8776/files/SereneSiena_1.jpg?v=1773137634",
+            "images_list": [
+                "https://cdn.shopify.com/s/files/1/0539/7318/8776/files/SereneSiena_1.jpg?v=1773137634",
+                "https://cdn.shopify.com/s/files/1/0539/7318/8776/files/SereneSiena_2.jpg?v=1773137634",
+                "https://cdn.shopify.com/s/files/1/0539/7318/8776/files/SereneSiena_4.jpg?v=1774865437",
+                "https://cdn.shopify.com/s/files/1/0539/7318/8776/files/SereneSiena_5.jpg?v=1774865437",
+                "https://cdn.shopify.com/s/files/1/0539/7318/8776/files/SereneSiena_3.jpg?v=1774865437"
+            ],
             "product_url": "https://mushq.com/products/serene-siena",
             "department": "Women",
             "subcategory": "La Toscana | Casual Pret’26",
             "category": "Stitched",
             "product_type": "La Toscana | Casual Pret’26",
             "pieces": null,
-            "size": "XS",
+            "size_details": [
+                {
+                    "size": "XS",
+                    "available": true
+                },
+                {
+                    "size": "S",
+                    "available": false
+                },
+                {
+                    "size": "M",
+                    "available": false
+                },
+                {
+                    "size": "L",
+                    "available": false
+                },
+                {
+                    "size": "XL",
+                    "available": false
+                }
+            ],
             "sku": "MPCSS260103XS",
             "available": true
         },
@@ -652,16 +1694,43 @@
             "fabric": "Chiffon",
             "price": "3870.00",
             "compare_at_price": "6450.00",
-            "image": "https://cdn.shopify.com/s/files/1/0539/7318/8776/files/ZeroRules_1.jpg?v=1771419330",
+            "images_list": [
+                "https://cdn.shopify.com/s/files/1/0539/7318/8776/files/ZeroRules_1.jpg?v=1771419330",
+                "https://cdn.shopify.com/s/files/1/0539/7318/8776/files/ZeroRules_5.jpg?v=1772102372",
+                "https://cdn.shopify.com/s/files/1/0539/7318/8776/files/ZeroRules_4.jpg?v=1772102372",
+                "https://cdn.shopify.com/s/files/1/0539/7318/8776/files/ZeroRules_2.jpg?v=1772102372",
+                "https://cdn.shopify.com/s/files/1/0539/7318/8776/files/ZeroRules_3.jpg?v=1772102372"
+            ],
             "product_url": "https://mushq.com/products/zero-rules",
             "department": "Women",
             "subcategory": "Basic Pret | No-Rules",
             "category": "Stitched",
             "product_type": "Basic Pret | No-Rules",
             "pieces": null,
-            "size": "XS",
+            "size_details": [
+                {
+                    "size": "XS",
+                    "available": false
+                },
+                {
+                    "size": "S",
+                    "available": false
+                },
+                {
+                    "size": "M",
+                    "available": true
+                },
+                {
+                    "size": "L",
+                    "available": false
+                },
+                {
+                    "size": "XL",
+                    "available": false
+                }
+            ],
             "sku": "MPBSS260207XS",
-            "available": false
+            "available": true
         },
         {
             "title": "Unruly Notes",
@@ -669,14 +1738,36 @@
             "fabric": "Cotton",
             "price": "10470.00",
             "compare_at_price": "17450.00",
-            "image": "https://cdn.shopify.com/s/files/1/0539/7318/8776/files/UnrulyNotes_2.jpg?v=1771417918",
+            "images_list": [
+                "https://cdn.shopify.com/s/files/1/0539/7318/8776/files/UnrulyNotes_2.jpg?v=1771417918",
+                "https://cdn.shopify.com/s/files/1/0539/7318/8776/files/UnrulyNotes_3.jpg?v=1772100397",
+                "https://cdn.shopify.com/s/files/1/0539/7318/8776/files/UnrulyNotes_1.jpg?v=1772100397",
+                "https://cdn.shopify.com/s/files/1/0539/7318/8776/files/UnrulyNotes_4.jpg?v=1772100397"
+            ],
             "product_url": "https://mushq.com/products/unruly-notes",
             "department": "Women",
             "subcategory": "Basic Pret | No-Rules",
             "category": "Stitched",
             "product_type": "Basic Pret | No-Rules",
             "pieces": null,
-            "size": "S",
+            "size_details": [
+                {
+                    "size": "S",
+                    "available": true
+                },
+                {
+                    "size": "M",
+                    "available": false
+                },
+                {
+                    "size": "L",
+                    "available": true
+                },
+                {
+                    "size": "XL",
+                    "available": false
+                }
+            ],
             "sku": "MPBSS260403S",
             "available": true
         },
@@ -686,14 +1777,31 @@
             "fabric": "Cotton",
             "price": "10470.00",
             "compare_at_price": "17450.00",
-            "image": "https://cdn.shopify.com/s/files/1/0539/7318/8776/files/OutlawMuse_6.jpg?v=1772100472",
+            "images_list": [
+                "https://cdn.shopify.com/s/files/1/0539/7318/8776/files/OutlawMuse_6.jpg?v=1772100472",
+                "https://cdn.shopify.com/s/files/1/0539/7318/8776/files/OutlawMuse_4.jpg?v=1772100472",
+                "https://cdn.shopify.com/s/files/1/0539/7318/8776/files/OutlawMuse_1.jpg?v=1772100472"
+            ],
             "product_url": "https://mushq.com/products/outlaw-muse",
             "department": "Women",
             "subcategory": "Basic Pret | No-Rules",
             "category": "Stitched",
             "product_type": "Basic Pret | No-Rules",
             "pieces": null,
-            "size": "S",
+            "size_details": [
+                {
+                    "size": "S",
+                    "available": true
+                },
+                {
+                    "size": "M",
+                    "available": true
+                },
+                {
+                    "size": "L",
+                    "available": true
+                }
+            ],
             "sku": "MPBSS260401S",
             "available": true
         },
@@ -703,14 +1811,36 @@
             "fabric": "Cotton",
             "price": "10470.00",
             "compare_at_price": "17450.00",
-            "image": "https://cdn.shopify.com/s/files/1/0539/7318/8776/files/UnwrittenCode_2.jpg?v=1771416574",
+            "images_list": [
+                "https://cdn.shopify.com/s/files/1/0539/7318/8776/files/UnwrittenCode_2.jpg?v=1771416574",
+                "https://cdn.shopify.com/s/files/1/0539/7318/8776/files/UnwrittenCode_1.jpg?v=1772099580",
+                "https://cdn.shopify.com/s/files/1/0539/7318/8776/files/UnwrittenCode_5.jpg?v=1772099580",
+                "https://cdn.shopify.com/s/files/1/0539/7318/8776/files/UnwrittenCode_4.jpg?v=1772099580"
+            ],
             "product_url": "https://mushq.com/products/unwritten-code",
             "department": "Women",
             "subcategory": "Basic Pret | No-Rules",
             "category": "Stitched",
             "product_type": "Basic Pret | No-Rules",
             "pieces": null,
-            "size": "S",
+            "size_details": [
+                {
+                    "size": "S",
+                    "available": true
+                },
+                {
+                    "size": "M",
+                    "available": true
+                },
+                {
+                    "size": "L",
+                    "available": false
+                },
+                {
+                    "size": "XL",
+                    "available": false
+                }
+            ],
             "sku": "MPBSS260410S",
             "available": true
         },
@@ -720,16 +1850,42 @@
             "fabric": "Cotton",
             "price": "4470.00",
             "compare_at_price": "7450.00",
-            "image": "https://cdn.shopify.com/s/files/1/0539/7318/8776/files/Withoutlaws_1.jpg?v=1771416061",
+            "images_list": [
+                "https://cdn.shopify.com/s/files/1/0539/7318/8776/files/Withoutlaws_1.jpg?v=1771416061",
+                "https://cdn.shopify.com/s/files/1/0539/7318/8776/files/Withoutlaws_2.jpg?v=1771416061",
+                "https://cdn.shopify.com/s/files/1/0539/7318/8776/files/Withoutlaws_3.jpg?v=1771416061",
+                "https://cdn.shopify.com/s/files/1/0539/7318/8776/files/Withoutlaws_4.jpg?v=1771416061"
+            ],
             "product_url": "https://mushq.com/products/without-laws",
             "department": "Women",
             "subcategory": "Basic Pret | No-Rules",
             "category": "Stitched",
             "product_type": "Basic Pret | No-Rules",
             "pieces": null,
-            "size": "XS",
+            "size_details": [
+                {
+                    "size": "XS",
+                    "available": false
+                },
+                {
+                    "size": "S",
+                    "available": true
+                },
+                {
+                    "size": "M",
+                    "available": false
+                },
+                {
+                    "size": "L",
+                    "available": false
+                },
+                {
+                    "size": "XL",
+                    "available": true
+                }
+            ],
             "sku": "MPBSS260502XS",
-            "available": false
+            "available": true
         },
         {
             "title": "No Boundaries",
@@ -737,14 +1893,36 @@
             "fabric": "Cotton",
             "price": "10470.00",
             "compare_at_price": "17450.00",
-            "image": "https://cdn.shopify.com/s/files/1/0539/7318/8776/files/NoBoundaries_3.jpg?v=1771416111",
+            "images_list": [
+                "https://cdn.shopify.com/s/files/1/0539/7318/8776/files/NoBoundaries_3.jpg?v=1771416111",
+                "https://cdn.shopify.com/s/files/1/0539/7318/8776/files/NoBoundaries_7.jpg?v=1772099026",
+                "https://cdn.shopify.com/s/files/1/0539/7318/8776/files/NoBoundaries_6.jpg?v=1772099026",
+                "https://cdn.shopify.com/s/files/1/0539/7318/8776/files/NoBoundaries_5.jpg?v=1772099247"
+            ],
             "product_url": "https://mushq.com/products/no-boundaries",
             "department": "Women",
             "subcategory": "Basic Pret | No-Rules",
             "category": "Stitched",
             "product_type": "Basic Pret | No-Rules",
             "pieces": null,
-            "size": "S",
+            "size_details": [
+                {
+                    "size": "S",
+                    "available": true
+                },
+                {
+                    "size": "M",
+                    "available": true
+                },
+                {
+                    "size": "L",
+                    "available": true
+                },
+                {
+                    "size": "XL",
+                    "available": false
+                }
+            ],
             "sku": "MPBSS260411S",
             "available": true
         },
@@ -754,16 +1932,42 @@
             "fabric": "Cotton",
             "price": "3870.00",
             "compare_at_price": "6450.00",
-            "image": "https://cdn.shopify.com/s/files/1/0539/7318/8776/files/OutofLine_1.jpg?v=1772097124",
+            "images_list": [
+                "https://cdn.shopify.com/s/files/1/0539/7318/8776/files/OutofLine_1.jpg?v=1772097124",
+                "https://cdn.shopify.com/s/files/1/0539/7318/8776/files/OutofLine_3.jpg?v=1772097124",
+                "https://cdn.shopify.com/s/files/1/0539/7318/8776/files/OutofLine_5.jpg?v=1771496780",
+                "https://cdn.shopify.com/s/files/1/0539/7318/8776/files/OutofLine_2.jpg?v=1771496780"
+            ],
             "product_url": "https://mushq.com/products/out-of-line",
             "department": "Women",
             "subcategory": "Basic Pret | No-Rules",
             "category": "Stitched",
             "product_type": "Basic Pret | No-Rules",
             "pieces": null,
-            "size": "XS",
+            "size_details": [
+                {
+                    "size": "XS",
+                    "available": false
+                },
+                {
+                    "size": "S",
+                    "available": false
+                },
+                {
+                    "size": "M",
+                    "available": true
+                },
+                {
+                    "size": "L",
+                    "available": false
+                },
+                {
+                    "size": "XL",
+                    "available": true
+                }
+            ],
             "sku": "MPBSS260208XS",
-            "available": false
+            "available": true
         },
         {
             "title": "Zyva",
@@ -771,16 +1975,45 @@
             "fabric": "Zarri Silk",
             "price": "43500.00",
             "compare_at_price": null,
-            "image": "https://cdn.shopify.com/s/files/1/0539/7318/8776/files/1_50a2fb34-9815-4b26-9243-e16ecf5a44d4.webp?v=1763809162",
+            "images_list": [
+                "https://cdn.shopify.com/s/files/1/0539/7318/8776/files/1_50a2fb34-9815-4b26-9243-e16ecf5a44d4.webp?v=1763809162",
+                "https://cdn.shopify.com/s/files/1/0539/7318/8776/files/3_08d10d48-166d-450f-93d8-52f356437a93.webp?v=1763809162",
+                "https://cdn.shopify.com/s/files/1/0539/7318/8776/files/6_675ab9fd-de50-4e30-83c4-d2b08bd8600c.webp?v=1763809162",
+                "https://cdn.shopify.com/s/files/1/0539/7318/8776/files/7_14a0e073-7be8-4131-9adb-5846df975465.webp?v=1763809162",
+                "https://cdn.shopify.com/s/files/1/0539/7318/8776/files/4_c736632a-438f-443f-89d9-73682dc0daea.webp?v=1763809162",
+                "https://cdn.shopify.com/s/files/1/0539/7318/8776/files/2_d6af18ad-1536-4247-bc87-7f4b1ff68229.webp?v=1763809162",
+                "https://cdn.shopify.com/s/files/1/0539/7318/8776/files/5_37219dd4-f10c-4d4b-b5a7-8f5ff03c2b99.webp?v=1763809162"
+            ],
             "product_url": "https://mushq.com/products/zyva",
             "department": "Women",
             "subcategory": "Sunehri Anmol Edit | Women",
             "category": "Stitched",
             "product_type": "Sunehri Anmol Edit | Women",
             "pieces": null,
-            "size": "XS",
+            "size_details": [
+                {
+                    "size": "XS",
+                    "available": false
+                },
+                {
+                    "size": "S",
+                    "available": false
+                },
+                {
+                    "size": "M",
+                    "available": true
+                },
+                {
+                    "size": "L",
+                    "available": false
+                },
+                {
+                    "size": "XL",
+                    "available": false
+                }
+            ],
             "sku": "MPLSU240108XS",
-            "available": false
+            "available": true
         },
         {
             "title": "Astrid",
@@ -788,16 +2021,46 @@
             "fabric": "Raw Silk",
             "price": "34500.00",
             "compare_at_price": null,
-            "image": "https://cdn.shopify.com/s/files/1/0539/7318/8776/files/1_b8b1dac1-f45c-4739-bb75-d3c0de62b104.jpg?v=1761916921",
+            "images_list": [
+                "https://cdn.shopify.com/s/files/1/0539/7318/8776/files/1_b8b1dac1-f45c-4739-bb75-d3c0de62b104.jpg?v=1761916921",
+                "https://cdn.shopify.com/s/files/1/0539/7318/8776/files/6_4c70b9a9-739d-4bcc-8862-5e323611ae8c.jpg?v=1761916921",
+                "https://cdn.shopify.com/s/files/1/0539/7318/8776/files/5_4a1e278a-bd2b-4536-96d3-d5cf94a450c2.jpg?v=1761916921",
+                "https://cdn.shopify.com/s/files/1/0539/7318/8776/files/3_a0aa0dc3-0ab9-4ad0-afe5-8b30fb90ca11.jpg?v=1761916921",
+                "https://cdn.shopify.com/s/files/1/0539/7318/8776/files/2_af4f5128-56e1-42ca-88f3-140d1dc55455.jpg?v=1761916921",
+                "https://cdn.shopify.com/s/files/1/0539/7318/8776/files/7_001035f4-e2fc-4bda-8910-fac062331524.jpg?v=1761916921",
+                "https://cdn.shopify.com/s/files/1/0539/7318/8776/files/8_6ba79a6f-c1af-43fa-b7fb-6d933c2d7f9a.jpg?v=1761916921",
+                "https://cdn.shopify.com/s/files/1/0539/7318/8776/files/4_e612626f-2110-47f4-97a7-cc4a04244625.jpg?v=1761916921"
+            ],
             "product_url": "https://mushq.com/products/astrid",
             "department": "Women",
             "subcategory": "Celestine - The Oxford Edit | Woman",
             "category": "Stitched",
             "product_type": "Celestine - The Oxford Edit | Woman",
             "pieces": null,
-            "size": "XS",
+            "size_details": [
+                {
+                    "size": "XS",
+                    "available": false
+                },
+                {
+                    "size": "S",
+                    "available": true
+                },
+                {
+                    "size": "M",
+                    "available": true
+                },
+                {
+                    "size": "L",
+                    "available": true
+                },
+                {
+                    "size": "XL",
+                    "available": false
+                }
+            ],
             "sku": "MPLCE240103XS",
-            "available": false
+            "available": true
         },
         {
             "title": "Luminous Lace",
@@ -805,16 +2068,43 @@
             "fabric": "Raw Silk",
             "price": "34500.00",
             "compare_at_price": null,
-            "image": "https://cdn.shopify.com/s/files/1/0539/7318/8776/files/luminouslace_2_ad19085f-ac20-473f-85a5-be6801c684cb.jpg?v=1764587604",
+            "images_list": [
+                "https://cdn.shopify.com/s/files/1/0539/7318/8776/files/luminouslace_2_ad19085f-ac20-473f-85a5-be6801c684cb.jpg?v=1764587604",
+                "https://cdn.shopify.com/s/files/1/0539/7318/8776/files/luminouslace_4_5a60d47c-d6dc-4798-a521-3c4bfe12d880.jpg?v=1764587604",
+                "https://cdn.shopify.com/s/files/1/0539/7318/8776/files/luminouslace_908d4d5d-8969-4861-aa71-5079a6a1d79e.jpg?v=1764587604",
+                "https://cdn.shopify.com/s/files/1/0539/7318/8776/files/luminouslace_3_3bba335a-0ab1-4eca-bc52-2882f2ee880c.jpg?v=1764587604",
+                "https://cdn.shopify.com/s/files/1/0539/7318/8776/files/luminouslace_1_5f6f2775-67e0-4d3f-a937-2f22632c7c98.jpg?v=1764587604"
+            ],
             "product_url": "https://mushq.com/products/luminous-lace",
             "department": "Women",
             "subcategory": "Celestine - The Oxford Edit | Woman",
             "category": "Stitched",
             "product_type": "Celestine - The Oxford Edit | Woman",
             "pieces": null,
-            "size": "XS",
+            "size_details": [
+                {
+                    "size": "XS",
+                    "available": false
+                },
+                {
+                    "size": "S",
+                    "available": true
+                },
+                {
+                    "size": "M",
+                    "available": true
+                },
+                {
+                    "size": "L",
+                    "available": true
+                },
+                {
+                    "size": "XL",
+                    "available": false
+                }
+            ],
             "sku": "MPLCE240108XS",
-            "available": false
+            "available": true
         },
         {
             "title": "Cosmic Dusk",
@@ -822,14 +2112,44 @@
             "fabric": "Raw Silk",
             "price": "33500.00",
             "compare_at_price": null,
-            "image": "https://cdn.shopify.com/s/files/1/0539/7318/8776/files/1_963b37a3-3df9-4d66-9056-9d747d2e0780.webp?v=1763814849",
+            "images_list": [
+                "https://cdn.shopify.com/s/files/1/0539/7318/8776/files/1_963b37a3-3df9-4d66-9056-9d747d2e0780.webp?v=1763814849",
+                "https://cdn.shopify.com/s/files/1/0539/7318/8776/files/7_d517e2de-4a22-48be-a395-4ecb2a3ce5e3.webp?v=1763814849",
+                "https://cdn.shopify.com/s/files/1/0539/7318/8776/files/10_b49c8615-a7c5-4668-b3ab-a4d42fd064fa.webp?v=1763814849",
+                "https://cdn.shopify.com/s/files/1/0539/7318/8776/files/3_a264b366-faae-4e04-b33d-ee0dca767c78.webp?v=1763814849",
+                "https://cdn.shopify.com/s/files/1/0539/7318/8776/files/5_a516f6ed-dccb-4f05-bf66-899c0bcdc912.webp?v=1763814849",
+                "https://cdn.shopify.com/s/files/1/0539/7318/8776/files/4_58b7108e-3188-48a2-b92a-9ad5a0bebf41.webp?v=1763814849",
+                "https://cdn.shopify.com/s/files/1/0539/7318/8776/files/6_272a9b8e-dbdc-477d-bea4-0dcdfeb70705.webp?v=1763814849",
+                "https://cdn.shopify.com/s/files/1/0539/7318/8776/files/9_942c4ca8-6f4a-4a16-8e80-11e4fac397e0.webp?v=1763814849"
+            ],
             "product_url": "https://mushq.com/products/cosmic-dusk",
             "department": "Women",
             "subcategory": "Celestine - The Oxford Edit | Woman",
             "category": "Stitched",
             "product_type": "Celestine - The Oxford Edit | Woman",
             "pieces": null,
-            "size": "XS",
+            "size_details": [
+                {
+                    "size": "XS",
+                    "available": true
+                },
+                {
+                    "size": "S",
+                    "available": true
+                },
+                {
+                    "size": "M",
+                    "available": true
+                },
+                {
+                    "size": "L",
+                    "available": true
+                },
+                {
+                    "size": "XL",
+                    "available": true
+                }
+            ],
             "sku": "MPLCE240105XS",
             "available": true
         },
@@ -839,16 +2159,44 @@
             "fabric": "Raw Silk",
             "price": "35500.00",
             "compare_at_price": null,
-            "image": "https://cdn.shopify.com/s/files/1/0539/7318/8776/files/lunanight_1.jpg?v=1761916249",
+            "images_list": [
+                "https://cdn.shopify.com/s/files/1/0539/7318/8776/files/lunanight_1.jpg?v=1761916249",
+                "https://cdn.shopify.com/s/files/1/0539/7318/8776/files/lunanight_3.jpg?v=1761916249",
+                "https://cdn.shopify.com/s/files/1/0539/7318/8776/files/lunanight_2.jpg?v=1761916249",
+                "https://cdn.shopify.com/s/files/1/0539/7318/8776/files/MPLCE240102-2.jpg?v=1761916249",
+                "https://cdn.shopify.com/s/files/1/0539/7318/8776/files/MPLCE240102-3.jpg?v=1761916249",
+                "https://cdn.shopify.com/s/files/1/0539/7318/8776/files/MPLCE240102-5.jpg?v=1761916249"
+            ],
             "product_url": "https://mushq.com/products/luna-night",
             "department": "Women",
             "subcategory": "Celestine - The Oxford Edit | Woman",
             "category": "Stitched",
             "product_type": "Celestine - The Oxford Edit | Woman",
             "pieces": null,
-            "size": "XS",
+            "size_details": [
+                {
+                    "size": "XS",
+                    "available": false
+                },
+                {
+                    "size": "S",
+                    "available": false
+                },
+                {
+                    "size": "M",
+                    "available": true
+                },
+                {
+                    "size": "L",
+                    "available": true
+                },
+                {
+                    "size": "XL",
+                    "available": false
+                }
+            ],
             "sku": "MPLCE240102XS",
-            "available": false
+            "available": true
         },
         {
             "title": "Evelyn Wisp",
@@ -856,14 +2204,51 @@
             "fabric": "Korean Raw Silk",
             "price": "34500.00",
             "compare_at_price": null,
-            "image": "https://cdn.shopify.com/s/files/1/0539/7318/8776/files/035A2099_7c997835-7820-4a75-a48e-b008e5dec201.jpg?v=1759325708",
+            "images_list": [
+                "https://cdn.shopify.com/s/files/1/0539/7318/8776/files/035A2099_7c997835-7820-4a75-a48e-b008e5dec201.jpg?v=1759325708",
+                "https://cdn.shopify.com/s/files/1/0539/7318/8776/files/035A2033_15d6e6c5-0309-4f8e-a178-24dbde0d0a54.jpg?v=1759325708",
+                "https://cdn.shopify.com/s/files/1/0539/7318/8776/files/035A2051_5b8cf72a-aa61-4d22-bc2c-cbe90c2157e7.jpg?v=1759325708",
+                "https://cdn.shopify.com/s/files/1/0539/7318/8776/files/035A2003_ee414459-1638-431e-b1ba-07b760e7d302.jpg?v=1759325708",
+                "https://cdn.shopify.com/s/files/1/0539/7318/8776/files/035A2064_7c18a535-014a-4e53-bccd-d981fc6d54b3.jpg?v=1759325708",
+                "https://cdn.shopify.com/s/files/1/0539/7318/8776/files/035A2071_5ffe133f-5941-4fea-a280-1cff3109dbdf.jpg?v=1759325708",
+                "https://cdn.shopify.com/s/files/1/0539/7318/8776/files/035A2116_a4b922ea-3110-44c4-9ce7-013576e2fb6c.jpg?v=1759325525",
+                "https://cdn.shopify.com/s/files/1/0539/7318/8776/files/035A2129_8061cd38-14cd-46aa-8c21-e53dfbe035e0.jpg?v=1759325525",
+                "https://cdn.shopify.com/s/files/1/0539/7318/8776/files/035A2155_698ceda8-c1c2-4510-b06d-c5aca8242343.jpg?v=1759325525",
+                "https://cdn.shopify.com/s/files/1/0539/7318/8776/files/035A2179_933f6933-64c2-46d6-890c-3878af783e65.jpg?v=1759325525",
+                "https://cdn.shopify.com/s/files/1/0539/7318/8776/files/035A2186_e7d33fc2-ade5-49e2-84d4-7b448d403f5f.jpg?v=1759325525",
+                "https://cdn.shopify.com/s/files/1/0539/7318/8776/files/035A2191_0ca861cb-401d-4a8a-9008-4b081bf491ae.jpg?v=1759325525",
+                "https://cdn.shopify.com/s/files/1/0539/7318/8776/files/035A2196_dda1952b-bc62-44ed-b536-15207faf324a.jpg?v=1759325525",
+                "https://cdn.shopify.com/s/files/1/0539/7318/8776/files/035A2204_98c82ad0-362c-4c25-be15-65e80b6cd8eb.jpg?v=1759325525",
+                "https://cdn.shopify.com/s/files/1/0539/7318/8776/files/035A2221_a8c01bae-ac8b-45b6-a836-62817f476a5b.jpg?v=1759325524"
+            ],
             "product_url": "https://mushq.com/products/evelyn-wisp",
             "department": "Women",
             "subcategory": "Celestine",
             "category": "Stitched",
             "product_type": "Celestine",
             "pieces": null,
-            "size": "XS",
+            "size_details": [
+                {
+                    "size": "XS",
+                    "available": false
+                },
+                {
+                    "size": "S",
+                    "available": false
+                },
+                {
+                    "size": "M",
+                    "available": false
+                },
+                {
+                    "size": "L",
+                    "available": false
+                },
+                {
+                    "size": "XL",
+                    "available": false
+                }
+            ],
             "sku": "MPLCE250103XS",
             "available": false
         },
@@ -873,14 +2258,50 @@
             "fabric": "Korean Raw Silk",
             "price": "35500.00",
             "compare_at_price": null,
-            "image": "https://cdn.shopify.com/s/files/1/0539/7318/8776/files/035A1539.jpg?v=1759325918",
+            "images_list": [
+                "https://cdn.shopify.com/s/files/1/0539/7318/8776/files/035A1539.jpg?v=1759325918",
+                "https://cdn.shopify.com/s/files/1/0539/7318/8776/files/035A1529.jpg?v=1759325918",
+                "https://cdn.shopify.com/s/files/1/0539/7318/8776/files/035A1552.jpg?v=1759325918",
+                "https://cdn.shopify.com/s/files/1/0539/7318/8776/files/035A1564.jpg?v=1759325918",
+                "https://cdn.shopify.com/s/files/1/0539/7318/8776/files/035A1586.jpg?v=1759325918",
+                "https://cdn.shopify.com/s/files/1/0539/7318/8776/files/035A1620.jpg?v=1759325918",
+                "https://cdn.shopify.com/s/files/1/0539/7318/8776/files/035A1665.jpg?v=1759325918",
+                "https://cdn.shopify.com/s/files/1/0539/7318/8776/files/035A1673.jpg?v=1759325919",
+                "https://cdn.shopify.com/s/files/1/0539/7318/8776/files/035A1694.jpg?v=1759325918",
+                "https://cdn.shopify.com/s/files/1/0539/7318/8776/files/035A1707.jpg?v=1759325918",
+                "https://cdn.shopify.com/s/files/1/0539/7318/8776/files/035A1724.jpg?v=1759325919",
+                "https://cdn.shopify.com/s/files/1/0539/7318/8776/files/035A1733.jpg?v=1759325918",
+                "https://cdn.shopify.com/s/files/1/0539/7318/8776/files/035A1737.jpg?v=1759325918",
+                "https://cdn.shopify.com/s/files/1/0539/7318/8776/files/035A1743.jpg?v=1759325918"
+            ],
             "product_url": "https://mushq.com/products/hazel-cascade",
             "department": "Women",
             "subcategory": "Celestine",
             "category": "Stitched",
             "product_type": "Celestine",
             "pieces": null,
-            "size": "XS",
+            "size_details": [
+                {
+                    "size": "XS",
+                    "available": true
+                },
+                {
+                    "size": "S",
+                    "available": true
+                },
+                {
+                    "size": "M",
+                    "available": true
+                },
+                {
+                    "size": "L",
+                    "available": true
+                },
+                {
+                    "size": "XL",
+                    "available": true
+                }
+            ],
             "sku": "MPLCE250109XS",
             "available": true
         },
@@ -890,14 +2311,47 @@
             "fabric": "Net",
             "price": "47500.00",
             "compare_at_price": null,
-            "image": "https://cdn.shopify.com/s/files/1/0539/7318/8776/files/1_3b3b2382-3e46-4465-808a-503cabd8f3a6.webp?v=1763809482",
+            "images_list": [
+                "https://cdn.shopify.com/s/files/1/0539/7318/8776/files/1_3b3b2382-3e46-4465-808a-503cabd8f3a6.webp?v=1763809482",
+                "https://cdn.shopify.com/s/files/1/0539/7318/8776/files/5_c9241f40-646e-4b9d-8f5d-f1431efad2a1.webp?v=1763809482",
+                "https://cdn.shopify.com/s/files/1/0539/7318/8776/files/7_5b7ef318-e905-4cb5-804a-bca84923a898.webp?v=1763809482",
+                "https://cdn.shopify.com/s/files/1/0539/7318/8776/files/4_b7b9bdf3-3012-4a85-ade1-21d7bffe702a.webp?v=1763809482",
+                "https://cdn.shopify.com/s/files/1/0539/7318/8776/files/8_e5975a91-a5bd-409e-99f5-8ac3f611d951.webp?v=1763809482",
+                "https://cdn.shopify.com/s/files/1/0539/7318/8776/files/9_1718152a-a754-4e51-9966-7ff80920767d.webp?v=1763809482",
+                "https://cdn.shopify.com/s/files/1/0539/7318/8776/files/2_cf45575f-5c38-4813-bdbf-8bd3182669d9.webp?v=1763809482",
+                "https://cdn.shopify.com/s/files/1/0539/7318/8776/files/3_209ebc43-265d-4ec6-8f0b-fd0a2fc58b5a.webp?v=1763809482",
+                "https://cdn.shopify.com/s/files/1/0539/7318/8776/files/6_55724131-bea9-4397-baf7-50b3ccb0779e.webp?v=1763809482",
+                "https://cdn.shopify.com/s/files/1/0539/7318/8776/files/11_0924d365-c109-4aa2-b8a6-b8e594b8cac7.webp?v=1763809482",
+                "https://cdn.shopify.com/s/files/1/0539/7318/8776/files/12_7f306dc8-d275-4af5-a971-83455856e9a0.webp?v=1763809482"
+            ],
             "product_url": "https://mushq.com/products/cardamine",
             "department": "Women",
             "subcategory": "Fleur Luxury Formals '24 | Woman",
             "category": "Stitched",
             "product_type": "Fleur Luxury Formals '24 | Woman",
             "pieces": null,
-            "size": "XS",
+            "size_details": [
+                {
+                    "size": "XS",
+                    "available": true
+                },
+                {
+                    "size": "S",
+                    "available": true
+                },
+                {
+                    "size": "M",
+                    "available": true
+                },
+                {
+                    "size": "L",
+                    "available": true
+                },
+                {
+                    "size": "XL",
+                    "available": true
+                }
+            ],
             "sku": "MPLES240309XS",
             "available": true
         },
@@ -907,14 +2361,43 @@
             "fabric": "Net",
             "price": "41500.00",
             "compare_at_price": null,
-            "image": "https://cdn.shopify.com/s/files/1/0539/7318/8776/files/3_6ac879ec-b15b-4e2c-a2ed-cd61de5c1106.webp?v=1763810043",
+            "images_list": [
+                "https://cdn.shopify.com/s/files/1/0539/7318/8776/files/3_6ac879ec-b15b-4e2c-a2ed-cd61de5c1106.webp?v=1763810043",
+                "https://cdn.shopify.com/s/files/1/0539/7318/8776/files/6_92713036-bd22-49bc-917b-4439ed181e38.webp?v=1763810043",
+                "https://cdn.shopify.com/s/files/1/0539/7318/8776/files/15.webp?v=1763810043",
+                "https://cdn.shopify.com/s/files/1/0539/7318/8776/files/13.webp?v=1763810043",
+                "https://cdn.shopify.com/s/files/1/0539/7318/8776/files/14.webp?v=1763810043",
+                "https://cdn.shopify.com/s/files/1/0539/7318/8776/files/5_0a36d2d1-d43f-4629-b51e-cc25031bf17b.webp?v=1763810043",
+                "https://cdn.shopify.com/s/files/1/0539/7318/8776/files/9_2d3cf2ba-3d48-494d-8a39-f3751d03cfea.webp?v=1763810043"
+            ],
             "product_url": "https://mushq.com/products/marguerite",
             "department": "Women",
             "subcategory": "Fleur Luxury Formals '24 | Woman",
             "category": "Stitched",
             "product_type": "Fleur Luxury Formals '24 | Woman",
             "pieces": null,
-            "size": "XS",
+            "size_details": [
+                {
+                    "size": "XS",
+                    "available": true
+                },
+                {
+                    "size": "S",
+                    "available": true
+                },
+                {
+                    "size": "M",
+                    "available": true
+                },
+                {
+                    "size": "L",
+                    "available": true
+                },
+                {
+                    "size": "XL",
+                    "available": true
+                }
+            ],
             "sku": "MPLES240301XS",
             "available": true
         },
@@ -924,14 +2407,41 @@
             "fabric": "Net",
             "price": "46500.00",
             "compare_at_price": null,
-            "image": "https://cdn.shopify.com/s/files/1/0539/7318/8776/files/1_a0423a52-67d4-43ef-9bda-b430618d7ef1.webp?v=1763809787",
+            "images_list": [
+                "https://cdn.shopify.com/s/files/1/0539/7318/8776/files/1_a0423a52-67d4-43ef-9bda-b430618d7ef1.webp?v=1763809787",
+                "https://cdn.shopify.com/s/files/1/0539/7318/8776/files/2_9ab0ee7b-389d-447c-bb18-65c04766653d.webp?v=1763809787",
+                "https://cdn.shopify.com/s/files/1/0539/7318/8776/files/12_d26beb06-fd70-4a92-9310-fc0a3713b3dd.webp?v=1763809787",
+                "https://cdn.shopify.com/s/files/1/0539/7318/8776/files/7_20786cfe-0821-41b5-bced-b794737472b7.webp?v=1763809787",
+                "https://cdn.shopify.com/s/files/1/0539/7318/8776/files/5_d9c5baf1-8ecf-4d3e-87e0-2793a77461e2.webp?v=1763809787"
+            ],
             "product_url": "https://mushq.com/products/lys",
             "department": "Women",
             "subcategory": "Fleur Luxury Formals '24 | Woman",
             "category": "Stitched",
             "product_type": "Fleur Luxury Formals '24 | Woman",
             "pieces": null,
-            "size": "XS",
+            "size_details": [
+                {
+                    "size": "XS",
+                    "available": true
+                },
+                {
+                    "size": "S",
+                    "available": true
+                },
+                {
+                    "size": "M",
+                    "available": true
+                },
+                {
+                    "size": "L",
+                    "available": true
+                },
+                {
+                    "size": "XL",
+                    "available": true
+                }
+            ],
             "sku": "MPLES240302XS",
             "available": true
         },
@@ -941,14 +2451,54 @@
             "fabric": "Net",
             "price": "42500.00",
             "compare_at_price": null,
-            "image": "https://cdn.shopify.com/s/files/1/0539/7318/8776/files/MPLES240205-1_1000x_b2be64d7-9071-4aa9-9d49-8fb8077f3517.jpg?v=1765564503",
+            "images_list": [
+                "https://cdn.shopify.com/s/files/1/0539/7318/8776/files/MPLES240205-1_1000x_b2be64d7-9071-4aa9-9d49-8fb8077f3517.jpg?v=1765564503",
+                "https://cdn.shopify.com/s/files/1/0539/7318/8776/files/MPLES240205-4.jpg?v=1765564503",
+                "https://cdn.shopify.com/s/files/1/0539/7318/8776/files/MPLES240205-2_1000x_b2055a87-9107-4fe6-9a31-e7e224e1867c.jpg?v=1765564503",
+                "https://cdn.shopify.com/s/files/1/0539/7318/8776/files/MPLES240205-5.jpg?v=1765564503",
+                "https://cdn.shopify.com/s/files/1/0539/7318/8776/files/MPLES240205-3_eb830a00-425b-4409-b963-01ebeb66e1d2.jpg?v=1765564503",
+                "https://cdn.shopify.com/s/files/1/0539/7318/8776/files/MPLES240205-6.jpg?v=1765564503",
+                "https://cdn.shopify.com/s/files/1/0539/7318/8776/files/MPLES240205-7.jpg?v=1765564503",
+                "https://cdn.shopify.com/s/files/1/0539/7318/8776/files/MPLES240205-8.jpg?v=1765564503",
+                "https://cdn.shopify.com/s/files/1/0539/7318/8776/files/MPLES240205-9.jpg?v=1765564503",
+                "https://cdn.shopify.com/s/files/1/0539/7318/8776/files/MPLES240205-10.jpg?v=1765564503",
+                "https://cdn.shopify.com/s/files/1/0539/7318/8776/files/MPLES240205-11.jpg?v=1765564503",
+                "https://cdn.shopify.com/s/files/1/0539/7318/8776/files/MPLES240205-12.jpg?v=1765564503",
+                "https://cdn.shopify.com/s/files/1/0539/7318/8776/files/MPLES240205-13.jpg?v=1765564503",
+                "https://cdn.shopify.com/s/files/1/0539/7318/8776/files/MPLES240205-14.jpg?v=1765564503",
+                "https://cdn.shopify.com/s/files/1/0539/7318/8776/files/MPLES240205-15.jpg?v=1765564503",
+                "https://cdn.shopify.com/s/files/1/0539/7318/8776/files/MPLES240205-16.jpg?v=1765564503",
+                "https://cdn.shopify.com/s/files/1/0539/7318/8776/files/MPLES240205-17.jpg?v=1765564503",
+                "https://cdn.shopify.com/s/files/1/0539/7318/8776/files/MPLES240205-18.jpg?v=1765564503"
+            ],
             "product_url": "https://mushq.com/products/muguet",
             "department": "Women",
             "subcategory": "Fleur Luxury Formals '24 | Woman",
             "category": "Stitched",
             "product_type": "Fleur Luxury Formals '24 | Woman",
             "pieces": null,
-            "size": "XS",
+            "size_details": [
+                {
+                    "size": "XS",
+                    "available": true
+                },
+                {
+                    "size": "S",
+                    "available": true
+                },
+                {
+                    "size": "M",
+                    "available": true
+                },
+                {
+                    "size": "L",
+                    "available": true
+                },
+                {
+                    "size": "XL",
+                    "available": true
+                }
+            ],
             "sku": "MPLES240305XS",
             "available": true
         },
@@ -958,16 +2508,48 @@
             "fabric": "Zarri Silk",
             "price": "49500.00",
             "compare_at_price": null,
-            "image": "https://cdn.shopify.com/s/files/1/0539/7318/8776/files/1_7ed04efb-213c-463f-b034-9cf2648656c1.webp?v=1763802876",
+            "images_list": [
+                "https://cdn.shopify.com/s/files/1/0539/7318/8776/files/1_7ed04efb-213c-463f-b034-9cf2648656c1.webp?v=1763802876",
+                "https://cdn.shopify.com/s/files/1/0539/7318/8776/files/7_4e50b7ca-8012-4a5a-a452-a6875e8e4012.webp?v=1763802876",
+                "https://cdn.shopify.com/s/files/1/0539/7318/8776/files/11_aa789799-8396-4108-82b5-262265c4c69f.webp?v=1763802876",
+                "https://cdn.shopify.com/s/files/1/0539/7318/8776/files/3_93e0ea10-7f51-4c2d-85df-448605f32d57.webp?v=1763802876",
+                "https://cdn.shopify.com/s/files/1/0539/7318/8776/files/5_019fca6c-fb3a-4da3-8ea1-66f9a8d09133.webp?v=1763802876",
+                "https://cdn.shopify.com/s/files/1/0539/7318/8776/files/4_2895fa17-73c9-4259-b5d1-70f6c7a005ea.webp?v=1763802876",
+                "https://cdn.shopify.com/s/files/1/0539/7318/8776/files/2_8be7f1a7-8e65-4495-928e-5a8219cabf59.webp?v=1763802876",
+                "https://cdn.shopify.com/s/files/1/0539/7318/8776/files/6_7d2b36d7-d12f-491a-a92e-7d04d858858a.webp?v=1763802876",
+                "https://cdn.shopify.com/s/files/1/0539/7318/8776/files/9_c1684dcc-88d7-43ae-b5d3-496db421101e.webp?v=1763802876",
+                "https://cdn.shopify.com/s/files/1/0539/7318/8776/files/10_79ab3e16-67bf-4612-9e24-1c9225edd3cc.webp?v=1763802876"
+            ],
             "product_url": "https://mushq.com/products/amaya",
             "department": "Women",
             "subcategory": "Sunehri Anmol Edit | Women",
             "category": "Stitched",
             "product_type": "Sunehri Anmol Edit | Women",
             "pieces": null,
-            "size": "XS",
+            "size_details": [
+                {
+                    "size": "XS",
+                    "available": false
+                },
+                {
+                    "size": "S",
+                    "available": true
+                },
+                {
+                    "size": "M",
+                    "available": true
+                },
+                {
+                    "size": "L",
+                    "available": true
+                },
+                {
+                    "size": "XL",
+                    "available": true
+                }
+            ],
             "sku": "MPLSU240101XS",
-            "available": false
+            "available": true
         },
         {
             "title": "Heer",
@@ -975,14 +2557,47 @@
             "fabric": "Zarri Silk",
             "price": "44500.00",
             "compare_at_price": null,
-            "image": "https://cdn.shopify.com/s/files/1/0539/7318/8776/files/1_0e5b3f8c-6f21-41db-ba99-7dc889794f0a.webp?v=1763799270",
+            "images_list": [
+                "https://cdn.shopify.com/s/files/1/0539/7318/8776/files/1_0e5b3f8c-6f21-41db-ba99-7dc889794f0a.webp?v=1763799270",
+                "https://cdn.shopify.com/s/files/1/0539/7318/8776/files/12.webp?v=1763799270",
+                "https://cdn.shopify.com/s/files/1/0539/7318/8776/files/2_3d21949d-1172-4852-812d-16e15e457a43.webp?v=1763799270",
+                "https://cdn.shopify.com/s/files/1/0539/7318/8776/files/11.webp?v=1763799270",
+                "https://cdn.shopify.com/s/files/1/0539/7318/8776/files/10.webp?v=1763799270",
+                "https://cdn.shopify.com/s/files/1/0539/7318/8776/files/7_1902a85e-680c-487e-be24-ff5141e967c3.jpg?v=1763799270",
+                "https://cdn.shopify.com/s/files/1/0539/7318/8776/files/4_8dbf6794-8b0d-4254-a3f0-0778836bc854.webp?v=1763799270",
+                "https://cdn.shopify.com/s/files/1/0539/7318/8776/files/5_73636898-1be4-4c77-9529-45c68093b92c.webp?v=1763799270",
+                "https://cdn.shopify.com/s/files/1/0539/7318/8776/files/6_ff74ceed-de44-4334-9a07-a66fe7fba4fc.webp?v=1763799270",
+                "https://cdn.shopify.com/s/files/1/0539/7318/8776/files/8_6c0860df-2e6e-4a7a-8d5f-38eedafa3bc5.webp?v=1763799270",
+                "https://cdn.shopify.com/s/files/1/0539/7318/8776/files/9.webp?v=1763799270"
+            ],
             "product_url": "https://mushq.com/products/heer",
             "department": "Women",
             "subcategory": "Sunehri Anmol Edit | Women",
             "category": "Stitched",
             "product_type": "Sunehri Anmol Edit | Women",
             "pieces": null,
-            "size": "XS",
+            "size_details": [
+                {
+                    "size": "XS",
+                    "available": true
+                },
+                {
+                    "size": "S",
+                    "available": true
+                },
+                {
+                    "size": "M",
+                    "available": true
+                },
+                {
+                    "size": "L",
+                    "available": true
+                },
+                {
+                    "size": "XL",
+                    "available": true
+                }
+            ],
             "sku": "MPLSU240105XS",
             "available": true
         },
@@ -992,14 +2607,43 @@
             "fabric": "Satin Zari",
             "price": "47500.00",
             "compare_at_price": null,
-            "image": "https://cdn.shopify.com/s/files/1/0539/7318/8776/files/1_99298704-dd10-4ba2-b6dd-720e3efd063d.webp?v=1763808800",
+            "images_list": [
+                "https://cdn.shopify.com/s/files/1/0539/7318/8776/files/1_99298704-dd10-4ba2-b6dd-720e3efd063d.webp?v=1763808800",
+                "https://cdn.shopify.com/s/files/1/0539/7318/8776/files/3_1619c281-0789-47cf-b126-35df45e9d360.webp?v=1763808800",
+                "https://cdn.shopify.com/s/files/1/0539/7318/8776/files/5_c4d771cd-7fee-445f-821b-681a9b25fd08.webp?v=1763808800",
+                "https://cdn.shopify.com/s/files/1/0539/7318/8776/files/6_0e09a305-792b-484c-a75f-777acfb8716c.webp?v=1763808800",
+                "https://cdn.shopify.com/s/files/1/0539/7318/8776/files/9_81331cc8-fc66-4a2b-881e-cdedbd96abb8.webp?v=1763808800",
+                "https://cdn.shopify.com/s/files/1/0539/7318/8776/files/8_34e22e44-3267-43a9-afbe-6e3b4e9fe532.webp?v=1763808800",
+                "https://cdn.shopify.com/s/files/1/0539/7318/8776/files/7_5353b18a-5b5b-4825-97c5-62e9f9bf71b0.webp?v=1763808800"
+            ],
             "product_url": "https://mushq.com/products/neelam",
             "department": "Women",
             "subcategory": "Sunheri Resham Edit | Women",
             "category": "Stitched",
             "product_type": "Sunheri Resham Edit | Women",
             "pieces": null,
-            "size": "XS",
+            "size_details": [
+                {
+                    "size": "XS",
+                    "available": true
+                },
+                {
+                    "size": "S",
+                    "available": true
+                },
+                {
+                    "size": "M",
+                    "available": true
+                },
+                {
+                    "size": "L",
+                    "available": true
+                },
+                {
+                    "size": "XL",
+                    "available": false
+                }
+            ],
             "sku": "MPLSU250107XS",
             "available": true
         },
@@ -1009,16 +2653,46 @@
             "fabric": "Satin Zari",
             "price": "47500.00",
             "compare_at_price": null,
-            "image": "https://cdn.shopify.com/s/files/1/0539/7318/8776/files/1_1b0e7503-4983-454f-83a6-65a997748be9.webp?v=1763809024",
+            "images_list": [
+                "https://cdn.shopify.com/s/files/1/0539/7318/8776/files/1_1b0e7503-4983-454f-83a6-65a997748be9.webp?v=1763809024",
+                "https://cdn.shopify.com/s/files/1/0539/7318/8776/files/6_cce9ebb8-9b20-4570-b860-a81c9d48b62c.webp?v=1763809024",
+                "https://cdn.shopify.com/s/files/1/0539/7318/8776/files/5_1aca5425-41ae-4061-9894-30b83ccf8165.webp?v=1763809024",
+                "https://cdn.shopify.com/s/files/1/0539/7318/8776/files/2_c17bebba-c760-4b7e-ade4-3d4893ebfa12.webp?v=1763809024",
+                "https://cdn.shopify.com/s/files/1/0539/7318/8776/files/7_1e926794-4295-4291-a01d-78bf1a419e4c.webp?v=1763809024",
+                "https://cdn.shopify.com/s/files/1/0539/7318/8776/files/3_a557c5ae-2fcf-4e49-80eb-4e8047be521e.webp?v=1763809024",
+                "https://cdn.shopify.com/s/files/1/0539/7318/8776/files/4_cb268fae-d727-4941-8dee-4847317b46ee.webp?v=1763809024",
+                "https://cdn.shopify.com/s/files/1/0539/7318/8776/files/8_08b7e00f-310b-48cb-b968-38bb2a7e7620.webp?v=1763809024"
+            ],
             "product_url": "https://mushq.com/products/resham",
             "department": "Women",
             "subcategory": "Sunheri Resham Edit | Women",
             "category": "Stitched",
             "product_type": "Sunheri Resham Edit | Women",
             "pieces": null,
-            "size": "XS",
+            "size_details": [
+                {
+                    "size": "XS",
+                    "available": false
+                },
+                {
+                    "size": "S",
+                    "available": true
+                },
+                {
+                    "size": "M",
+                    "available": true
+                },
+                {
+                    "size": "L",
+                    "available": true
+                },
+                {
+                    "size": "XL",
+                    "available": false
+                }
+            ],
             "sku": "MPLSU250103XS",
-            "available": false
+            "available": true
         },
         {
             "title": "Lamia",
@@ -1026,14 +2700,48 @@
             "fabric": "Zarri Silk",
             "price": "49500.00",
             "compare_at_price": null,
-            "image": "https://cdn.shopify.com/s/files/1/0539/7318/8776/files/1_b22960ff-5e53-42da-9578-4ca707eea084.webp?v=1763813047",
+            "images_list": [
+                "https://cdn.shopify.com/s/files/1/0539/7318/8776/files/1_b22960ff-5e53-42da-9578-4ca707eea084.webp?v=1763813047",
+                "https://cdn.shopify.com/s/files/1/0539/7318/8776/files/5_9545b54b-1a9b-4a2e-9029-63bc49482e0a.webp?v=1763813047",
+                "https://cdn.shopify.com/s/files/1/0539/7318/8776/files/8_c1d824f5-db49-407c-adbf-06ac0f66930f.webp?v=1763813047",
+                "https://cdn.shopify.com/s/files/1/0539/7318/8776/files/2_4fba4d8c-947c-46f4-8dd1-88e0d9ddf0b7.webp?v=1763813047",
+                "https://cdn.shopify.com/s/files/1/0539/7318/8776/files/6_08c37fc6-4190-417a-a949-1ee6030c3efe.webp?v=1763813047",
+                "https://cdn.shopify.com/s/files/1/0539/7318/8776/files/7_94d8e184-2b33-4652-9092-f12c25836081.webp?v=1763813047",
+                "https://cdn.shopify.com/s/files/1/0539/7318/8776/files/12_5058805f-b59c-4f5f-b23e-d3783c2914c9.webp?v=1763813047",
+                "https://cdn.shopify.com/s/files/1/0539/7318/8776/files/4_2c120ab2-6601-4203-a26d-1fa5f4b03c68.webp?v=1763813047",
+                "https://cdn.shopify.com/s/files/1/0539/7318/8776/files/9_668a6dab-6272-4b1a-873f-926ce13a5cab.webp?v=1763813047",
+                "https://cdn.shopify.com/s/files/1/0539/7318/8776/files/10_870de71e-5e87-4007-bd60-65b49eb86e25.webp?v=1763813047",
+                "https://cdn.shopify.com/s/files/1/0539/7318/8776/files/11_f0451d99-9bc1-4d5f-a0c4-1e2f2405822e.webp?v=1763813047",
+                "https://cdn.shopify.com/s/files/1/0539/7318/8776/files/3_c97a13ea-2164-4595-a681-635d10635b45.webp?v=1763813047"
+            ],
             "product_url": "https://mushq.com/products/lamia",
             "department": "Women",
             "subcategory": "Sunehri Anmol Edit | Women",
             "category": "Stitched",
             "product_type": "Sunehri Anmol Edit | Women",
             "pieces": null,
-            "size": "XS",
+            "size_details": [
+                {
+                    "size": "XS",
+                    "available": true
+                },
+                {
+                    "size": "S",
+                    "available": true
+                },
+                {
+                    "size": "M",
+                    "available": true
+                },
+                {
+                    "size": "L",
+                    "available": true
+                },
+                {
+                    "size": "XL",
+                    "available": true
+                }
+            ],
             "sku": "MPLSU240107XS",
             "available": true
         },
@@ -1043,14 +2751,45 @@
             "fabric": "Zarri Silk",
             "price": "46900.00",
             "compare_at_price": null,
-            "image": "https://cdn.shopify.com/s/files/1/0539/7318/8776/files/15_3804f2a6-e830-451d-8c7e-57e262ff9e9e.webp?v=1764659375",
+            "images_list": [
+                "https://cdn.shopify.com/s/files/1/0539/7318/8776/files/15_3804f2a6-e830-451d-8c7e-57e262ff9e9e.webp?v=1764659375",
+                "https://cdn.shopify.com/s/files/1/0539/7318/8776/files/6_9ce759f0-aeaa-42e9-b293-604197420834.webp?v=1764659375",
+                "https://cdn.shopify.com/s/files/1/0539/7318/8776/files/8_a1a9ee31-d1ed-4fe2-9659-c8354ba58052.webp?v=1764659375",
+                "https://cdn.shopify.com/s/files/1/0539/7318/8776/files/1_255009d0-489c-4f42-b8a6-0d653d7495ae.webp?v=1764659375",
+                "https://cdn.shopify.com/s/files/1/0539/7318/8776/files/10_7899c0d2-0943-450c-a4e7-9c7b4db04380.webp?v=1764659375",
+                "https://cdn.shopify.com/s/files/1/0539/7318/8776/files/4_1641b93e-f20b-4dc6-85fb-92ab7c8ca4a2.webp?v=1764659375",
+                "https://cdn.shopify.com/s/files/1/0539/7318/8776/files/14_e874a59c-141a-4b7e-baff-eb71d1e12eed.webp?v=1764659375",
+                "https://cdn.shopify.com/s/files/1/0539/7318/8776/files/3_f59c9a1e-726a-49a4-87fb-723c413db86c.webp?v=1764659375",
+                "https://cdn.shopify.com/s/files/1/0539/7318/8776/files/2_22a2488d-9959-4427-a6aa-e96d3587ed09.webp?v=1763810288"
+            ],
             "product_url": "https://mushq.com/products/mehza",
             "department": "Women",
             "subcategory": "Sunehri Anmol Edit | Women",
             "category": "Stitched",
             "product_type": "Sunehri Anmol Edit | Women",
             "pieces": null,
-            "size": "XS",
+            "size_details": [
+                {
+                    "size": "XS",
+                    "available": true
+                },
+                {
+                    "size": "S",
+                    "available": true
+                },
+                {
+                    "size": "M",
+                    "available": true
+                },
+                {
+                    "size": "L",
+                    "available": true
+                },
+                {
+                    "size": "XL",
+                    "available": false
+                }
+            ],
             "sku": "MPLSU240103XS",
             "available": true
         },
@@ -1060,14 +2799,42 @@
             "fabric": "lama silk",
             "price": "49950.00",
             "compare_at_price": null,
-            "image": "https://cdn.shopify.com/s/files/1/0539/7318/8776/files/035A5348_8741b209-63a4-41e6-961f-16120a84e58b.jpg?v=1767957350",
+            "images_list": [
+                "https://cdn.shopify.com/s/files/1/0539/7318/8776/files/035A5348_8741b209-63a4-41e6-961f-16120a84e58b.jpg?v=1767957350",
+                "https://cdn.shopify.com/s/files/1/0539/7318/8776/files/Samiya_3.jpg?v=1767957350",
+                "https://cdn.shopify.com/s/files/1/0539/7318/8776/files/Samiya_5.jpg?v=1767957350",
+                "https://cdn.shopify.com/s/files/1/0539/7318/8776/files/Samiya_4.jpg?v=1767957350",
+                "https://cdn.shopify.com/s/files/1/0539/7318/8776/files/Samiya_2.jpg?v=1767957350",
+                "https://cdn.shopify.com/s/files/1/0539/7318/8776/files/Samiya_6.jpg?v=1767957350"
+            ],
             "product_url": "https://mushq.com/products/samiya",
             "department": "Women",
             "subcategory": "Pret | Sunehri '26",
             "category": "Stitched",
             "product_type": "Pret | Sunehri '26",
             "pieces": null,
-            "size": "XS",
+            "size_details": [
+                {
+                    "size": "XS",
+                    "available": true
+                },
+                {
+                    "size": "S",
+                    "available": true
+                },
+                {
+                    "size": "M",
+                    "available": true
+                },
+                {
+                    "size": "L",
+                    "available": true
+                },
+                {
+                    "size": "XL",
+                    "available": false
+                }
+            ],
             "sku": "MPLSU250203XS",
             "available": true
         },
@@ -1077,14 +2844,42 @@
             "fabric": "lama silk",
             "price": "48950.00",
             "compare_at_price": null,
-            "image": "https://cdn.shopify.com/s/files/1/0539/7318/8776/files/Bakht_1.jpg?v=1767605365",
+            "images_list": [
+                "https://cdn.shopify.com/s/files/1/0539/7318/8776/files/Bakht_1.jpg?v=1767605365",
+                "https://cdn.shopify.com/s/files/1/0539/7318/8776/files/Bakht_2.jpg?v=1767681915",
+                "https://cdn.shopify.com/s/files/1/0539/7318/8776/files/Bakht_4.jpg?v=1767681915",
+                "https://cdn.shopify.com/s/files/1/0539/7318/8776/files/Bakht_5.jpg?v=1767681915",
+                "https://cdn.shopify.com/s/files/1/0539/7318/8776/files/Bakht_6.jpg?v=1767681915",
+                "https://cdn.shopify.com/s/files/1/0539/7318/8776/files/Bakht_3.jpg?v=1767681915"
+            ],
             "product_url": "https://mushq.com/products/bakht",
             "department": "Women",
             "subcategory": "Pret | Sunehri '26",
             "category": "Stitched",
             "product_type": "Pret | Sunehri '26",
             "pieces": null,
-            "size": "XS",
+            "size_details": [
+                {
+                    "size": "XS",
+                    "available": true
+                },
+                {
+                    "size": "S",
+                    "available": true
+                },
+                {
+                    "size": "M",
+                    "available": true
+                },
+                {
+                    "size": "L",
+                    "available": true
+                },
+                {
+                    "size": "XL",
+                    "available": false
+                }
+            ],
             "sku": "MPLSU250202XS",
             "available": true
         },
@@ -1094,14 +2889,43 @@
             "fabric": "lama silk",
             "price": "49950.00",
             "compare_at_price": null,
-            "image": "https://cdn.shopify.com/s/files/1/0539/7318/8776/files/035A6051.jpg?v=1768034017",
+            "images_list": [
+                "https://cdn.shopify.com/s/files/1/0539/7318/8776/files/035A6051.jpg?v=1768034017",
+                "https://cdn.shopify.com/s/files/1/0539/7318/8776/files/035A6175.jpg?v=1768034519",
+                "https://cdn.shopify.com/s/files/1/0539/7318/8776/files/035A6121.jpg?v=1768034519",
+                "https://cdn.shopify.com/s/files/1/0539/7318/8776/files/035A6058.jpg?v=1768034519",
+                "https://cdn.shopify.com/s/files/1/0539/7318/8776/files/035A6054.jpg?v=1768034519",
+                "https://cdn.shopify.com/s/files/1/0539/7318/8776/files/035A6063.jpg?v=1768034519",
+                "https://cdn.shopify.com/s/files/1/0539/7318/8776/files/035A6077.jpg?v=1768034519"
+            ],
             "product_url": "https://mushq.com/products/uswah",
             "department": "Women",
             "subcategory": "Pret | Sunehri '26",
             "category": "Stitched",
             "product_type": "Pret | Sunehri '26",
             "pieces": null,
-            "size": "XS",
+            "size_details": [
+                {
+                    "size": "XS",
+                    "available": true
+                },
+                {
+                    "size": "S",
+                    "available": true
+                },
+                {
+                    "size": "M",
+                    "available": true
+                },
+                {
+                    "size": "L",
+                    "available": true
+                },
+                {
+                    "size": "XL",
+                    "available": true
+                }
+            ],
             "sku": "MPLSU250210XS",
             "available": true
         },
@@ -1111,14 +2935,41 @@
             "fabric": "lama silk",
             "price": "47950.00",
             "compare_at_price": null,
-            "image": "https://cdn.shopify.com/s/files/1/0539/7318/8776/files/Rumsha_1.jpg?v=1767606066",
+            "images_list": [
+                "https://cdn.shopify.com/s/files/1/0539/7318/8776/files/Rumsha_1.jpg?v=1767606066",
+                "https://cdn.shopify.com/s/files/1/0539/7318/8776/files/Rumsha_3.jpg?v=1767682180",
+                "https://cdn.shopify.com/s/files/1/0539/7318/8776/files/Rumsha_2.jpg?v=1767682180",
+                "https://cdn.shopify.com/s/files/1/0539/7318/8776/files/Rumsha_4.jpg?v=1767606066",
+                "https://cdn.shopify.com/s/files/1/0539/7318/8776/files/Rumsha_5.jpg?v=1767606066"
+            ],
             "product_url": "https://mushq.com/products/rumsha",
             "department": "Women",
             "subcategory": "Pret | Sunehri '26",
             "category": "Stitched",
             "product_type": "Pret | Sunehri '26",
             "pieces": null,
-            "size": "XS",
+            "size_details": [
+                {
+                    "size": "XS",
+                    "available": true
+                },
+                {
+                    "size": "S",
+                    "available": true
+                },
+                {
+                    "size": "M",
+                    "available": true
+                },
+                {
+                    "size": "L",
+                    "available": true
+                },
+                {
+                    "size": "XL",
+                    "available": true
+                }
+            ],
             "sku": "MPLSU250209XS",
             "available": true
         },
@@ -1128,14 +2979,42 @@
             "fabric": "lama silk",
             "price": "49950.00",
             "compare_at_price": null,
-            "image": "https://cdn.shopify.com/s/files/1/0539/7318/8776/files/035A6668_9e3234e5-9d1d-49f4-a37e-5bbafc9de2e3.jpg?v=1768033554",
+            "images_list": [
+                "https://cdn.shopify.com/s/files/1/0539/7318/8776/files/035A6668_9e3234e5-9d1d-49f4-a37e-5bbafc9de2e3.jpg?v=1768033554",
+                "https://cdn.shopify.com/s/files/1/0539/7318/8776/files/035A6673.jpg?v=1768033554",
+                "https://cdn.shopify.com/s/files/1/0539/7318/8776/files/035A6737.jpg?v=1768033812",
+                "https://cdn.shopify.com/s/files/1/0539/7318/8776/files/035A6685.jpg?v=1768033812",
+                "https://cdn.shopify.com/s/files/1/0539/7318/8776/files/035A6792.jpg?v=1768033812",
+                "https://cdn.shopify.com/s/files/1/0539/7318/8776/files/035A6808.jpg?v=1768033812"
+            ],
             "product_url": "https://mushq.com/products/hamna",
             "department": "Women",
             "subcategory": "Pret | Sunehri '26",
             "category": "Stitched",
             "product_type": "Pret | Sunehri '26",
             "pieces": null,
-            "size": "XS",
+            "size_details": [
+                {
+                    "size": "XS",
+                    "available": true
+                },
+                {
+                    "size": "S",
+                    "available": true
+                },
+                {
+                    "size": "M",
+                    "available": true
+                },
+                {
+                    "size": "L",
+                    "available": true
+                },
+                {
+                    "size": "XL",
+                    "available": true
+                }
+            ],
             "sku": "MPLSU250208XS",
             "available": true
         },
@@ -1145,14 +3024,41 @@
             "fabric": "Net",
             "price": "52500.00",
             "compare_at_price": null,
-            "image": "https://cdn.shopify.com/s/files/1/0539/7318/8776/files/1_60dce8c9-0404-4984-af59-dbfadfdbdb2c.webp?v=1763797796",
+            "images_list": [
+                "https://cdn.shopify.com/s/files/1/0539/7318/8776/files/1_60dce8c9-0404-4984-af59-dbfadfdbdb2c.webp?v=1763797796",
+                "https://cdn.shopify.com/s/files/1/0539/7318/8776/files/4_dbd53eef-7eb0-4560-b3a2-ab0ecccec3ec.webp?v=1763797796",
+                "https://cdn.shopify.com/s/files/1/0539/7318/8776/files/2.webp?v=1763797796",
+                "https://cdn.shopify.com/s/files/1/0539/7318/8776/files/3_a7a5a28d-07a3-469b-a5f2-17bb6f7898b8.webp?v=1763797796",
+                "https://cdn.shopify.com/s/files/1/0539/7318/8776/files/5_a62b4cee-89c3-4c4f-968f-92fc40ab3894.webp?v=1763797796"
+            ],
             "product_url": "https://mushq.com/products/nuru",
             "department": "Women",
             "subcategory": "Fleur Luxury Eid Pret | Women",
             "category": "Stitched",
             "product_type": "Fleur Luxury Eid Pret | Women",
             "pieces": null,
-            "size": "XS",
+            "size_details": [
+                {
+                    "size": "XS",
+                    "available": true
+                },
+                {
+                    "size": "S",
+                    "available": true
+                },
+                {
+                    "size": "M",
+                    "available": true
+                },
+                {
+                    "size": "L",
+                    "available": true
+                },
+                {
+                    "size": "XL",
+                    "available": true
+                }
+            ],
             "sku": "MPLES240112XS",
             "available": true
         },
@@ -1162,14 +3068,45 @@
             "fabric": "Net",
             "price": "49500.00",
             "compare_at_price": null,
-            "image": "https://cdn.shopify.com/s/files/1/0539/7318/8776/files/1_bac6452d-0032-4098-8423-6d12cae0a603.webp?v=1763803182",
+            "images_list": [
+                "https://cdn.shopify.com/s/files/1/0539/7318/8776/files/1_bac6452d-0032-4098-8423-6d12cae0a603.webp?v=1763803182",
+                "https://cdn.shopify.com/s/files/1/0539/7318/8776/files/9_41437cb1-5664-4978-baac-27d3ace6a05c.webp?v=1763803182",
+                "https://cdn.shopify.com/s/files/1/0539/7318/8776/files/10_22d01b73-cd20-4d25-8d7b-f4361466f66c.webp?v=1763803182",
+                "https://cdn.shopify.com/s/files/1/0539/7318/8776/files/3_2d6aefb4-9032-41c1-9da7-75ed126bf7cd.webp?v=1763803182",
+                "https://cdn.shopify.com/s/files/1/0539/7318/8776/files/WhatsAppImage2025-11-22at15.09.32_a5881f95.jpg?v=1763807210",
+                "https://cdn.shopify.com/s/files/1/0539/7318/8776/files/8_70e70547-3f65-461a-a9d1-b96ca1a77a38.webp?v=1763807210",
+                "https://cdn.shopify.com/s/files/1/0539/7318/8776/files/6_da56c9a4-b4bf-4218-8b7c-3093f3063b8b.webp?v=1763807210",
+                "https://cdn.shopify.com/s/files/1/0539/7318/8776/files/4_46083953-a81a-4888-95df-4bc6a910be42.webp?v=1763807210",
+                "https://cdn.shopify.com/s/files/1/0539/7318/8776/files/5_718c33f3-ee59-496a-8c3e-f7734491a6ee.webp?v=1763807210"
+            ],
             "product_url": "https://mushq.com/products/eve",
             "department": "Women",
             "subcategory": "Fleur Luxury Eid Pret | Women",
             "category": "Stitched",
             "product_type": "Fleur Luxury Eid Pret | Women",
             "pieces": null,
-            "size": "XS",
+            "size_details": [
+                {
+                    "size": "XS",
+                    "available": true
+                },
+                {
+                    "size": "S",
+                    "available": true
+                },
+                {
+                    "size": "M",
+                    "available": true
+                },
+                {
+                    "size": "L",
+                    "available": true
+                },
+                {
+                    "size": "XL",
+                    "available": true
+                }
+            ],
             "sku": "MPLES240110XS",
             "available": true
         },
@@ -1179,14 +3116,27 @@
             "fabric": "Net/Jamawar",
             "price": "325000.00",
             "compare_at_price": null,
-            "image": "https://cdn.shopify.com/s/files/1/0539/7318/8776/files/Noemie_1_a63a4d7f-879c-444e-ad94-7a08c98739fe.jpg?v=1765873670",
+            "images_list": [
+                "https://cdn.shopify.com/s/files/1/0539/7318/8776/files/Noemie_1_a63a4d7f-879c-444e-ad94-7a08c98739fe.jpg?v=1765873670",
+                "https://cdn.shopify.com/s/files/1/0539/7318/8776/files/Noemie_8_5a638a9d-edfc-42af-8b8c-1371e99512ac.jpg?v=1765962492",
+                "https://cdn.shopify.com/s/files/1/0539/7318/8776/files/Noemie_6_5fb6e68c-d5d9-476d-9a58-055464bbd412.jpg?v=1765962492",
+                "https://cdn.shopify.com/s/files/1/0539/7318/8776/files/Noemie_2_c9c57891-d546-43eb-98f1-1845e5c3dc06.jpg?v=1765962492",
+                "https://cdn.shopify.com/s/files/1/0539/7318/8776/files/Noemie_3_2efe33e3-f158-4104-b27e-73cbd42514d4.jpg?v=1765962492",
+                "https://cdn.shopify.com/s/files/1/0539/7318/8776/files/Noemie_7_329d6e73-a117-4570-bac0-4e976d3669d2.jpg?v=1765962492",
+                "https://cdn.shopify.com/s/files/1/0539/7318/8776/files/Noemie_5_92aa822e-25ca-4051-a276-cb00e70eac7c.jpg?v=1765962492"
+            ],
             "product_url": "https://mushq.com/products/noemie",
             "department": "Women",
             "subcategory": "Inara Signature Bridals'25 | Women",
             "category": null,
             "product_type": "Inara Signature Bridals'25 | Women",
             "pieces": null,
-            "size": "Custom Order",
+            "size_details": [
+                {
+                    "size": "Custom Order",
+                    "available": true
+                }
+            ],
             "sku": "MBRIN250101C",
             "available": true
         },
@@ -1196,14 +3146,26 @@
             "fabric": "Net/Jamawar",
             "price": "350000.00",
             "compare_at_price": null,
-            "image": "https://cdn.shopify.com/s/files/1/0539/7318/8776/files/Reve_1.jpg?v=1765874265",
+            "images_list": [
+                "https://cdn.shopify.com/s/files/1/0539/7318/8776/files/Reve_1.jpg?v=1765874265",
+                "https://cdn.shopify.com/s/files/1/0539/7318/8776/files/Reve_7.jpg?v=1765962447",
+                "https://cdn.shopify.com/s/files/1/0539/7318/8776/files/Reve_6.jpg?v=1765962447",
+                "https://cdn.shopify.com/s/files/1/0539/7318/8776/files/Reve_4.jpg?v=1765962447",
+                "https://cdn.shopify.com/s/files/1/0539/7318/8776/files/Reve_3.jpg?v=1765962447",
+                "https://cdn.shopify.com/s/files/1/0539/7318/8776/files/Reve_2.jpg?v=1765962447"
+            ],
             "product_url": "https://mushq.com/products/reve-1",
             "department": "Women",
             "subcategory": "Inara Signature Bridals'25 | Women",
             "category": null,
             "product_type": "Inara Signature Bridals'25 | Women",
             "pieces": null,
-            "size": "Custom Order",
+            "size_details": [
+                {
+                    "size": "Custom Order",
+                    "available": true
+                }
+            ],
             "sku": "MBRIN250102C",
             "available": true
         },
@@ -1213,14 +3175,25 @@
             "fabric": "Net/Jamawar",
             "price": "375000.00",
             "compare_at_price": null,
-            "image": "https://cdn.shopify.com/s/files/1/0539/7318/8776/files/Aimee_2.jpg?v=1765874597",
+            "images_list": [
+                "https://cdn.shopify.com/s/files/1/0539/7318/8776/files/Aimee_2.jpg?v=1765874597",
+                "https://cdn.shopify.com/s/files/1/0539/7318/8776/files/Aimee_4.jpg?v=1765874597",
+                "https://cdn.shopify.com/s/files/1/0539/7318/8776/files/Aimee_3.jpg?v=1765874597",
+                "https://cdn.shopify.com/s/files/1/0539/7318/8776/files/Aimee_1.jpg?v=1765962342",
+                "https://cdn.shopify.com/s/files/1/0539/7318/8776/files/Aimee_5.jpg?v=1765962342"
+            ],
             "product_url": "https://mushq.com/products/aimee",
             "department": "Women",
             "subcategory": "Inara Signature Bridals'25 | Women",
             "category": null,
             "product_type": "Inara Signature Bridals'25 | Women",
             "pieces": null,
-            "size": "Custom Order",
+            "size_details": [
+                {
+                    "size": "Custom Order",
+                    "available": true
+                }
+            ],
             "sku": "MBRIN250103C",
             "available": true
         },
@@ -1230,14 +3203,25 @@
             "fabric": "Net/Jamawar",
             "price": "375000.00",
             "compare_at_price": null,
-            "image": "https://cdn.shopify.com/s/files/1/0539/7318/8776/files/Eden_1.jpg?v=1765874825",
+            "images_list": [
+                "https://cdn.shopify.com/s/files/1/0539/7318/8776/files/Eden_1.jpg?v=1765874825",
+                "https://cdn.shopify.com/s/files/1/0539/7318/8776/files/Eden_5.jpg?v=1765962308",
+                "https://cdn.shopify.com/s/files/1/0539/7318/8776/files/Eden_3.jpg?v=1765962308",
+                "https://cdn.shopify.com/s/files/1/0539/7318/8776/files/Eden_2.jpg?v=1765962308",
+                "https://cdn.shopify.com/s/files/1/0539/7318/8776/files/Eden_4.jpg?v=1765962308"
+            ],
             "product_url": "https://mushq.com/products/eden",
             "department": "Women",
             "subcategory": "Inara Signature Bridals'25 | Women",
             "category": null,
             "product_type": "Inara Signature Bridals'25 | Women",
             "pieces": null,
-            "size": "Custom Order",
+            "size_details": [
+                {
+                    "size": "Custom Order",
+                    "available": true
+                }
+            ],
             "sku": "MBRIN250104C",
             "available": true
         },
@@ -1247,14 +3231,26 @@
             "fabric": "Net/Jamawar",
             "price": "350000.00",
             "compare_at_price": null,
-            "image": "https://cdn.shopify.com/s/files/1/0539/7318/8776/files/etoile_4.jpg?v=1765875019",
+            "images_list": [
+                "https://cdn.shopify.com/s/files/1/0539/7318/8776/files/etoile_4.jpg?v=1765875019",
+                "https://cdn.shopify.com/s/files/1/0539/7318/8776/files/etoile_7.jpg?v=1765962279",
+                "https://cdn.shopify.com/s/files/1/0539/7318/8776/files/etoile_8.jpg?v=1765962279",
+                "https://cdn.shopify.com/s/files/1/0539/7318/8776/files/etoile_5.jpg?v=1765962279",
+                "https://cdn.shopify.com/s/files/1/0539/7318/8776/files/etoile_1.jpg?v=1765962279",
+                "https://cdn.shopify.com/s/files/1/0539/7318/8776/files/etoile_2.jpg?v=1765962279"
+            ],
             "product_url": "https://mushq.com/products/etoile",
             "department": "Women",
             "subcategory": "Inara Signature Bridals'25 | Women",
             "category": null,
             "product_type": "Inara Signature Bridals'25 | Women",
             "pieces": null,
-            "size": "Custom Order",
+            "size_details": [
+                {
+                    "size": "Custom Order",
+                    "available": true
+                }
+            ],
             "sku": "MBRIN250105C",
             "available": true
         },
@@ -1264,14 +3260,28 @@
             "fabric": "Net/Jamawar",
             "price": "375000.00",
             "compare_at_price": null,
-            "image": "https://cdn.shopify.com/s/files/1/0539/7318/8776/files/eclat_1.jpg?v=1765875615",
+            "images_list": [
+                "https://cdn.shopify.com/s/files/1/0539/7318/8776/files/eclat_1.jpg?v=1765875615",
+                "https://cdn.shopify.com/s/files/1/0539/7318/8776/files/eclat_9.jpg?v=1765962141",
+                "https://cdn.shopify.com/s/files/1/0539/7318/8776/files/eclat_5.jpg?v=1765962141",
+                "https://cdn.shopify.com/s/files/1/0539/7318/8776/files/eclat_8.jpg?v=1765962141",
+                "https://cdn.shopify.com/s/files/1/0539/7318/8776/files/eclat_3.jpg?v=1765962141",
+                "https://cdn.shopify.com/s/files/1/0539/7318/8776/files/eclat_4.jpg?v=1765962141",
+                "https://cdn.shopify.com/s/files/1/0539/7318/8776/files/eclat_6.jpg?v=1765962141",
+                "https://cdn.shopify.com/s/files/1/0539/7318/8776/files/eclat_7.jpg?v=1765962141"
+            ],
             "product_url": "https://mushq.com/products/eclat",
             "department": "Women",
             "subcategory": "Inara Signature Bridals'25 | Women",
             "category": null,
             "product_type": "Inara Signature Bridals'25 | Women",
             "pieces": null,
-            "size": "Custom Order",
+            "size_details": [
+                {
+                    "size": "Custom Order",
+                    "available": true
+                }
+            ],
             "sku": "MBRIN250108C",
             "available": true
         },
@@ -1281,14 +3291,27 @@
             "fabric": "Net/Jamawar",
             "price": "375000.00",
             "compare_at_price": null,
-            "image": "https://cdn.shopify.com/s/files/1/0539/7318/8776/files/Cherie_1.jpg?v=1765875139",
+            "images_list": [
+                "https://cdn.shopify.com/s/files/1/0539/7318/8776/files/Cherie_1.jpg?v=1765875139",
+                "https://cdn.shopify.com/s/files/1/0539/7318/8776/files/Cherie_6.jpg?v=1765962237",
+                "https://cdn.shopify.com/s/files/1/0539/7318/8776/files/Cherie_4.jpg?v=1765962237",
+                "https://cdn.shopify.com/s/files/1/0539/7318/8776/files/Cherie_5.jpg?v=1765962237",
+                "https://cdn.shopify.com/s/files/1/0539/7318/8776/files/Cherie_2.jpg?v=1765962237",
+                "https://cdn.shopify.com/s/files/1/0539/7318/8776/files/Cherie_3.jpg?v=1765962237",
+                "https://cdn.shopify.com/s/files/1/0539/7318/8776/files/Cherie_7.jpg?v=1765875140"
+            ],
             "product_url": "https://mushq.com/products/cherie",
             "department": "Women",
             "subcategory": "Inara Signature Bridals'25 | Women",
             "category": null,
             "product_type": "Inara Signature Bridals'25 | Women",
             "pieces": null,
-            "size": "Custom Order",
+            "size_details": [
+                {
+                    "size": "Custom Order",
+                    "available": true
+                }
+            ],
             "sku": "MBRIN250106C",
             "available": true
         },
@@ -1298,14 +3321,26 @@
             "fabric": "Net/Jamawar",
             "price": "350000.00",
             "compare_at_price": null,
-            "image": "https://cdn.shopify.com/s/files/1/0539/7318/8776/files/noore_3.jpg?v=1765875516",
+            "images_list": [
+                "https://cdn.shopify.com/s/files/1/0539/7318/8776/files/noore_3.jpg?v=1765875516",
+                "https://cdn.shopify.com/s/files/1/0539/7318/8776/files/noore_1.jpg?v=1765962204",
+                "https://cdn.shopify.com/s/files/1/0539/7318/8776/files/noore_5.jpg?v=1765962204",
+                "https://cdn.shopify.com/s/files/1/0539/7318/8776/files/noore_2.jpg?v=1765962204",
+                "https://cdn.shopify.com/s/files/1/0539/7318/8776/files/noore_6.jpg?v=1765962204",
+                "https://cdn.shopify.com/s/files/1/0539/7318/8776/files/noore_4.jpg?v=1765962204"
+            ],
             "product_url": "https://mushq.com/products/noore",
             "department": "Women",
             "subcategory": "Inara Signature Bridals'25 | Women",
             "category": null,
             "product_type": "Inara Signature Bridals'25 | Women",
             "pieces": null,
-            "size": "Custom Order",
+            "size_details": [
+                {
+                    "size": "Custom Order",
+                    "available": true
+                }
+            ],
             "sku": "MBRIN250107C",
             "available": true
         },
@@ -1315,14 +3350,28 @@
             "fabric": "Net",
             "price": "375000.00",
             "compare_at_price": null,
-            "image": "https://cdn.shopify.com/s/files/1/0539/7318/8776/files/MBRIN230109C-1_1000x_e7c0efa1-808a-40b9-844a-04dd4299ba21.webp?v=1764681358",
+            "images_list": [
+                "https://cdn.shopify.com/s/files/1/0539/7318/8776/files/MBRIN230109C-1_1000x_e7c0efa1-808a-40b9-844a-04dd4299ba21.webp?v=1764681358",
+                "https://cdn.shopify.com/s/files/1/0539/7318/8776/files/MBRIN230109C-5_1000x_eae50176-fb26-45fa-99d9-fe96c4e12392.webp?v=1764681358",
+                "https://cdn.shopify.com/s/files/1/0539/7318/8776/files/MBRIN230109C-7_1000x_70228474-24c0-4523-a895-5dab4013f544.webp?v=1764681358",
+                "https://cdn.shopify.com/s/files/1/0539/7318/8776/files/MBRIN230109C-2_1000x_98feaa12-49f1-4175-a48c-780fb60e40f5.webp?v=1764681358",
+                "https://cdn.shopify.com/s/files/1/0539/7318/8776/files/MBRIN230109C-9_1000x_72b431c3-4819-4590-bdb5-ebd3ca0094d3.webp?v=1764681358",
+                "https://cdn.shopify.com/s/files/1/0539/7318/8776/files/MBRIN230109C-13_1000x_19f1f3fb-4abb-4a8b-80a3-d82619661241.webp?v=1764681358",
+                "https://cdn.shopify.com/s/files/1/0539/7318/8776/files/MBRIN230109C-3_1000x_0ef0b3f7-fcfb-4189-b02d-d92b871f8d8a.webp?v=1764681358",
+                "https://cdn.shopify.com/s/files/1/0539/7318/8776/files/MBRIN230109C-8_1000x_62af20c2-535b-4e41-8e7c-09aa062516a5.webp?v=1764681358"
+            ],
             "product_url": "https://mushq.com/products/leyla",
             "department": "Women",
             "subcategory": "Inara Signature Bridals '23 | Women",
             "category": null,
             "product_type": "Inara Signature Bridals '23 | Women",
             "pieces": null,
-            "size": "Custom Order",
+            "size_details": [
+                {
+                    "size": "Custom Order",
+                    "available": true
+                }
+            ],
             "sku": "MBRIN230107C",
             "available": true
         },
@@ -1332,14 +3381,43 @@
             "fabric": "Net",
             "price": "49500.00",
             "compare_at_price": null,
-            "image": "https://cdn.shopify.com/s/files/1/0539/7318/8776/files/Dellaby_2.jpg?v=1765520480",
+            "images_list": [
+                "https://cdn.shopify.com/s/files/1/0539/7318/8776/files/Dellaby_2.jpg?v=1765520480",
+                "https://cdn.shopify.com/s/files/1/0539/7318/8776/files/Dellaby_5.jpg?v=1765520480",
+                "https://cdn.shopify.com/s/files/1/0539/7318/8776/files/Dellaby_7.jpg?v=1765520480",
+                "https://cdn.shopify.com/s/files/1/0539/7318/8776/files/Dellaby_6.jpg?v=1765520480",
+                "https://cdn.shopify.com/s/files/1/0539/7318/8776/files/Dellaby_3.jpg?v=1765520480",
+                "https://cdn.shopify.com/s/files/1/0539/7318/8776/files/Dellaby_1.jpg?v=1765520480",
+                "https://cdn.shopify.com/s/files/1/0539/7318/8776/files/Dellaby_4.jpg?v=1765520480"
+            ],
             "product_url": "https://mushq.com/products/dellaby",
             "department": "Women",
             "subcategory": "Pret | Fleur Luxury Formals '25",
             "category": "Stitched",
             "product_type": "Pret | Fleur Luxury Formals '25",
             "pieces": null,
-            "size": "XS",
+            "size_details": [
+                {
+                    "size": "XS",
+                    "available": true
+                },
+                {
+                    "size": "S",
+                    "available": true
+                },
+                {
+                    "size": "M",
+                    "available": true
+                },
+                {
+                    "size": "L",
+                    "available": false
+                },
+                {
+                    "size": "XL",
+                    "available": false
+                }
+            ],
             "sku": "MPLES250102XS",
             "available": true
         },
@@ -1349,14 +3427,43 @@
             "fabric": "Net",
             "price": "52500.00",
             "compare_at_price": null,
-            "image": "https://cdn.shopify.com/s/files/1/0539/7318/8776/files/Ammarylis_10.jpg?v=1764558190",
+            "images_list": [
+                "https://cdn.shopify.com/s/files/1/0539/7318/8776/files/Ammarylis_10.jpg?v=1764558190",
+                "https://cdn.shopify.com/s/files/1/0539/7318/8776/files/Ammarylis_12.jpg?v=1764573527",
+                "https://cdn.shopify.com/s/files/1/0539/7318/8776/files/Ammarylis_1.jpg?v=1764573527",
+                "https://cdn.shopify.com/s/files/1/0539/7318/8776/files/Ammarylis_9.jpg?v=1764573527",
+                "https://cdn.shopify.com/s/files/1/0539/7318/8776/files/Ammarylis_7.jpg?v=1764573527",
+                "https://cdn.shopify.com/s/files/1/0539/7318/8776/files/Ammarylis_11.jpg?v=1764573527",
+                "https://cdn.shopify.com/s/files/1/0539/7318/8776/files/Ammarylis_8.jpg?v=1764573527"
+            ],
             "product_url": "https://mushq.com/products/ammarylis",
             "department": "Women",
             "subcategory": "Pret | Fleur Luxury Formals '25",
             "category": "Stitched",
             "product_type": "Pret | Fleur Luxury Formals '25",
             "pieces": null,
-            "size": "XS",
+            "size_details": [
+                {
+                    "size": "XS",
+                    "available": true
+                },
+                {
+                    "size": "S",
+                    "available": true
+                },
+                {
+                    "size": "M",
+                    "available": true
+                },
+                {
+                    "size": "L",
+                    "available": true
+                },
+                {
+                    "size": "XL",
+                    "available": true
+                }
+            ],
             "sku": "MPLES250101XS",
             "available": true
         },
@@ -1366,16 +3473,43 @@
             "fabric": "Net",
             "price": "29700.00",
             "compare_at_price": "49500.00",
-            "image": "https://cdn.shopify.com/s/files/1/0539/7318/8776/files/Jessamine_3.jpg?v=1764557912",
+            "images_list": [
+                "https://cdn.shopify.com/s/files/1/0539/7318/8776/files/Jessamine_3.jpg?v=1764557912",
+                "https://cdn.shopify.com/s/files/1/0539/7318/8776/files/Jessamine_4.jpg?v=1764573072",
+                "https://cdn.shopify.com/s/files/1/0539/7318/8776/files/Jessamine_5.jpg?v=1764573072",
+                "https://cdn.shopify.com/s/files/1/0539/7318/8776/files/Jessamine_7.jpg?v=1764573072",
+                "https://cdn.shopify.com/s/files/1/0539/7318/8776/files/Jessamine_1.jpg?v=1764573072"
+            ],
             "product_url": "https://mushq.com/products/jessamine",
             "department": "Women",
             "subcategory": "Pret | Fleur Luxury Formals '25",
             "category": "Stitched",
             "product_type": "Pret | Fleur Luxury Formals '25",
             "pieces": null,
-            "size": "XS",
+            "size_details": [
+                {
+                    "size": "XS",
+                    "available": false
+                },
+                {
+                    "size": "S",
+                    "available": false
+                },
+                {
+                    "size": "M",
+                    "available": true
+                },
+                {
+                    "size": "L",
+                    "available": false
+                },
+                {
+                    "size": "XL",
+                    "available": false
+                }
+            ],
             "sku": "MPLES250107XS",
-            "available": false
+            "available": true
         },
         {
             "title": "Valerian",
@@ -1383,14 +3517,42 @@
             "fabric": "Net",
             "price": "47500.00",
             "compare_at_price": null,
-            "image": "https://cdn.shopify.com/s/files/1/0539/7318/8776/files/Valerian_1.jpg?v=1765520451",
+            "images_list": [
+                "https://cdn.shopify.com/s/files/1/0539/7318/8776/files/Valerian_1.jpg?v=1765520451",
+                "https://cdn.shopify.com/s/files/1/0539/7318/8776/files/Valerian_3.jpg?v=1765520451",
+                "https://cdn.shopify.com/s/files/1/0539/7318/8776/files/Valerian_2.jpg?v=1765520451",
+                "https://cdn.shopify.com/s/files/1/0539/7318/8776/files/Valerian_5.jpg?v=1765520451",
+                "https://cdn.shopify.com/s/files/1/0539/7318/8776/files/Valerian_4.jpg?v=1765520451",
+                "https://cdn.shopify.com/s/files/1/0539/7318/8776/files/Valerian_6.jpg?v=1765520451"
+            ],
             "product_url": "https://mushq.com/products/valerian",
             "department": "Women",
             "subcategory": "Pret | Fleur Luxury Formals '25",
             "category": "Stitched",
             "product_type": "Pret | Fleur Luxury Formals '25",
             "pieces": null,
-            "size": "XS",
+            "size_details": [
+                {
+                    "size": "XS",
+                    "available": true
+                },
+                {
+                    "size": "S",
+                    "available": true
+                },
+                {
+                    "size": "M",
+                    "available": true
+                },
+                {
+                    "size": "L",
+                    "available": true
+                },
+                {
+                    "size": "XL",
+                    "available": false
+                }
+            ],
             "sku": "MPLES250104XS",
             "available": true
         },
@@ -1400,14 +3562,42 @@
             "fabric": "Net",
             "price": "47500.00",
             "compare_at_price": null,
-            "image": "https://cdn.shopify.com/s/files/1/0539/7318/8776/files/Daphne_1.jpg?v=1764557485",
+            "images_list": [
+                "https://cdn.shopify.com/s/files/1/0539/7318/8776/files/Daphne_1.jpg?v=1764557485",
+                "https://cdn.shopify.com/s/files/1/0539/7318/8776/files/Daphne_4.jpg?v=1764572964",
+                "https://cdn.shopify.com/s/files/1/0539/7318/8776/files/Daphne_6.jpg?v=1764572964",
+                "https://cdn.shopify.com/s/files/1/0539/7318/8776/files/Daphne_2.jpg?v=1764572964",
+                "https://cdn.shopify.com/s/files/1/0539/7318/8776/files/Daphne_3.jpg?v=1764572964",
+                "https://cdn.shopify.com/s/files/1/0539/7318/8776/files/Daphne_5.jpg?v=1764572964"
+            ],
             "product_url": "https://mushq.com/products/daphne",
             "department": "Women",
             "subcategory": "Pret | Fleur Luxury Formals '25",
             "category": "Stitched",
             "product_type": "Pret | Fleur Luxury Formals '25",
             "pieces": null,
-            "size": "XS",
+            "size_details": [
+                {
+                    "size": "XS",
+                    "available": false
+                },
+                {
+                    "size": "S",
+                    "available": false
+                },
+                {
+                    "size": "M",
+                    "available": false
+                },
+                {
+                    "size": "L",
+                    "available": false
+                },
+                {
+                    "size": "XL",
+                    "available": false
+                }
+            ],
             "sku": "MPLES250110XS",
             "available": false
         },
@@ -1417,14 +3607,28 @@
             "fabric": "Net",
             "price": "375000.00",
             "compare_at_price": null,
-            "image": "https://cdn.shopify.com/s/files/1/0539/7318/8776/files/1_ca714b8b-6b0d-4533-8bc9-0d416e3b33df.webp?v=1764678197",
+            "images_list": [
+                "https://cdn.shopify.com/s/files/1/0539/7318/8776/files/1_ca714b8b-6b0d-4533-8bc9-0d416e3b33df.webp?v=1764678197",
+                "https://cdn.shopify.com/s/files/1/0539/7318/8776/files/2_4925e7a6-238e-44b0-b2a3-e01544d89746.webp?v=1764678197",
+                "https://cdn.shopify.com/s/files/1/0539/7318/8776/files/MBRIN230107C-2_1000x_073a793d-4285-4b95-b62c-70860a0a3dc1.webp?v=1764678197",
+                "https://cdn.shopify.com/s/files/1/0539/7318/8776/files/MBRIN230107C-4_1000x_5ae48e5f-8ef2-471c-b353-c7f50a6dc14b.webp?v=1764678197",
+                "https://cdn.shopify.com/s/files/1/0539/7318/8776/files/MBRIN230107C-5_1000x_1e37ae6e-a74e-4bad-9bc5-e52d153ab65b.webp?v=1764678197",
+                "https://cdn.shopify.com/s/files/1/0539/7318/8776/files/MBRIN230107C-6_1000x_669f71ca-276e-4fb6-8ecd-4999bc440390.webp?v=1764678197",
+                "https://cdn.shopify.com/s/files/1/0539/7318/8776/files/MBRIN230107C-8_1000x_41f169da-5a12-4908-bf65-a32f34ffb338.webp?v=1764678197",
+                "https://cdn.shopify.com/s/files/1/0539/7318/8776/files/MBRIN230107C-7_1000x_fd413433-2cad-4cfb-8695-6c5a3e48855d.webp?v=1764678197"
+            ],
             "product_url": "https://mushq.com/products/calista",
             "department": "Women",
             "subcategory": "Inara Signature Bridals '23 | Women",
             "category": null,
             "product_type": "Inara Signature Bridals '23 | Women",
             "pieces": null,
-            "size": "Custom Order",
+            "size_details": [
+                {
+                    "size": "Custom Order",
+                    "available": true
+                }
+            ],
             "sku": "MBRIN230105C",
             "available": true
         },
@@ -1434,14 +3638,26 @@
             "fabric": "Net",
             "price": "425000.00",
             "compare_at_price": null,
-            "image": "https://cdn.shopify.com/s/files/1/0539/7318/8776/files/MBRIN240105C-5_1000x_6416e2b5-1968-46cc-8d13-0c4639c7eab0.webp?v=1764680682",
+            "images_list": [
+                "https://cdn.shopify.com/s/files/1/0539/7318/8776/files/MBRIN240105C-5_1000x_6416e2b5-1968-46cc-8d13-0c4639c7eab0.webp?v=1764680682",
+                "https://cdn.shopify.com/s/files/1/0539/7318/8776/files/MBRIN240105C-1_1000x_59f8f1b9-12b7-4c51-85f5-0ef653895060.webp?v=1764680682",
+                "https://cdn.shopify.com/s/files/1/0539/7318/8776/files/MBRIN240105C-6_1000x_4f483708-d5ff-4dd4-8371-0ca068778161.webp?v=1764680682",
+                "https://cdn.shopify.com/s/files/1/0539/7318/8776/files/MBRIN240105C-2_1000x_da3b0f40-a87f-401f-9ecd-721e789ffa27.webp?v=1764680682",
+                "https://cdn.shopify.com/s/files/1/0539/7318/8776/files/MBRIN240105C-4_1000x_b9e61be3-be66-4ed3-aa98-2346293d559a.webp?v=1764680682",
+                "https://cdn.shopify.com/s/files/1/0539/7318/8776/files/MBRIN240105C-3_1000x_e0dcf8e4-96e2-4a72-a9b5-6e0c86d32487.webp?v=1764680682"
+            ],
             "product_url": "https://mushq.com/products/isadora",
             "department": "Women",
             "subcategory": "Inara Signature Bridals '24 | Women",
             "category": null,
             "product_type": "Inara Signature Bridals '24 | Women",
             "pieces": null,
-            "size": "Custom Order",
+            "size_details": [
+                {
+                    "size": "Custom Order",
+                    "available": true
+                }
+            ],
             "sku": "MBRIN240105C",
             "available": true
         },
@@ -1451,14 +3667,27 @@
             "fabric": "Net",
             "price": "425000.00",
             "compare_at_price": null,
-            "image": "https://cdn.shopify.com/s/files/1/0539/7318/8776/files/MBRIN240106C-1_1000x_d3f6929a-ec38-4b63-b775-f8670ac7d907.webp?v=1764678400",
+            "images_list": [
+                "https://cdn.shopify.com/s/files/1/0539/7318/8776/files/MBRIN240106C-1_1000x_d3f6929a-ec38-4b63-b775-f8670ac7d907.webp?v=1764678400",
+                "https://cdn.shopify.com/s/files/1/0539/7318/8776/files/MBRIN240106C-3_1000x_39efba7b-529a-4b74-8a45-80c58703d6c6.webp?v=1764678400",
+                "https://cdn.shopify.com/s/files/1/0539/7318/8776/files/MBRIN240106C-8_1000x_fcf0d88c-91e0-46bd-ac50-13ebd893e8a1.webp?v=1764678400",
+                "https://cdn.shopify.com/s/files/1/0539/7318/8776/files/MBRIN240106C-2_1000x_404acbb0-55e2-48a9-93f4-bcba8878c398.webp?v=1764678400",
+                "https://cdn.shopify.com/s/files/1/0539/7318/8776/files/MBRIN240106C-7_1000x_2f51a58a-2b0c-4fcf-8956-cffa8306b0d1.webp?v=1764678400",
+                "https://cdn.shopify.com/s/files/1/0539/7318/8776/files/MBRIN240106C-6_1000x_9b510449-5270-4ff5-b262-f4faf3b80cd4.webp?v=1764678400",
+                "https://cdn.shopify.com/s/files/1/0539/7318/8776/files/MBRIN240106C-5_1000x_4c3b524a-3882-4105-9253-e9357ea00f1e.webp?v=1764678400"
+            ],
             "product_url": "https://mushq.com/products/marcyln",
             "department": "Women",
             "subcategory": "Inara Signature Bridals '24 | Women",
             "category": null,
             "product_type": "Inara Signature Bridals '24 | Women",
             "pieces": null,
-            "size": "Custom Order",
+            "size_details": [
+                {
+                    "size": "Custom Order",
+                    "available": true
+                }
+            ],
             "sku": "MBRIN240106C",
             "available": true
         },
@@ -1468,14 +3697,28 @@
             "fabric": "Net",
             "price": "395000.00",
             "compare_at_price": null,
-            "image": "https://cdn.shopify.com/s/files/1/0539/7318/8776/files/MBRIN240104C-1_1000x_e9a45433-ac1a-4329-a960-74448fa0fb09.webp?v=1764676219",
+            "images_list": [
+                "https://cdn.shopify.com/s/files/1/0539/7318/8776/files/MBRIN240104C-1_1000x_e9a45433-ac1a-4329-a960-74448fa0fb09.webp?v=1764676219",
+                "https://cdn.shopify.com/s/files/1/0539/7318/8776/files/MBRIN240104C-4_1000x_9c99804e-50d5-4d49-aafe-9507706e365b.webp?v=1764676219",
+                "https://cdn.shopify.com/s/files/1/0539/7318/8776/files/MBRIN240104C-8_1000x_f4153cc2-2ff4-4edc-9a11-8e4354acd4ed.webp?v=1764676219",
+                "https://cdn.shopify.com/s/files/1/0539/7318/8776/files/MBRIN240104C-2_1000x_f06a9b43-1186-4dd6-a1c7-edd5edf6e140.webp?v=1764676219",
+                "https://cdn.shopify.com/s/files/1/0539/7318/8776/files/MBRIN240104C-3_1000x_e910793a-3135-4679-bf43-fc3eb9ff8dfa.webp?v=1764676219",
+                "https://cdn.shopify.com/s/files/1/0539/7318/8776/files/MBRIN240104C-7_1000x_b7913e66-0546-4865-81ff-f5d55c130811.webp?v=1764676219",
+                "https://cdn.shopify.com/s/files/1/0539/7318/8776/files/MBRIN240104C-6_1000x_d2d975d1-1636-430e-8d22-136bfcc748f8.webp?v=1764676219",
+                "https://cdn.shopify.com/s/files/1/0539/7318/8776/files/MBRIN240104C-5_1000x_14a548a3-9e82-4d97-a654-c7e00b540ca0.webp?v=1764676219"
+            ],
             "product_url": "https://mushq.com/products/arabella",
             "department": "Women",
             "subcategory": "Inara Signature Bridals '24 | Women",
             "category": null,
             "product_type": "Inara Signature Bridals '24 | Women",
             "pieces": null,
-            "size": "Custom Order",
+            "size_details": [
+                {
+                    "size": "Custom Order",
+                    "available": true
+                }
+            ],
             "sku": "MBRIN240104C",
             "available": true
         },
@@ -1485,14 +3728,27 @@
             "fabric": "Net",
             "price": "425000.00",
             "compare_at_price": null,
-            "image": "https://cdn.shopify.com/s/files/1/0539/7318/8776/files/MBRIN240107C-1_1000x_3796fee5-6514-4ce5-aad6-a227ef278882.webp?v=1764679860",
+            "images_list": [
+                "https://cdn.shopify.com/s/files/1/0539/7318/8776/files/MBRIN240107C-1_1000x_3796fee5-6514-4ce5-aad6-a227ef278882.webp?v=1764679860",
+                "https://cdn.shopify.com/s/files/1/0539/7318/8776/files/MBRIN240107C-4_1000x_bd9be9ed-6aff-4484-9ac0-1a473037ca45.webp?v=1764679860",
+                "https://cdn.shopify.com/s/files/1/0539/7318/8776/files/MBRIN240107C-8_1000x_317c92c7-9b14-4e97-96dc-6590b4dfbf30.webp?v=1764679860",
+                "https://cdn.shopify.com/s/files/1/0539/7318/8776/files/MBRIN240107C-5_1000x_1ae3129f-9543-481c-8101-8095c23c5288.webp?v=1764679860",
+                "https://cdn.shopify.com/s/files/1/0539/7318/8776/files/MBRIN240107C-2_1000x_b23e2a03-caef-4b84-af4b-53885de43f2c.webp?v=1764679860",
+                "https://cdn.shopify.com/s/files/1/0539/7318/8776/files/MBRIN240107C-9_1000x_a5ec873c-ab40-4590-af2b-d60e9cd69867.webp?v=1764679860",
+                "https://cdn.shopify.com/s/files/1/0539/7318/8776/files/MBRIN240107C-6_1000x_5ca73d6c-e467-4be0-9c75-b4cbe4934358.webp?v=1764679860"
+            ],
             "product_url": "https://mushq.com/products/evangeline",
             "department": "Women",
             "subcategory": "Inara Signature Bridals '24 | Women",
             "category": null,
             "product_type": "Inara Signature Bridals '24 | Women",
             "pieces": null,
-            "size": "Custom Order",
+            "size_details": [
+                {
+                    "size": "Custom Order",
+                    "available": true
+                }
+            ],
             "sku": "MBRIN240107C",
             "available": true
         },
@@ -1502,14 +3758,26 @@
             "fabric": "Net",
             "price": "325000.00",
             "compare_at_price": null,
-            "image": "https://cdn.shopify.com/s/files/1/0539/7318/8776/files/MBRIN240101C-1_1000x_7630f896-4b48-4416-a49d-b8a0f3360c77.webp?v=1764680309",
+            "images_list": [
+                "https://cdn.shopify.com/s/files/1/0539/7318/8776/files/MBRIN240101C-1_1000x_7630f896-4b48-4416-a49d-b8a0f3360c77.webp?v=1764680309",
+                "https://cdn.shopify.com/s/files/1/0539/7318/8776/files/MBRIN240101C-2_1000x_28b970e8-817c-4ce1-8f46-88e882e1490a.webp?v=1764680309",
+                "https://cdn.shopify.com/s/files/1/0539/7318/8776/files/MBRIN240101C-9_1000x_b01317e8-9835-4c2c-8e6e-012906300d09.webp?v=1764680309",
+                "https://cdn.shopify.com/s/files/1/0539/7318/8776/files/MBRIN240101C-4_1000x_257a390b-4b9d-49bd-b986-99121b42c737.webp?v=1764680309",
+                "https://cdn.shopify.com/s/files/1/0539/7318/8776/files/MBRIN240101C-3_1000x_427fee0e-615a-4323-a9ed-da4d7f3faa80.webp?v=1764680309",
+                "https://cdn.shopify.com/s/files/1/0539/7318/8776/files/MBRIN240101C-6_1000x_516118aa-805e-4a5a-9e0b-1738b77a333d.webp?v=1764680309"
+            ],
             "product_url": "https://mushq.com/products/rosalind",
             "department": "Women",
             "subcategory": "Inara Signature Bridals '24 | Women",
             "category": null,
             "product_type": "Inara Signature Bridals '24 | Women",
             "pieces": null,
-            "size": "Custom Order",
+            "size_details": [
+                {
+                    "size": "Custom Order",
+                    "available": true
+                }
+            ],
             "sku": "MBRIN240101C",
             "available": true
         },
@@ -1519,14 +3787,28 @@
             "fabric": "Net",
             "price": "425000.00",
             "compare_at_price": null,
-            "image": "https://cdn.shopify.com/s/files/1/0539/7318/8776/files/MBRIN240103C-1_1000x_9adfd4f2-96ee-445b-a81a-55e7304cc3e6.webp?v=1764679701",
+            "images_list": [
+                "https://cdn.shopify.com/s/files/1/0539/7318/8776/files/MBRIN240103C-1_1000x_9adfd4f2-96ee-445b-a81a-55e7304cc3e6.webp?v=1764679701",
+                "https://cdn.shopify.com/s/files/1/0539/7318/8776/files/MBRIN240103C-3_1000x_9a8289a0-4199-419b-9912-a4ac50af69ff.webp?v=1764679701",
+                "https://cdn.shopify.com/s/files/1/0539/7318/8776/files/MBRIN240103C-9_1000x_fb3f61f2-7c34-4227-ba53-bfb659fa9d26.webp?v=1764679701",
+                "https://cdn.shopify.com/s/files/1/0539/7318/8776/files/MBRIN240103C-2_1000x_84bdf321-76f1-4f67-a44f-cf96609b2a34.webp?v=1764679701",
+                "https://cdn.shopify.com/s/files/1/0539/7318/8776/files/MBRIN240103C-7_1000x_d63f8d11-2e9e-4a6f-b728-10b340feaad5.webp?v=1764679701",
+                "https://cdn.shopify.com/s/files/1/0539/7318/8776/files/MBRIN240103C-6_1000x_d66bf432-abf1-4b0a-b848-3b7e4ddc81fa.webp?v=1764679701",
+                "https://cdn.shopify.com/s/files/1/0539/7318/8776/files/MBRIN240103C-8_1000x_e17f0484-8cec-4eea-bdc8-2de00b658e52.webp?v=1764679701",
+                "https://cdn.shopify.com/s/files/1/0539/7318/8776/files/MBRIN240103C-5_1000x_0120d300-52ad-418b-81e2-9b6777e528d5.webp?v=1764679701"
+            ],
             "product_url": "https://mushq.com/products/rowena",
             "department": "Women",
             "subcategory": "Inara Signature Bridals '24 | Women",
             "category": null,
             "product_type": "Inara Signature Bridals '24 | Women",
             "pieces": null,
-            "size": "Custom Order",
+            "size_details": [
+                {
+                    "size": "Custom Order",
+                    "available": true
+                }
+            ],
             "sku": "MBRIN240103C",
             "available": true
         },
@@ -1536,14 +3818,27 @@
             "fabric": "Net",
             "price": "425000.00",
             "compare_at_price": null,
-            "image": "https://cdn.shopify.com/s/files/1/0539/7318/8776/files/MBRIN240102C-1_1000x_40e4b839-a8e7-4edd-a810-9cd9db0e59df.webp?v=1764679610",
+            "images_list": [
+                "https://cdn.shopify.com/s/files/1/0539/7318/8776/files/MBRIN240102C-1_1000x_40e4b839-a8e7-4edd-a810-9cd9db0e59df.webp?v=1764679610",
+                "https://cdn.shopify.com/s/files/1/0539/7318/8776/files/MBRIN240102C-7_1000x_7dc7be1e-e7dc-4213-942a-76a90070e33a.webp?v=1764679610",
+                "https://cdn.shopify.com/s/files/1/0539/7318/8776/files/MBRIN240102C-10_1000x_11b89256-d992-495f-bbda-62ca8ef8a38e.webp?v=1764679610",
+                "https://cdn.shopify.com/s/files/1/0539/7318/8776/files/MBRIN240102C-8_1000x_3779673a-0af8-475a-9924-c0aba3fe3127.webp?v=1764679610",
+                "https://cdn.shopify.com/s/files/1/0539/7318/8776/files/MBRIN240102C-9_1000x_9f177ef9-67ba-44c4-9d76-35df16ff325f.webp?v=1764679610",
+                "https://cdn.shopify.com/s/files/1/0539/7318/8776/files/MBRIN240102C-6_1000x_2c3ad54f-3fce-4927-876e-a081fd338275.webp?v=1764679610",
+                "https://cdn.shopify.com/s/files/1/0539/7318/8776/files/MBRIN240102C-4_1000x_d826e254-11d6-4670-bb12-9a9a635fc140.webp?v=1764679610"
+            ],
             "product_url": "https://mushq.com/products/mirabelle",
             "department": "Women",
             "subcategory": "Inara Signature Bridals '24 | Women",
             "category": null,
             "product_type": "Inara Signature Bridals '24 | Women",
             "pieces": null,
-            "size": "Custom Order",
+            "size_details": [
+                {
+                    "size": "Custom Order",
+                    "available": true
+                }
+            ],
             "sku": "MBRIN240102C",
             "available": true
         },
@@ -1553,14 +3848,27 @@
             "fabric": "Net",
             "price": "425000.00",
             "compare_at_price": null,
-            "image": "https://cdn.shopify.com/s/files/1/0539/7318/8776/files/MBRIN240108C-5_1000x_0d367218-2968-4497-8ef2-88b70a9188e9.webp?v=1764681078",
+            "images_list": [
+                "https://cdn.shopify.com/s/files/1/0539/7318/8776/files/MBRIN240108C-5_1000x_0d367218-2968-4497-8ef2-88b70a9188e9.webp?v=1764681078",
+                "https://cdn.shopify.com/s/files/1/0539/7318/8776/files/MBRIN240108C-1_1000x_deb7b384-9389-4ba7-9cc2-f2db9e60d995.webp?v=1764681078",
+                "https://cdn.shopify.com/s/files/1/0539/7318/8776/files/MBRIN240108C-9_1000x_a858c1a8-993c-4540-bbb7-f12c951fddd9.webp?v=1764681078",
+                "https://cdn.shopify.com/s/files/1/0539/7318/8776/files/MBRIN240108C-6_1000x_e1c6314f-808f-4ea5-b7a5-512d0276d694.webp?v=1764681078",
+                "https://cdn.shopify.com/s/files/1/0539/7318/8776/files/MBRIN240108C-10_1000x_522c8e60-c849-4336-a362-699afa72e8ed.webp?v=1764681078",
+                "https://cdn.shopify.com/s/files/1/0539/7318/8776/files/MBRIN240108C-8_1000x_6db4382d-c87e-4103-ad3d-9549989199ab.webp?v=1764681078",
+                "https://cdn.shopify.com/s/files/1/0539/7318/8776/files/MBRIN240108C-3_1000x_cf09f852-ff62-4d7d-a38c-3ffbd7a20395.webp?v=1764681078"
+            ],
             "product_url": "https://mushq.com/products/lavinia",
             "department": "Women",
             "subcategory": "Inara Signature Bridals '24 | Women",
             "category": null,
             "product_type": "Inara Signature Bridals '24 | Women",
             "pieces": null,
-            "size": "Custom Order",
+            "size_details": [
+                {
+                    "size": "Custom Order",
+                    "available": true
+                }
+            ],
             "sku": "MBRIN240108C",
             "available": true
         },
@@ -1570,14 +3878,43 @@
             "fabric": "Net",
             "price": "52500.00",
             "compare_at_price": null,
-            "image": "https://cdn.shopify.com/s/files/1/0539/7318/8776/files/1_c022b4ad-af2f-4080-9e19-94a28fcd34ee.webp?v=1763801680",
+            "images_list": [
+                "https://cdn.shopify.com/s/files/1/0539/7318/8776/files/1_c022b4ad-af2f-4080-9e19-94a28fcd34ee.webp?v=1763801680",
+                "https://cdn.shopify.com/s/files/1/0539/7318/8776/files/7.webp?v=1763801680",
+                "https://cdn.shopify.com/s/files/1/0539/7318/8776/files/5_5770d8c9-2cde-42da-bcef-94b6112d99f9.webp?v=1763801680",
+                "https://cdn.shopify.com/s/files/1/0539/7318/8776/files/4_5c920bb4-5c80-4294-b17d-0ac98cf6ef59.webp?v=1763801680",
+                "https://cdn.shopify.com/s/files/1/0539/7318/8776/files/6_a5f643da-1961-4fa3-bae9-f3a67a4cf1ac.webp?v=1763801680",
+                "https://cdn.shopify.com/s/files/1/0539/7318/8776/files/2_e12d48f6-2445-4ba1-902c-f05b7034327a.webp?v=1763801680",
+                "https://cdn.shopify.com/s/files/1/0539/7318/8776/files/3_c0d19bc9-bfdf-4f6d-92db-f6179c94c8ec.webp?v=1763801680"
+            ],
             "product_url": "https://mushq.com/products/meline",
             "department": "Women",
             "subcategory": "Fleur Luxury Eid Pret | Women",
             "category": "Stitched",
             "product_type": "Fleur Luxury Eid Pret | Women",
             "pieces": null,
-            "size": "XS",
+            "size_details": [
+                {
+                    "size": "XS",
+                    "available": true
+                },
+                {
+                    "size": "S",
+                    "available": true
+                },
+                {
+                    "size": "M",
+                    "available": true
+                },
+                {
+                    "size": "L",
+                    "available": true
+                },
+                {
+                    "size": "XL",
+                    "available": true
+                }
+            ],
             "sku": "MPLES240105XS",
             "available": true
         },
@@ -1587,14 +3924,26 @@
             "fabric": "Net",
             "price": "345000.00",
             "compare_at_price": null,
-            "image": "https://cdn.shopify.com/s/files/1/0539/7318/8776/files/MBRIN230110C-4_1000x_b7b1dfc5-81f2-4b88-b126-01d532551061.webp?v=1764680463",
+            "images_list": [
+                "https://cdn.shopify.com/s/files/1/0539/7318/8776/files/MBRIN230110C-4_1000x_b7b1dfc5-81f2-4b88-b126-01d532551061.webp?v=1764680463",
+                "https://cdn.shopify.com/s/files/1/0539/7318/8776/files/MBRIN230110C-1_1000x_8ae6e757-9836-4fd7-9918-3ea01b14a5d0.webp?v=1764680463",
+                "https://cdn.shopify.com/s/files/1/0539/7318/8776/files/MBRIN230110C-2_1000x_bfc59cdc-178a-4d96-a1cd-4a92c7688b13.webp?v=1764680463",
+                "https://cdn.shopify.com/s/files/1/0539/7318/8776/files/MBRIN230110C-3_1000x_8471a5d3-bd43-4efc-be40-5396ef72c1a8.webp?v=1764680463",
+                "https://cdn.shopify.com/s/files/1/0539/7318/8776/files/MBRIN230110C-5_1000x_fcc793e5-f9a8-4433-b99e-c0902a076ded.webp?v=1764680463",
+                "https://cdn.shopify.com/s/files/1/0539/7318/8776/files/MBRIN230110C-6_1000x_70ade26a-8746-469d-9ff3-6b4f961b2c09.webp?v=1764680463"
+            ],
             "product_url": "https://mushq.com/products/seraphina",
             "department": "Women",
             "subcategory": "Inara Signature Bridals '23 | Women",
             "category": null,
             "product_type": "Inara Signature Bridals '23 | Women",
             "pieces": null,
-            "size": "Custom Order",
+            "size_details": [
+                {
+                    "size": "Custom Order",
+                    "available": true
+                }
+            ],
             "sku": "MBRIN230108C",
             "available": true
         },
@@ -1604,14 +3953,28 @@
             "fabric": "Net",
             "price": "325000.00",
             "compare_at_price": null,
-            "image": "https://cdn.shopify.com/s/files/1/0539/7318/8776/files/1_76dd02a3-6910-48c1-a645-56ca6405e5f6.webp?v=1764678603",
+            "images_list": [
+                "https://cdn.shopify.com/s/files/1/0539/7318/8776/files/1_76dd02a3-6910-48c1-a645-56ca6405e5f6.webp?v=1764678603",
+                "https://cdn.shopify.com/s/files/1/0539/7318/8776/files/MBRIN230108C-2_1000x_e9d3dc73-071b-4304-8a50-42fae05e0614.webp?v=1764678603",
+                "https://cdn.shopify.com/s/files/1/0539/7318/8776/files/MBRIN230108C-5_1000x_e82708ec-2ee2-460e-9bae-d0206e7a0399.webp?v=1764678603",
+                "https://cdn.shopify.com/s/files/1/0539/7318/8776/files/MBRIN230108C-6_1000x_52f8ffa9-8d5f-4b94-a85e-07099aabef73.webp?v=1764678603",
+                "https://cdn.shopify.com/s/files/1/0539/7318/8776/files/MBRIN230108C-8_1000x_9906883b-6ccc-4b4a-bf18-21b4256a1e04.webp?v=1764678603",
+                "https://cdn.shopify.com/s/files/1/0539/7318/8776/files/MBRIN230108C-7_1000x_637f6eac-78bf-4d8d-81c9-6437142e95a2.webp?v=1764678603",
+                "https://cdn.shopify.com/s/files/1/0539/7318/8776/files/MBRIN230108C-4_1000x_6f5399eb-7c63-4f37-8f63-7a2b9415ea8d.webp?v=1764678603",
+                "https://cdn.shopify.com/s/files/1/0539/7318/8776/files/MBRIN230108C-10_1000x_2e1027ef-b6d8-4bc8-b292-ec28decc7a87.webp?v=1764678603"
+            ],
             "product_url": "https://mushq.com/products/zarim",
             "department": "Women",
             "subcategory": "Inara Signature Bridals '23 | Women",
             "category": null,
             "product_type": "Inara Signature Bridals '23 | Women",
             "pieces": null,
-            "size": "Custom Order",
+            "size_details": [
+                {
+                    "size": "Custom Order",
+                    "available": true
+                }
+            ],
             "sku": "MBRIN230106C",
             "available": true
         },
@@ -1621,14 +3984,26 @@
             "fabric": "Net",
             "price": "325000.00",
             "compare_at_price": null,
-            "image": "https://cdn.shopify.com/s/files/1/0539/7318/8776/files/MBRIN230106C-3_1000x_5a36100d-728a-4fde-9194-21a6a1502e8f.webp?v=1764680120",
+            "images_list": [
+                "https://cdn.shopify.com/s/files/1/0539/7318/8776/files/MBRIN230106C-3_1000x_5a36100d-728a-4fde-9194-21a6a1502e8f.webp?v=1764680120",
+                "https://cdn.shopify.com/s/files/1/0539/7318/8776/files/MBRIN230106C-1_1000x_2ecbc52b-60a7-4199-94bf-4825857a5666.webp?v=1764680120",
+                "https://cdn.shopify.com/s/files/1/0539/7318/8776/files/MBRIN230106C-2_1000x_faf32371-2503-4c84-aafa-8f921fc54c4a.webp?v=1764680120",
+                "https://cdn.shopify.com/s/files/1/0539/7318/8776/files/MBRIN230106C-9_1000x_897b01c1-09dd-4cd2-8812-eef7e0c6f760.webp?v=1764680120",
+                "https://cdn.shopify.com/s/files/1/0539/7318/8776/files/MBRIN230106C-7_1000x_93c2b8ee-e4cc-49f1-b254-ad7fa8203631.webp?v=1764680120",
+                "https://cdn.shopify.com/s/files/1/0539/7318/8776/files/MBRIN230106C-6_1000x_79a4a22e-2c3e-471e-8e82-2d548f4bd0ea.webp?v=1764680120"
+            ],
             "product_url": "https://mushq.com/products/lysandra",
             "department": "Women",
             "subcategory": "Inara Signature Bridals '23 | Women",
             "category": null,
             "product_type": "Inara Signature Bridals '23 | Women",
             "pieces": null,
-            "size": "Custom Order",
+            "size_details": [
+                {
+                    "size": "Custom Order",
+                    "available": true
+                }
+            ],
             "sku": "MBRIN230104C",
             "available": true
         },
@@ -1638,14 +4013,25 @@
             "fabric": "Net",
             "price": "325000.00",
             "compare_at_price": null,
-            "image": "https://cdn.shopify.com/s/files/1/0539/7318/8776/files/MBRIN230105C-1_1000x_a5f8e1f9-a487-4d1c-8490-5a060268d8b9.webp?v=1764679140",
+            "images_list": [
+                "https://cdn.shopify.com/s/files/1/0539/7318/8776/files/MBRIN230105C-1_1000x_a5f8e1f9-a487-4d1c-8490-5a060268d8b9.webp?v=1764679140",
+                "https://cdn.shopify.com/s/files/1/0539/7318/8776/files/MBRIN230105C-4_1000x_566555e7-521f-4a11-a7cf-82601d9715fe.webp?v=1764679140",
+                "https://cdn.shopify.com/s/files/1/0539/7318/8776/files/MBRIN230105C-2_1000x_98e0b7b3-9326-4be7-9ace-386c1468457d.webp?v=1764679140",
+                "https://cdn.shopify.com/s/files/1/0539/7318/8776/files/MBRIN230105C-6_1000x_f307aa34-e3d7-4b0f-bae1-71353b090c97.webp?v=1764679140",
+                "https://cdn.shopify.com/s/files/1/0539/7318/8776/files/MBRIN230105C-8_1000x_1.webp?v=1764679140"
+            ],
             "product_url": "https://mushq.com/products/aurelia",
             "department": "Women",
             "subcategory": "Inara Signature Bridals '23 | Women",
             "category": null,
             "product_type": "Inara Signature Bridals '23 | Women",
             "pieces": null,
-            "size": "Custom Order",
+            "size_details": [
+                {
+                    "size": "Custom Order",
+                    "available": true
+                }
+            ],
             "sku": "MBRIN230103C",
             "available": true
         },
@@ -1655,14 +4041,26 @@
             "fabric": "Net",
             "price": "350000.00",
             "compare_at_price": null,
-            "image": "https://cdn.shopify.com/s/files/1/0539/7318/8776/files/MBRIN230104C-5_1000x_e6ed9751-fb1a-4442-9822-0ad6872b6d89.webp?v=1764681656",
+            "images_list": [
+                "https://cdn.shopify.com/s/files/1/0539/7318/8776/files/MBRIN230104C-5_1000x_e6ed9751-fb1a-4442-9822-0ad6872b6d89.webp?v=1764681656",
+                "https://cdn.shopify.com/s/files/1/0539/7318/8776/files/MBRIN230104C-1_1000x_ca2e8a40-d065-4437-9a7d-7cab201a7abf.webp?v=1764681656",
+                "https://cdn.shopify.com/s/files/1/0539/7318/8776/files/MBRIN230104C-10_1000x_6fdb828a-06c5-4863-8d15-5de5571f1e66.webp?v=1764681656",
+                "https://cdn.shopify.com/s/files/1/0539/7318/8776/files/MBRIN230104C-3_1000x_69cef665-e204-4dd8-a65f-4ab7996ef809.webp?v=1764681656",
+                "https://cdn.shopify.com/s/files/1/0539/7318/8776/files/MBRIN230104C-6_1000x_01574f02-97e3-497e-975d-6a2ff4dc981b.webp?v=1764681656",
+                "https://cdn.shopify.com/s/files/1/0539/7318/8776/files/MBRIN230104C-7_1000x_1d5b7110-0575-44d6-9c92-cddd45ed1b28.webp?v=1764681656"
+            ],
             "product_url": "https://mushq.com/products/valentina-1",
             "department": "Women",
             "subcategory": "Inara Signature Bridals '23 | Women",
             "category": null,
             "product_type": "Inara Signature Bridals '23 | Women",
             "pieces": null,
-            "size": "Custom Order",
+            "size_details": [
+                {
+                    "size": "Custom Order",
+                    "available": true
+                }
+            ],
             "sku": "MBRIN230102C",
             "available": true
         },
@@ -1672,14 +4070,25 @@
             "fabric": "Net",
             "price": "256000.00",
             "compare_at_price": null,
-            "image": "https://cdn.shopify.com/s/files/1/0539/7318/8776/files/MBRIN230103C-3_1000x_c2d516b2-52c7-48ba-a303-916b00022156.webp?v=1764679222",
+            "images_list": [
+                "https://cdn.shopify.com/s/files/1/0539/7318/8776/files/MBRIN230103C-3_1000x_c2d516b2-52c7-48ba-a303-916b00022156.webp?v=1764679222",
+                "https://cdn.shopify.com/s/files/1/0539/7318/8776/files/MBRIN230103C-4_1000x_1aaef9a9-7646-42c0-97f6-6ad90ba1c545.webp?v=1764679222",
+                "https://cdn.shopify.com/s/files/1/0539/7318/8776/files/MBRIN230103C-6_1000x_cc195efb-e73c-4c3e-9900-049b78df9c54.webp?v=1764679222",
+                "https://cdn.shopify.com/s/files/1/0539/7318/8776/files/MBRIN230103C-7_1000x_76f5d496-e29c-4f55-be70-fe7bfb13b5b2.webp?v=1764679222",
+                "https://cdn.shopify.com/s/files/1/0539/7318/8776/files/MBRIN230103C-9_1000x_6cd33f66-48df-4c80-9c34-18fe6aef2e40.webp?v=1764679222"
+            ],
             "product_url": "https://mushq.com/products/elysia",
             "department": "Women",
             "subcategory": "Inara Signature Bridals '23 | Women",
             "category": null,
             "product_type": "Inara Signature Bridals '23 | Women",
             "pieces": null,
-            "size": "Custom Order",
+            "size_details": [
+                {
+                    "size": "Custom Order",
+                    "available": true
+                }
+            ],
             "sku": "MBRIN230101C",
             "available": true
         }
